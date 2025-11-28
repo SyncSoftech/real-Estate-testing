@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 
-
+import Link from "next/link";
 
 
 export default function OurPeople() {
@@ -13,12 +13,14 @@ export default function OurPeople() {
     {
       title: "Our leadership",
       desc: "Get to know our leadership team. Introducing the people who take the business forward.",
-      image: IMG,
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg',
+      href: '/ourPeople/ourLeaders',
     },
     {
       title: "Our team",
       desc: "Get to know our people. Meet the experts who are delivering great outcomes and help grow our business.",
-      image: IMG,
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
+      href: '/ourPeople/ourTeam',
     },
   ];
 
@@ -70,12 +72,12 @@ export default function OurPeople() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {cards.map((c, i) => (
             <article key={i} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-              <div className="h-44 overflow-hidden">
+              <div className="h-[28rem] overflow-hidden">
                 <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
               </div>
 
               <div className="bg-[#f2ebe3] p-5 rounded-b-2xl">
-                <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3>
+               <Link href={c.href}> <h3 className="font-serif text-xl font-semibold mb-2">{c.title}</h3></Link>
                 <p className="text-sm text-gray-700">{c.desc}</p>
               </div>
             </article>

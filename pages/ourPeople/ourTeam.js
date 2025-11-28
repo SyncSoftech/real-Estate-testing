@@ -11,41 +11,36 @@ export default function OurTeam() {
 
   const teamMembers = [
     {
-      id: 'vincent-clancy',
-      name: "Vincent Clancy",
-      role: "Chairman and Chief Executive Officer",
-      image: IMG,
+      id: 'Sabahat Mazhar',
+      name: "Sabahat Mazhar",
+      role: "Operations Manager",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
     },
     {
-      id: 'james-dand',
-      name: "James Dand",
-      role: "Chief Operating Officer",
-      image: IMG,
+      id: 'Mrunali Ghumare',
+      name: "Mrunali Ghumare",
+      role: "Jr. Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/fe54640e-78e5-4aff-90f8-2cb87b24433a-e1761904596669.jpg',
     },
     {
-      id: 'richard-peers',
-      name: "Richard Peers",
-      role: "Finance Director",
-      image: IMG,
+      id: 'Owais Khatib',
+      name: "Owais Khatib",
+      role: "Graduate Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Untitled-design-1.jpg',
     },
     {
-      id: 'patricia-moore',
-      name: "Patricia Moore",
-      role: "Managing Director, UK",
-      image: IMG,
+      id: 'Jonathan Maisey',
+      name: "Jonathan Maisey",
+      role: "Quantity Surveyor",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-23-2-e1762605184760.jpg',
     },
     {
-      id: 'anooj-oodit',
-      name: "Anooj Oodit",
-      role: "Managing Director, Americas",
-      image: IMG,
+      id: 'Tehreem Rubab',
+      name: "Tehreem Rubab",
+      role: "Marketing Assistant",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-14-scaled-e1762605149872.jpg',
     },
-    {
-      id: 'david-whysall',
-      name: "David Whysall",
-      role: "Global Managing Director of Energy and Natural Resources",
-      image: IMG,
-    },
+    
   ];
 
     

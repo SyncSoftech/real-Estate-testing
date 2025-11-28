@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from 'next/link';
 
 
 
@@ -9,56 +10,45 @@ const IMG = "/mnt/data/b560d3f2-8c7c-4780-bc4a-fa59c9775c5c.png";
 
 const CAPABILITIES = [
   {
-    title: "Asset management",
-    desc: "Supporting the management of built or future assets to help realise value.",
-    image: IMG,
+    title: "Variation Management",
+    desc: "At Ginjo, we bring order to the change process, ensuring every modification works for your project – not against it.",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/graph-business-financial-investment-risk-word-1536x1121.jpg',
   },
   {
-    title: "Building consultancy",
-    desc: "Unlocking hidden value, discovering savings and safeguarding real estate assets.",
-    image: IMG,
+    title: "Tendering & Procurement",
+    desc: "Reduced our bid prep time by 3 weeks while increasing scoring compliance. Procurement Director, Residential Developer",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-8.09.26-PM-1536x1152.jpeg',
   },
   {
-    title: "Controls and performance",
-    desc: "Setting up projects and programmes that ensure rigorous control and drive optimal performance.",
-    image: IMG,
+    title: "Quantity Surveying & Commercial Management",
+    desc: "Ginjo’s quantity surveying and commercial management services protect your margins from tender to final account. ",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/site-engineer-construction-site-1536x1025.jpg',
   },
   {
-    title: "Cost and commercial management",
-    desc: "Enhancing commercial performance on major projects and programmes to deliver sustainable value.",
-    image: IMG,
+    title: "Estimating BOQs & MTOs",
+    desc: "We combine human expertise with tech-enabled tools to deliver fast, accurate outputs – while always maintaining professional judgment and scope understanding.",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/close-up-pens-calculator-plans-1536x1024.jpg',
   },
   {
-    title: "Digital",
-    desc: "Driving performance across projects and programmes through digital, data and technology.",
-    image: IMG,
+    title: "NEC, JCT, FIDIC, Bespoke Contract Experts",
+    desc: "Ginjo’s NEC contract experts simplify JCT and FIDIC compliance through tailored audits, consulting, and procedural guidance...",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/two-men-shaking-hands-1536x1025.jpg',
   },
   {
-    title: "Procurement and supply chain",
-    desc: "Excelling capability, capacity and performance through effective procurement and supply chain management.",
-    image: IMG,
+    title: "Smart Commercial Systems",
+    desc: "Smart Commercial Systems Built for Commercial Professionals At Ginjo, our systems are designed and built by Rishi Rao, a commercial leader with two...",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/ChatGPT-Image-May-18-2025-08_34_58-AM.png',
   },
   {
-    title: "Programme advisory",
-    desc: "Making major projects and programmes investible and set up for high performance.",
-    image: IMG,
+    title: "Project Management",
+    desc: "As part of Ginjo Construction’s premium end-to-end commercial services, our Project Management offering is led by our Founder Daniel Ginn MRICS, a Chartered RICS Project Manager with extensive EPC experience at Fluor and AFRY.",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-8.09.26-PM-3-1536x1152.jpeg',
   },
-  {
-    title: "Project management",
-    desc: "Assuring project success with robust controls, systems and processes.",
-    image: IMG,
-  },
-  {
-    title: "Sustainability",
-    desc: "Delivering sustainable change by accelerating the journey to net zero.",
-    image: IMG,
-  },
+ 
 ];
 
 export default function Services() {
  
-
-  
  const IMG = "/mnt/data/0e3f1666-3214-4252-99bf-8cb779f19844.png";
 
   const projects = [
@@ -170,30 +160,28 @@ export default function Services() {
         {/* 3×3 Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {CAPABILITIES.map((item, idx) => (
-            <div
+            <Link 
               key={idx}
-              className="rounded-xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-md transition"
+              href={`/services/${item.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')}`}
+              className="block rounded-xl overflow-hidden bg-white border border-gray-200 shadow-sm hover:shadow-md transition hover:translate-y-[-4px]"
             >
-              {/* Top Image */}
               <div className="h-36 md:h-40 overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
 
-              {/* Bottom Section */}
               <div className="p-5 bg-[#f2ebe3] rounded-b-xl">
                 <h3 className="font-serif text-lg font-semibold mb-2">
                   {item.title}
                 </h3>
-
                 <p className="text-sm text-gray-700 leading-relaxed">
                   {item.desc}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

@@ -7,45 +7,27 @@ import { useEffect, useMemo, useState } from "react";
 
 
 export default function OurLeaders() {
- const IMG = "/mnt/data/be6442a1-683f-4b00-8e13-a5d19cd86f12.png";
-
+ 
   const leaders = [
     {
-      id: 'vincent-clancy',
-      name: "Vincent Clancy",
-      role: "Chairman and Chief Executive Officer",
-      image: IMG,
+      id: 'Daniel Ginn',
+      name: "Daniel Ginn",
+      role: "Director",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg',
     },
     {
-      id: 'james-dand',
-      name: "James Dand",
-      role: "Chief Operating Officer",
-      image: IMG,
+      id: 'Rishi Rao',
+      name: "Rishi Rao",
+      role: "Associate Director – Operations",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg',
     },
     {
-      id: 'richard-peers',
-      name: "Richard Peers",
-      role: "Finance Director",
-      image: IMG,
+      id: 'Adersh Rajagopalan',
+      name: "Adersh Rajagopalan",
+      role: "Associate Director",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
     },
-    {
-      id: 'patricia-moore',
-      name: "Patricia Moore",
-      role: "Managing Director, UK",
-      image: IMG,
-    },
-    {
-      id: 'anooj-oodit',
-      name: "Anooj Oodit",
-      role: "Managing Director, Americas",
-      image: IMG,
-    },
-    {
-      id: 'david-whysall',
-      name: "David Whysall",
-      role: "Global Managing Director of Energy and Natural Resources",
-      image: IMG,
-    },
+    
   ];
 
     
@@ -141,7 +123,7 @@ export default function OurLeaders() {
       </div>
 
       {/* Register uploaded image */}
-      <img src={IMG} alt="" className="hidden" />
+      {/* <img src={IMG} alt="" className="hidden" /> */}
     </section>
 
 

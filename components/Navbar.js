@@ -339,9 +339,13 @@
 //   );
 // }
 
+
+
+
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Gallery from "@/pages/Gallery";
 export default function Navbar() {
   const [openMega, setOpenMega] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -354,7 +358,8 @@ export default function Navbar() {
     { key: "insights", label: "Insights" ,link:"/insights"},
     { key: "about", label: "About" ,link:"/about"},
     { key: "careers", label: "Careers" ,link:"/careers"},
-    { key: "locations", label: "Locations" ,link:"/locations"}
+    {key:'gallery',label:"Gallery",link:"/gallery"},
+    {key:'contact',label:'Contact',link:'Contact'}
   ];
 
   const logo = "/mnt/data/0e695bb8-0b15-49a5-82bb-a4d6550c264b.png";
@@ -394,7 +399,7 @@ export default function Navbar() {
                 >
                   <Link href={item.link}><button className="flex items-center gap-2 py-2" aria-haspopup={item.key !== 'projects' ? 'menu' : undefined}>
                     <span>{item.label}</span>
-                    {(item.key !== 'case-studies' && item.key !== 'insights' && item.key !== 'locations'&& item.key !== 'about'&& item.key !== 'careers'&& item.key !== 'locations') && (
+                    {(item.key == 'solutions') && (
                       <span className="text-sm">▾</span>
                     )}
                   </button></Link>

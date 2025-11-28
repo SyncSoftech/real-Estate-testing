@@ -6,17 +6,33 @@ export default function LeaderProfile() {
   const { id } = router.query;
 
   // This would typically come from an API or data file
-  const leaders = [
-    {
-      id: 'vincent-clancy',
-      name: 'Vincent Clancy',
-      role: 'Chairman and Chief Executive Officer',
-      bio: 'Vincent Clancy is the Chairman and CEO of our company, leading our global strategy and operations with over 20 years of experience in the industry.',
-      image: '/mnt/data/be6442a1-683f-4b00-8e13-a5d19cd86f12.png',
-    },
-    // Add other leaders with their full details
-  ];
+  
 
+    const leaders = [
+      
+    {
+      id: 'Daniel Ginn',
+      name: "Daniel Ginn",
+      role: "Director",
+      bio:'Daniel has steered Ginjo’s growth by focusing on what matters – helping clients protect margin, recover value, and deliver stronger project outcome Daniel is an accomplished Senior Contracts and Procurement Professional with extensive experience across diverse sectors in the construction industry. ',
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg',
+    },
+    {
+      id: 'Rishi Rao',
+      name: "Rishi Rao",
+      role: "Associate Director – Operations",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg',
+    },
+    {
+      id: 'Adersh Rajagopalan',
+      name: "Adersh Rajagopalan",
+      role: "Associate Director",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
+    },
+    
+  ];
+    
+    
   const leader = leaders.find(l => l.id === id);
 
   if (!leader) {
