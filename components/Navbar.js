@@ -345,7 +345,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Gallery from "@/pages/Gallery";
+
 export default function Navbar() {
   const [openMega, setOpenMega] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);
