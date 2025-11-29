@@ -173,7 +173,7 @@ export default function Services() {
                 />
               </div>
 
-              <div className="p-5 bg-[#f2ebe3] rounded-b-xl">
+              <div className="p-5 bg-[#f2ebe3] h-full rounded-b-xl">
                 <h3 className="font-serif text-lg font-semibold mb-2">
                   {item.title}
                 </h3>

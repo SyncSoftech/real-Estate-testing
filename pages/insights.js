@@ -484,7 +484,7 @@ export default function Insights() {
   return (
     <main className="mx-10 bg-white">
       {/* Header */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl overflow-hidden">
+      <header className="bg-[#163c72] -mb-10 pb-10 text-white rounded-b-2xl overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Insights</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -494,7 +494,7 @@ export default function Insights() {
       </header>
 
       {/* Content area */}
-      <div className="bg-white rounded-t-2xl mx-auto px-6 py-8">
+      <div className="bg-white rounded-t-2xl  mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <div className="text-sm text-gray-600 mb-6">
           <nav className="flex items-center gap-2">

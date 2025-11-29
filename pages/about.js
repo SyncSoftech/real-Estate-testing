@@ -93,7 +93,7 @@ export default function About() {
       </header>
 
       {/* Content area */}
-      <div className=" bg-white rounded-t-2xl mx-auto px-6 py-8">
+      <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-6 py-8">
 
 
  <main className="min-h-screen bg-white text-[#0f1724]">

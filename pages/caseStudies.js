@@ -326,7 +326,7 @@
 //           </button>
 //         </div>
 //       </div>
-      
+
 //     </main>
 // <section className="w-full bg-[#f2eee7] mb-5">
 //       <div className="max-w-[2000px] mx-auto grid grid-cols-1 lg:grid-cols-2">
@@ -367,8 +367,6 @@
 //   );
 // }
 
-
-
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -399,7 +397,8 @@ const DATA = {
         "Ginjo provided procurement and contract management services on behalf of Fluor for the construction of a major biotechnology facility. Our expertise supported strategic delivery and risk mitigation at scale.",
       linkLabel: "See Case Study",
       minutes: 5,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/R0A0033_copy_small_0-2048x1365-1-1536x1024.jpg",
     },
     {
       id: 2,
@@ -410,7 +409,8 @@ const DATA = {
         "As a commercial consultancy within the Engineering Delivery Partner Framework, Ginjo played a key role in managing costs and contract performance for one of the UK’s most complex infrastructure programmes.",
       linkLabel: "See Case Study",
       minutes: 6,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/HS2-VL-23575-543A8693-BBVS-HS2-OOC-Station-260421-www.johnzammit.co_.uk-Absolute-Photography-Ltd-1536x1024.jpg",
     },
     {
       id: 3,
@@ -421,7 +421,8 @@ const DATA = {
         "Ginjo supported AFRY with commercial oversight and design coordination on a large-scale engineering and manufacturing facility. This included end-to-end cost strategies and international collaboration.",
       linkLabel: "See Case Study",
       minutes: 7,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/1757596750436.jpg",
     },
     {
       id: 4,
@@ -432,7 +433,8 @@ const DATA = {
         "Ginjo provided full commercial management consultancy, including preparation of Bills of Quantities, to support project delivery and cost transparency for this residential redevelopment.",
       linkLabel: "See Case Study",
       minutes: 4,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/0_9F1A2263JPG-1.webp",
     },
     {
       id: 5,
@@ -443,7 +445,8 @@ const DATA = {
         "Ginjo supported British Airways in the commercial planning and tender stage of their EV infrastructure rollout at Terminal 5, providing risk-managed pricing strategies and a tailored variation control system aligned to Heathrow’s governance requirements.",
       linkLabel: "See Case Study",
       minutes: 3,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/airport-blog-square-e1762607470488.png",
     },
     {
       id: 6,
@@ -454,7 +457,8 @@ const DATA = {
         "An electrical subcontractor carrying out phased upgrades in older office buildings faced frequent design shifts and slow payments. Ginjo provided contract guidance, payment workflows, and structured variation submissions. This reduced valuation disputes, shortened the payment cycle by 21 days, and helped the subcontractor build stronger relationships with their main contractor for future work.",
       linkLabel: "See Case Study",
       minutes: 4,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Fusebox-Upgrade.jpg",
     },
     {
       id: 7,
@@ -465,7 +469,8 @@ const DATA = {
         "With ongoing layout revisions, our variation memory tool and resource-linked claims process ensured 87% of changes were approved on first submission – safeguarding cash flow and preventing scope creep.",
       linkLabel: "See Case Study",
       minutes: 3,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/etc-venues-3-1.jpg",
     },
     {
       id: 8,
@@ -476,7 +481,8 @@ const DATA = {
         "We implemented a structured variation process with dashboard-based reporting, enabling fast approvals, better documentation, and a 92% variation recovery rate, helping the subcontractor maintain profitability and credibility with the client.",
       linkLabel: "See Case Study",
       minutes: 3,
-      image: IMAGE_URL,
+      image:
+        "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/EH04032402.jpg",
     },
     {
       id: 9,
@@ -487,7 +493,8 @@ const DATA = {
         "A Midlands-based groundworks firm engaged Ginjo after early signs of commercial exposure on a fast-moving mixed-use development. With structured evidence and daily site logs, all costed variations were submitted on time, and their final account was approved in full with no deductions.",
       linkLabel: "See Case Study",
       minutes: 4,
-      image: IMAGE_URL,
+      image:
+        "https://www.constructionenquirer.com/wp-content/uploads/Vista-south-bank-1200x828.jpg",
     },
   ],
 };
@@ -509,7 +516,8 @@ export default function ProjectsSection() {
 
     // naive example filters (not connected to actual values)
     if (sector) arr = arr.filter((_, i) => (i % 3).toString() === sector);
-    if (capability) arr = arr.filter((_, i) => (i % 4).toString() === capability);
+    if (capability)
+      arr = arr.filter((_, i) => (i % 4).toString() === capability);
     if (country) arr = arr.filter((_, i) => (i % 5).toString() === country);
 
     if (query && query.trim().length > 0) {
@@ -557,7 +565,7 @@ export default function ProjectsSection() {
         </header>
 
         {/* Content area */}
-        <div className=" bg-white rounded-t-2xl mx-auto px-6 py-8">
+        <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-6 py-8">
           {/* Breadcrumb */}
           <div className="text-sm text-gray-600 mb-6">
             <nav className="flex items-center gap-2">
@@ -570,24 +578,33 @@ export default function ProjectsSection() {
           </div>
 
           {/* Search */}
+          {/* Search */}
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-2">
               Search
             </label>
 
-            <div className="flex gap-4">
+            {/* Stack on xs, row on sm+ */}
+            <div className="flex flex-col sm:flex-row gap-4">
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search"
-                className="flex-1 border rounded-md px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-[#163c72] focus:border-transparent"
+                className="w-full sm:flex-1 border rounded-md px-4 py-3 text-sm outline-none focus:ring-2 focus:ring-[#163c72] focus:border-transparent"
               />
+
               <button
                 onClick={() => setPage(1)}
-                className="bg-[#111827] text-white px-4 py-3 rounded-md text-sm flex items-center gap-2"
+                className="w-full sm:w-auto bg-[#111827] text-white px-4 py-3 rounded-md text-sm flex items-center justify-center gap-2"
               >
-                Search
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
+                <span>Search</span>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden
+                >
                   <path
                     d="M21 21l-4.35-4.35"
                     stroke="currentColor"
@@ -595,7 +612,13 @@ export default function ProjectsSection() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   />
-                  <circle cx="11" cy="11" r="6" stroke="currentColor" strokeWidth="2" />
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
                 </svg>
               </button>
             </div>
@@ -604,17 +627,20 @@ export default function ProjectsSection() {
           <hr className="mb-6" />
 
           {/* Filters */}
-          <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
-            <div className="flex items-center gap-4">
-              <div className="text-sm font-semibold text-gray-700">FILTER BY</div>
+          <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 mb-6">
+            <div className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center gap-3">
+              <div className="text-sm font-semibold text-gray-700 mr-2">
+                FILTER BY
+              </div>
 
+              {/* selects stacked on xs, inline on md+ */}
               <select
                 value={sector}
                 onChange={(e) => {
                   setSector(e.target.value);
                   setPage(1);
                 }}
-                className="border rounded-md px-4 py-2 text-sm outline-none"
+                className="w-full sm:w-auto min-w-[160px] border rounded-md px-4 py-2 text-sm outline-none"
               >
                 <option value="">Sector</option>
                 <option value="0">Sector 0</option>
@@ -628,7 +654,7 @@ export default function ProjectsSection() {
                   setCapability(e.target.value);
                   setPage(1);
                 }}
-                className="border rounded-md px-4 py-2 text-sm outline-none"
+                className="w-full sm:w-auto min-w-[160px] border rounded-md px-4 py-2 text-sm outline-none"
               >
                 <option value="">Capability</option>
                 <option value="0">Capability 0</option>
@@ -643,7 +669,7 @@ export default function ProjectsSection() {
                   setCountry(e.target.value);
                   setPage(1);
                 }}
-                className="border rounded-md px-4 py-2 text-sm outline-none"
+                className="w-full sm:w-auto min-w-[160px] border rounded-md px-4 py-2 text-sm outline-none"
               >
                 <option value="">Country</option>
                 <option value="0">Country 0</option>
@@ -651,12 +677,16 @@ export default function ProjectsSection() {
                 <option value="2">Country 2</option>
               </select>
 
-              <button onClick={resetFilters} className="text-sm text-[#163c72] underline ml-4">
+              <button
+                onClick={resetFilters}
+                className="text-sm text-[#163c72] underline ml-0 sm:ml-4"
+              >
                 Reset filters
               </button>
             </div>
 
-            <div className="text-sm text-gray-700">
+            {/* Results count: stays on its own row on small screens, aligns to right on large */}
+            <div className="text-sm text-gray-700 self-center lg:self-auto">
               Showing {Math.min((page - 1) * perPage + 1, total)}-
               {Math.min(page * perPage, total)} of {total} results
             </div>
@@ -666,21 +696,25 @@ export default function ProjectsSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {pageItems.map((p) => (
               <article
-  key={p.id}
-  className="bg-white rounded-2xl shadow-sm overflow-hidden border border-transparent hover:shadow-md transition flex flex-col h-full"
->
-
+                key={p.id}
+                className="bg-white rounded-2xl shadow-sm overflow-hidden border border-transparent hover:shadow-md transition flex flex-col h-full"
+              >
                 <div className="relative h-40 overflow-hidden">
-                  <img src={p.image} alt={p.title} className="w-full h-full object-cover" />
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
 
                 <div className="bg-[#f2ebe3] p-4 md:p-5 rounded-b-2xl flex flex-col flex-grow">
-
                   <h3 className="font-serif text-lg md:text-lg font-semibold leading-tight mb-2">
                     {p.title}
                   </h3>
 
-                  <p className="text-sm text-gray-700 mb-2 leading-relaxed line-clamp-1">{p.description}</p>
+                  <p className="text-sm text-gray-700 mb-2 leading-relaxed line-clamp-1">
+                    {p.description}
+                  </p>
 
                   {p.client && (
                     <p className="text-xs text-gray-600 mb-3">
@@ -695,17 +729,36 @@ export default function ProjectsSection() {
 
                   <div className="flex items-center justify-between text-xs text-gray-600">
                     <div className="flex items-center gap-2">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                        <path d="M12 1v11" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                        <path d="M21 21H3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          d="M12 1v11"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M21 21H3"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                       </svg>
                       <span>{p.minutes ?? 3} minutes</span>
                     </div>
 
-                    <Link href={`/case-studies/${p.id}`} className="text-[#0f1724] text-sm underline">
-  {p.linkLabel ?? "Read"}
-</Link>
-
+                    <Link
+                      href={`/case-studies/${p.id}`}
+                      className="text-[#0f1724] text-sm underline"
+                    >
+                      {p.linkLabel ?? "Read"}
+                    </Link>
                   </div>
                 </div>
               </article>
@@ -726,7 +779,11 @@ export default function ProjectsSection() {
             {Array.from({ length: totalPages }).map((_, i) => {
               const pnum = i + 1;
               // show first 3, last 3 and around current
-              const show = totalPages <= 7 || pnum <= 2 || pnum > totalPages - 2 || Math.abs(pnum - page) <= 1;
+              const show =
+                totalPages <= 7 ||
+                pnum <= 2 ||
+                pnum > totalPages - 2 ||
+                Math.abs(pnum - page) <= 1;
               if (!show) {
                 return (
                   <span key={`gap-${i}`} className="px-2 text-gray-500">
@@ -738,7 +795,9 @@ export default function ProjectsSection() {
                 <button
                   key={pnum}
                   onClick={() => setPage(pnum)}
-                  className={`w-10 h-10 rounded-md border flex items-center justify-center ${page === pnum ? "bg-[#163c72] text-white" : "bg-white"}`}
+                  className={`w-10 h-10 rounded-md border flex items-center justify-center ${
+                    page === pnum ? "bg-[#163c72] text-white" : "bg-white"
+                  }`}
                   aria-current={page === pnum ? "page" : undefined}
                 >
                   {pnum}
@@ -771,10 +830,14 @@ export default function ProjectsSection() {
           {/* RIGHT CONTENT BOX */}
           <div className="bg-[#f2eee7] flex items-center">
             <div className="p-10 lg:p-16 xl:p-20 max-w-xl">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Client stories</h2>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+                Client stories
+              </h2>
 
               <p className="text-gray-700 text-base leading-relaxed mb-8">
-                Our clients are at the heart of everything we do. Together, we work across the world’s most impactful major projects and programmes.
+                Our clients are at the heart of everything we do. Together, we
+                work across the world’s most impactful major projects and
+                programmes.
               </p>
 
               <button className="bg-black text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-black/80 transition">
