@@ -403,35 +403,35 @@ import { useState, useMemo } from 'react';
 const PUBLICATIONS = [
   { 
     id: 1, 
-    title: "Annual review", 
-    image: "/mnt/data/e71d4eeb-30b8-4b87-94f0-f0b84377bd08.png",
-    description: "Our comprehensive annual review of market trends and insights for the coming year.",
-    date: "May 2025",
-    category: "Market Insights"
+    title: "Why Forecasts Miss the Mark (and How to Improve Them)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/ChatGPT-Image-Sep-2-2025-12_30_26-PM.png",
+    description: "The Mirage of Certainty Forecasts are meant to give clarity. Instead, many only provide false comfort...",
+    date: "November 24, 2025",
+    category: "Commercial Management"
   },
   { 
     id: 2, 
-    title: "Data centre construction cost index 2025-2026", 
-    image: "/mnt/data/e71d4eeb-30b8-4b87-94f0-f0b84377bd08.png",
-    description: "Latest trends and cost indices for data center construction across global markets.",
-    date: "April 2025",
-    category: "Construction"
+    title: "Why Value Engineering Fails (and What to Do Instead)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/ChatGPT-Image-Sep-2-2025-11_01_55-AM.png",
+    description: "The False Saving Value engineering is meant to protect budgets. Too often, it becomes a box-ticking exercise that strips out quality without actually reducing cost.",
+    date: "November 17, 2025 ",
+    category: "Value Delivery "
   },
   { 
     id: 3, 
-    title: "Global construction market intelligence 2025", 
-    image: "/mnt/data/e71d4eeb-30b8-4b87-94f0-f0b84377bd08.png",
+    title: "Why Procurement Delays Derail Projects", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-2-2025-10_00_01-AM.png",
     description: "In-depth analysis of global construction market trends and forecasts.",
-    date: "March 2025",
-    category: "Market Intelligence"
+    date: "November 10, 2025",
+    category: "Procurement & Cost Control"
   },
   { 
     id: 4, 
-    title: "Global office fit-out cost guide 2025", 
-    image: "/mnt/data/e71d4eeb-30b8-4b87-94f0-f0b84377bd08.png",
+    title: "Why Final Accounts Drag On (and Drain Profit)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/ChatGPT-Image-Sep-1-2025-02_58_55-PM.png",
     description: "Comprehensive guide to office fit-out costs across major global cities.",
-    date: "February 2025",
-    category: "Design & Build"
+    date: "October 6, 2025",
+    category: "Commercial Management"
   }
 ];
 

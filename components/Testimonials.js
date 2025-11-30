@@ -41,9 +41,7 @@ const Testimonials = () => {
     <section className="w-full py-2 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-6  ">
         <div className="lg:flex lg:flex-row items-center justify-start  gap-8 mb-8">
-          <p className="text-lg mt-2 font-bold  whitespace-nowrap">
-            Testimonials:
-          </p>
+         
           
           <div className="flex-1 overflow-hidden relative">
             {/* Gradient overlays */}
@@ -52,7 +50,7 @@ const Testimonials = () => {
             
             {/* Scrolling container */}
             <div
-              className="flex items-center gap-12"
+              className="flex items-center gap-6"
               style={{
                 transform: `translateX(${offset}px)`,
                 transition: 'none',
