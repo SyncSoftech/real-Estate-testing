@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function HowWeHelp() {
   return (
     <section className="w-full py-20 bg-white">
@@ -7,7 +9,7 @@ export default function HowWeHelp() {
 
         {/* Top Text */}
         <p className="uppercase tracking-wider text-gray-600 text-sm font-semibold">
-          Sectors and solutions
+          Case Studies and solutions
         </p>
 
         <h2 className="text-4xl md:text-5xl font-bold mt-2 text-[#0f172a]">
@@ -22,12 +24,12 @@ export default function HowWeHelp() {
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-10 mt-16">
 
-          {/* Card 1 - Sectors */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer">
+          {/* Card 1 - Case Studies */}
+        <Link href="/caseStudies">  <div className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer">
             <img
-              src="/mnt/data/daba460a-6833-4551-b506-e95fc87233b2.png"
+              src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/R0A0033_copy_small_0-2048x1365-1-1536x1024.jpg"
               className="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500"
-              alt="Sectors"
+              alt="Case Studies"
             />
 
             {/* Gradient Overlay */}
@@ -36,7 +38,7 @@ export default function HowWeHelp() {
             {/* Content */}
             <div className="absolute bottom-8 left-8 right-10 text-white">
 
-              <h3 className="text-3xl font-semibold mb-3">Sectors</h3>
+              <h3 className="text-3xl font-semibold mb-3">Case Studies</h3>
 
               <p className="text-sm leading-relaxed opacity-90">
                 We drive transparency, predictability and performance on complex
@@ -53,11 +55,12 @@ export default function HowWeHelp() {
 
             </div>
           </div>
-
+</Link>
           {/* Card 2 - Solutions */}
-          <div className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer">
+        <Link href="/services">  
+        <div className="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer">
             <img
-              src="/mnt/data/daba460a-6833-4551-b506-e95fc87233b2.png"
+              src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/graph-business-financial-investment-risk-word-1536x1121.jpg"
               className="w-full h-[420px] object-cover group-hover:scale-105 transition duration-500"
               alt="Solutions"
             />
@@ -84,7 +87,7 @@ export default function HowWeHelp() {
 
             </div>
           </div>
-
+</Link>
         </div>
       </div>
     </section>

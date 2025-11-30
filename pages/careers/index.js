@@ -66,7 +66,7 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
     setPage(Math.min(Math.max(1, n), totalPages));
   }
   return (
-    <main className="mx-10 bg-white min-h-screen">
+    <main className="lg:mx-10 bg-white min-h-screen">
 
           <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">

@@ -166,6 +166,7 @@
 
 
 import { ChevronRight } from 'lucide-react';
+import { CiCircleChevRight } from "react-icons/ci";
 
 export default function InsightsGrid() {
   return (
@@ -191,10 +192,7 @@ export default function InsightsGrid() {
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-white/80 text-sm">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                    <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
-                  </svg>
+                  <CiCircleChevRight className='text-5xl' />
                   <span>1 minute</span>
                 </div>
               </div>
@@ -207,15 +205,12 @@ export default function InsightsGrid() {
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
             <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
             <div className="flex items-center justify-between mt-6">
-              <div className="flex items-center gap-2 text-gray-600 text-sm">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                  <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
-                </svg>
+              <div className="flex items-center gap-2  text-gray-600 text-sm">
                 <span>2 minutes</span>
+                
               </div>
-              <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                <ChevronRight className="w-5 h-5 text-gray-600" />
+              <div className="">
+                <CiCircleChevRight className='text-5xl' />
               </div>
             </div>
           </div>
@@ -227,14 +222,11 @@ export default function InsightsGrid() {
             <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
             <div className="flex items-center justify-between mt-6">
               <div className="flex items-center gap-2 text-gray-600 text-sm">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                  <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
-                </svg>
+               
                 <span>2 minutes</span>
               </div>
-              <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                <ChevronRight className="w-5 h-5 text-gray-600" />
+              <div className="">
+                 <CiCircleChevRight className='text-5xl' />
               </div>
             </div>
           </div>
@@ -269,20 +261,12 @@ export default function InsightsGrid() {
             </span>
           </div>
 
-          {/* Right circle button */}
-          <div className="w-7 h-7 rounded-full border border-gray-600"></div>
+          
         </div>
 
-        <div className="flex items-center gap-2 text-gray-700 text-sm">
-          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-            <path
-              fillRule="evenodd"
-              d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
+        <div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
           <span>6 minutes</span>
+          <CiCircleChevRight className='text-5xl' />
         </div>
       </div>
     </div>
@@ -318,21 +302,14 @@ export default function InsightsGrid() {
           Vincent Kane
         </span>
 
-        {/* Circle Button */}
-        <div className="w-8 h-8 rounded-full border-[2px] border-gray-700"></div>
+       
       </div>
 
       {/* Time Row */}
-      <div className="flex items-center gap-2 text-gray-700 text-sm mt-4">
-        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-          <path
-            fillRule="evenodd"
-            d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-            clipRule="evenodd"
-          />
-        </svg>
+      <div className="flex items-center justify-between gap-2 text-gray-700 text-sm mt-4">
+       
         <span>7 minutes</span>
+        <CiCircleChevRight className='text-5xl' />
       </div>
     </div>
 
@@ -378,20 +355,12 @@ export default function InsightsGrid() {
             </span>
           </div>
 
-          {/* Right circle button */}
-          <div className="w-7 h-7 rounded-full border border-gray-600"></div>
         </div>
 
-        <div className="flex items-center gap-2 text-gray-700 text-sm">
-          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-            <path
-              fillRule="evenodd"
-              d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
+        <div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
+         
           <span>6 minutes</span>
+          <CiCircleChevRight className='text-5xl' />
         </div>
       </div>
     </div>
@@ -412,8 +381,8 @@ export default function InsightsGrid() {
       <div className="lg:hidden grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {/* Featured Article */}
         <div className="md:col-span-2">
-          <div className="bg-gradient-to-b from-blue-900 to-blue-800 rounded-2xl overflow-hidden relative group cursor-pointer h-80">
-            <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(https://images.unsplash.com/photo-1581092918484-8987c1d64718?w=1200&h=500&fit=crop)'}}></div>
+          <div className=" rounded-2xl overflow-hidden relative group cursor-pointer h-80">
+            <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: 'url(https://www.turnerandtownsend.com/media/3wbd4kl2/untitled-1.webp?width=1000&height=500&v=1dc4e3c50034c70'}}></div>
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-transparent"></div>
             
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
@@ -451,12 +420,12 @@ export default function InsightsGrid() {
               </svg>
               <span>2 minutes</span>
             </div>
-            <ChevronRight className="w-5 h-5 text-gray-600" />
+              <CiCircleChevRight className='text-5xl' />
           </div>
         </div>
 
         {/* Card 2 */}
-        <div className="bg-gray-200 rounded-2xl p-6 group cursor-pointer">
+        <div className="bg-gray-200 hidden rounded-2xl p-6 group cursor-pointer">
           <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
           <h3 className="text-xl font-bold text-gray-900 mb-auto line-clamp-3">Canadian Government selects Turner & Townsend</h3>
           <div className="flex items-center justify-between mt-4">
@@ -472,7 +441,7 @@ export default function InsightsGrid() {
         </div>
 
         {/* Card 3 */}
-        <div className="md:col-span-2 bg-gray-200 rounded-2xl overflow-hidden group cursor-pointer">
+        <div className="md:col-span-2 mb-5 lg:mb-0 bg-gray-200 rounded-2xl overflow-hidden group cursor-pointer">
           <div className="p-6 flex flex-col">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">INSIGHTS</p>
             <h2 className="text-xl font-bold text-gray-900 mb-4">Digital first project management consultancy</h2>
@@ -483,21 +452,22 @@ export default function InsightsGrid() {
                   <div className="w-10 h-10 rounded-full bg-gray-300"></div>
                   <span className="text-sm font-semibold text-gray-900">Siti Norman</span>
                 </div>
-                <ChevronRight className="w-5 h-5 text-gray-600" />
               </div>
-              <div className="flex items-center gap-2 text-gray-600 text-sm">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                  <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
-                </svg>
+              <div className="flex items-center justify-between gap-2 text-gray-600 text-sm">
                 <span>6 minutes</span>
+                <CiCircleChevRight className='text-5xl' />
               </div>
             </div>
           </div>
+                <img
+                src="https://www.turnerandtownsend.com/media/mgadwrke/istock-1337399619.webp?rxy=0.49814177763564743,0.4214542295862441&width=1000&height=500&v=1dc522266c82270"
+                className="w-full h-full object-cover"
+                alt="Author"
+              />
         </div>
 
         {/* Card 4 */}
-        <div className="bg-gray-200 rounded-2xl overflow-hidden group cursor-pointer">
+        <div className="bg-gray-200 hidden rounded-2xl overflow-hidden group cursor-pointer">
           <div className="p-6 flex flex-col h-full">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">INSIGHTS</p>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Navigating procurement of complex labs</h3>
@@ -516,7 +486,7 @@ export default function InsightsGrid() {
         </div>
 
         {/* Card 5 */}
-        <div className="bg-gray-200 rounded-2xl overflow-hidden group cursor-pointer">
+        <div className="bg-gray-200 hidden rounded-2xl overflow-hidden group cursor-pointer">
           <div className="p-6 flex flex-col h-full">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">INSIGHTS</p>
             <h3 className="text-xl font-bold text-gray-900 mb-4">How programmes transform defence delivery</h3>

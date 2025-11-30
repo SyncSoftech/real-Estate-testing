@@ -482,7 +482,7 @@ export default function Insights() {
   }, []);
 
   return (
-    <main className="mx-10 bg-white">
+    <main className="lg:mx-10 bg-white">
       {/* Header */}
       <header className="bg-[#163c72] -mb-10 pb-10 text-white rounded-b-2xl overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">

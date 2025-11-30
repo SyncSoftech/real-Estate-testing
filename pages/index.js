@@ -617,7 +617,7 @@ import CareersSection from '../components/CareersSection'
 import ProjectsCarousel from '../components/ProjectsCarousel'
 import PeopleStoriesCarousel from '../components/PeopleStoriesCarousel'
 import HowWeHelp from '../components/HowWeHelp'
-import Footer from '../components/Footer'
+import Testimonials from '@/components/Testimonials';
 
 export default function Home() {
   return (
@@ -646,7 +646,7 @@ export default function Home() {
 
 
 
-
+<Testimonials />
 
 
 

@@ -52,14 +52,14 @@ export default function Services() {
  const IMG = "/mnt/data/0e3f1666-3214-4252-99bf-8cb779f19844.png";
 
   const projects = [
-    { title: "The Elizabeth Line, UK", image: IMG },
-    { title: "Salesforce Tower Sydney, Australia", image: IMG },
-    { title: "Shell Real Estate decarbonisation, global", image: IMG },
+    { title: "Fujifilm Diosynth Biotechnologies – Copenhagen, Denmark", image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/R0A0033_copy_small_0-2048x1365-1-1536x1024.jpg' ,link:'case-studies/1' },
+    { title: "HS2 Phase 1 - London, United Kingdom", image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/HS2-VL-23575-543A8693-BBVS-HS2-OOC-Station-260421-www.johnzammit.co_.uk-Absolute-Photography-Ltd-1536x1024.jpg' ,link:'case-studies/2' },
+    { title: "STEGRA EPC Project - Stockholm, Sweden", image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/1757596750436.jpg' ,link:'case-studies/3' },
   ];
  
 
   return (<>
-    <main className=" mx-10 bg-white">
+    <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
       <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
@@ -80,9 +80,9 @@ export default function Services() {
       {/* Breadcrumb + top heading & copy */}
       <div className="max-w-6xl mx-auto px-6 py-10">
         <nav className="text-sm text-[#0f4b7f] mb-6">
-          <a className="hover:underline" href="#">Home</a>
+          <a className="hover:underline" href="/">Home</a>
           <span className="mx-3">›</span>
-          <span>About us</span>
+          <span>services</span>
         </nav>
 
         <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
@@ -224,7 +224,7 @@ export default function Services() {
               <img src={projects[0].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-                <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[0].title}</h3>
+              <Link href={projects[0].link}>  <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[0].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -232,6 +232,7 @@ export default function Services() {
                     </svg>
                   </div>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -242,7 +243,7 @@ export default function Services() {
               <img src={projects[1].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-                <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[1].title}</h3>
+                <Link href={projects[1].link}><h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[1].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -250,6 +251,7 @@ export default function Services() {
                     </svg>
                   </div>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
@@ -260,7 +262,7 @@ export default function Services() {
               <img src={projects[2].image} className="absolute inset-0 w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
               <div className="absolute left-4 right-4 bottom-4">
-                <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[2].title}</h3>
+               <Link href={projects[2].link}> <h3 className="text-white font-serif text-lg md:text-xl leading-tight">{projects[2].title}</h3>
                 <div className="mt-3 flex justify-end">
                   <div className="w-9 h-9 rounded-full border border-white/70 flex items-center justify-center">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
@@ -268,6 +270,7 @@ export default function Services() {
                     </svg>
                   </div>
                 </div>
+                    </Link>
               </div>
             </div>
           </div>
@@ -276,9 +279,9 @@ export default function Services() {
 
         {/* Button */}
         <div className="flex justify-end mt-8">
-          <button className="px-4 py-2 text-sm rounded-md border border-gray-400 hover:bg-gray-50 transition">
+        <Link href="/caseStudies">  <button className="px-4 py-2 text-sm rounded-md border border-gray-400 hover:bg-gray-50 transition">
             See all projects
-          </button>
+          </button></Link>
         </div>
 
       </div>

@@ -440,7 +440,7 @@
 //       valueProp: `Controlling Change, Protecting Margins — We implement rigorous systems to track, value and negotiate variations, ensuring full compliance with contractual mechanisms, real-time impact analysis on cost and programme, and transparent documentation to prevent disputes.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -466,7 +466,7 @@
 //       ],
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -489,7 +489,7 @@
 //       services: ["Cost Planning & Control", "Contractual & Claim Support", "Subcontract Management"],
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -510,7 +510,7 @@
 //       approach: `We combine human expertise with tech-enabled tools to deliver fast, accurate outputs while maintaining professional judgment and scope understanding.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -532,7 +532,7 @@
 //       audits: `Contract Audits: Ensure Compliance — Our audits verify early warnings, compensation events and variation orders are properly documented and managed under NEC, JCT and FIDIC. We provide a clear picture of contractual health and highlight risks before they escalate.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -553,7 +553,7 @@
 //       ],
 //       philosophy: `We're quantity surveyors, project leads, and procurement strategists first and system builders second — we challenge, simplify and strengthen processes before we automate them.`,
 //       people: [
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -998,7 +998,7 @@
 //       valueProp: `Controlling Change, Protecting Margins — We implement rigorous systems to track, value and negotiate variations, ensuring full compliance with contractual mechanisms, real-time impact analysis on cost and programme, and transparent documentation to prevent disputes.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1039,7 +1039,7 @@
 //       ],
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1077,7 +1077,7 @@
 //       },
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1113,7 +1113,7 @@
 //       approach: `We combine human expertise with tech-enabled tools to deliver fast, accurate outputs while maintaining professional judgment and scope understanding.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1141,7 +1141,7 @@
 //       proceduresDetail: `Clear steps = fewer errors. We implement structured procedures for:\n\n* Notices & communications (NEC early warnings, JCT variations)\n* Change management (compensation events, variations)\n* Payments & dispute resolution\n\nResult: Faster decisions, better compliance, fewer disputes.`,
 //       people: [
 //         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1162,7 +1162,7 @@
 //       ],
 //       philosophy: `We're quantity surveyors, project leads, and procurement strategists first and system builders second — we challenge, simplify and strengthen processes before we automate them.`,
 //       people: [
-//         { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+//         { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
 //       ],
 //     },
 //   },
@@ -1621,7 +1621,7 @@ const CAPABILITIES = [
       valueProp: `Controlling Change, Protecting Margins — We implement rigorous systems to track, value and negotiate variations, ensuring full compliance with contractual mechanisms, real-time impact analysis on cost and programme, and transparent documentation to prevent disputes.`,
       people: [
         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -1662,7 +1662,7 @@ const CAPABILITIES = [
       ],
       people: [
         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -1700,7 +1700,7 @@ const CAPABILITIES = [
       },
       people: [
         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -1736,7 +1736,7 @@ const CAPABILITIES = [
       approach: `We combine human expertise with tech-enabled tools to deliver fast, accurate outputs while maintaining professional judgment and scope understanding.`,
       people: [
         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -1764,7 +1764,7 @@ const CAPABILITIES = [
       proceduresDetail: `Clear steps = fewer errors. We implement structured procedures for:\n\n* Notices & communications (NEC early warnings, JCT variations)\n* Change management (compensation events, variations)\n* Payments & dispute resolution\n\nResult: Faster decisions, better compliance, fewer disputes.`,
       people: [
         { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "/mnt/data/adersh-rajagopalan.png" },
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -1785,7 +1785,7 @@ const CAPABILITIES = [
       ],
       philosophy: `We're quantity surveyors, project leads, and procurement strategists first and system builders second — we challenge, simplify and strengthen processes before we automate them.`,
       people: [
-        { name: "Rishi Rao", role: "Head of Business Operations", image: "/mnt/data/rishi-rao.png" },
+        { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
       ],
     },
   },
@@ -2045,11 +2045,11 @@ export default function ServiceDetail() {
                     {service.content.people.map((p, i) => (
                       <div key={i} className="flex items-center gap-3">
                         <img
-                          src={p.image || "/mnt/data/default-profile.png"}
+                          src={p.image}
                           alt={p.name}
                           className="w-11 h-11 rounded-full object-cover"
                           onError={(e) => {
-                            e.currentTarget.src = "/mnt/data/default-profile.png";
+                            e.currentTarget.src = "";
                           }}
                         />
                         <div>

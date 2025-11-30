@@ -84,7 +84,7 @@ export default function Hero() {
         }
       `}</style>
     </section>
-    <section className="relative p-10 ">
+    <section className="relative lg:p-10 ">
   <div className="relative"> {/* wrapper must be positioned */}
     {/* use an explicit height or let the image determine the height */}
     <img
@@ -95,11 +95,11 @@ export default function Hero() {
 
     {/* overlay pinned to bottom of wrapper — no margin that pushes it upward */}
     <div className=" " />
-    <div className=" absolute  bottom-0 z-9 w-full grid grid-cols-2 bg-white rounded-t-3xl p-10 z-10 sm:grid-cols-4 gap-6">
+    <div className=" absolute  bottom-0 z-9 w-full grid grid-cols-1 lg:grid-cols-4 bg-[#efe9e0] rounded-t-3xl p-10 z-10  gap-6">
         {items.map((it) => (
-          <div key={it.label} className="bg-white/60 p-10 rounded-lg shadow-sm">
-            <div className="text-2xl font-bold">{it.value}</div>
-            <div className="mt-1 text-sm uppercase tracking-wide text-slate-700">{it.label}</div>
+          <div key={it.label} className="bg-[#efe9e0]  rounded-lg ">
+            <div className="text-5xl mb-5  text-center font-bold">{it.value}</div>
+            <div className="mt-1 text-xl text-center uppercase tracking-wide text-slate-700">{it.label}</div>
           </div>
         ))}
       </div>

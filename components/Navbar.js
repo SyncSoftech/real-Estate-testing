@@ -730,6 +730,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import { CiCircleChevRight ,CiSearch } from "react-icons/ci";
 
 export default function Navbar() {
   const [openMega, setOpenMega] = useState(null);
@@ -797,7 +798,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
             <div className="flex items-center gap-4">
-              <img src='/LOGO.jpg' alt="Turner & Townsend" className="h-12 w-auto" />
+             <Link href='/'> <img src='/LOGO.jpg' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
             </div>
 
             {/* center: desktop nav */}
@@ -837,9 +838,9 @@ export default function Navbar() {
                       >
                         <div className="flex bg-[#efe9e0] p-10 rounded-xl -mt-5 shadow-sm">
                           <div className="w-1/2 pr-10">
-                            <Link href={item.link}>
-                              <h3 className="text-4xl font-serif text-[#1f1b18] mb-4">
-                                {item.label}
+                            <Link href={item.link} >
+                              <h3 className="text-4xl flex font-serif text-[#1f1b18] mb-4">
+                                {item.label} <CiCircleChevRight className='text-4xl pt-2' />
                               </h3>
                             </Link>
                             <p className="text-sm leading-6 font-medium max-w-[320px] text-[#1f1b18]">
@@ -968,9 +969,9 @@ export default function Navbar() {
             <div className="flex items-center gap-4">
               <button
                 aria-label="Search"
-                className="text-2xl border-2 border-[#1f1b18] rounded-full w-10 h-10 flex items-center justify-center"
+                className="text-2xl rounded-full w-10 h-10 flex items-center justify-center"
               >
-                🔍
+                <CiSearch className="text-4xl"/>
               </button>
 
               <button
@@ -1064,8 +1065,8 @@ export default function Navbar() {
                   ← Back
                 </button>
 
-                <h3 className="text-3xl font-serif mb-3">
-                  {mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)}
+                <h3 className="text-3xl flex font-serif mb-3">
+                  {mobilePanel.charAt(0).toUpperCase() + mobilePanel.slice(1)} <CiCircleChevRight className='text-4xl pl-2' />
                 </h3>
                 <p className="text-sm leading-6 text-[#1f1b18] max-w-[320px] mb-6">
                   We drive transparency, predictability and performance on
