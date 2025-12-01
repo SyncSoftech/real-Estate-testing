@@ -8,11 +8,11 @@ export default function TeamMemberProfile() {
   // This would typically come from an API or data file
   
   const teamMembers = [
-    {
-      id: 'Sabahat Mazhar',
-      name: "Sabahat Mazhar",
-      role: "Operations Manager",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
+     {
+      id: 'Adersh Rajagopalan',
+      name: "Adersh Rajagopalan",
+      role: "Associate Director",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
     },
     {
       id: 'Mrunali Ghumare',
@@ -51,7 +51,7 @@ export default function TeamMemberProfile() {
   return (
     <main className="lg:mx-10 bg-white min-h-screen">
 
-          <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
+          <header className="bg-[#bac6c7] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">{member.name}</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">

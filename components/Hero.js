@@ -41,9 +41,9 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8">
 
           {/* left large headline */}
-          <div className="flex items-start">
-            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-[0.9] tracking-tight text-left text-[#123e6a]">
-              <div className="block">
+          <div className="flex ">
+            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-[0.9] tracking-tight text-left text-[#123e6a]">
+              <div className="block ">
                 We help
               <div className="block h-16 sm:h-20 md:h-24 relative">
                 <div className="absolute inset-0 flex items-center">
@@ -53,8 +53,8 @@ export default function Hero() {
                       className={`
                         absolute text-white 
                         left-32 sm:left-48 md:left-72 lg:left-96 
-                        top-2 sm:-top-16 md:-top-20 lg:-top-[5rem] 
-                        text-3xl sm:text-4xl md:text-5xl lg:text-[5rem] 
+                        top-2 sm:-top-16 md:-top-15 lg:-top-[3rem] 
+                        text-2xl sm:text-3xl md:text-4xl lg:text-[4rem] 
                         w-64 sm:w-80 md:w-[40rem] lg:w-[60rem] 
                         font-serif transition-all duration-700 ease-out
                         ${i === index 
@@ -109,6 +109,7 @@ export default function Hero() {
         src="https://videos.pexels.com/video-files/4665000/4665000-uhd_2560_1440_30fps.mp4"
         autoPlay
         muted
+        loop
         playsInline
         className={`
           absolute inset-0 w-full h-full object-cover

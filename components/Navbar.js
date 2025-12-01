@@ -793,12 +793,12 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-[#bac6c7]  2z-50">
+      <header className="bg-[#bac6c7]  z-50">
         <div className=" px-6">
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
             <div className="flex items-center gap-4">
-             <Link href='/'> <img src='/logo.jpg' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
+             <Link href='/'> <img src='/logo.png' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
             </div>
 
             {/* center: desktop nav */}

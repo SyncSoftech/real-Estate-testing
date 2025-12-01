@@ -10,6 +10,12 @@ export default function OurLeaders() {
  
   const leaders = [
     {
+      id: 'Sabahat Mazhar',
+      name: "Sabahat Mazhar",
+      role: "Operations Manager",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
+    },
+    {
       id: 'Daniel Ginn',
       name: "Daniel Ginn",
       role: "Director",
@@ -21,12 +27,7 @@ export default function OurLeaders() {
       role: "Associate Director – Operations",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg',
     },
-    {
-      id: 'Adersh Rajagopalan',
-      name: "Adersh Rajagopalan",
-      role: "Associate Director",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
-    },
+    
     
   ];
 

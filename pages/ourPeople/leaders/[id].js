@@ -24,11 +24,13 @@ export default function LeaderProfile() {
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg',
     },
     {
-      id: 'Adersh Rajagopalan',
-      name: "Adersh Rajagopalan",
-      role: "Associate Director",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
+      id: 'Sabahat Mazhar',
+      name: "Sabahat Mazhar",
+      role: "Operations Manager",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
     },
+   
+
     
   ];
     
@@ -42,7 +44,7 @@ export default function LeaderProfile() {
   return (
      <main className="lg:mx-10 bg-white min-h-screen">
 
-          <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
+          <header className="bg-[#bac6c7] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">{leader.name}</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">

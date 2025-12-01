@@ -19,7 +19,7 @@
 //                   <div className="flex items-center gap-3">
 //                     <div className="w-12 h-12 rounded-full bg-white/20 border-2 border-white"></div>
 //                     <div>
-//                       <p className="font-semibold text-white">Paul Barry</p>
+//                       <p className="font-semibold text-white">Daniel Ginn</p>
 //                     </div>
 //                   </div>
 //                   <div className="flex items-center gap-2 text-white/80 text-sm">
@@ -188,7 +188,7 @@ export default function InsightsGrid() {
                   <img src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg" className="w-full h-full object-cover rounded-full" alt="" />
                   </div>
                   <div>
-                    <p className="font-semibold text-white">Paul Barry</p>
+                    <p className="font-semibold text-white">Daniel Ginn</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-white/80 text-sm">
@@ -393,7 +393,7 @@ export default function InsightsGrid() {
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white"></div>
                   <div>
-                    <p className="font-semibold text-white text-sm">Paul Barry</p>
+                    <p className="font-semibold text-white text-sm">Daniel Ginn</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-white/80 text-xs">

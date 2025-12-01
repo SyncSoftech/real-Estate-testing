@@ -11,11 +11,12 @@ export default function OurTeam() {
 
   const teamMembers = [
     {
-      id: 'Sabahat Mazhar',
-      name: "Sabahat Mazhar",
-      role: "Operations Manager",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
+      id: 'Adersh Rajagopalan',
+      name: "Adersh Rajagopalan",
+      role: "Associate Director",
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
     },
+    
     {
       id: 'Mrunali Ghumare',
       name: "Mrunali Ghumare",
