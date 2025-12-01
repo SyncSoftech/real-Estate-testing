@@ -670,7 +670,13 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
   return (
     <>
       <main className="lg:mx-10 bg-white">
-        <header className="bg-[#163c72] -mb-12 text-white rounded-b-2xl overflow-hidden">
+        <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
+    `
+    
+  }}>
           <div className="max-w-7xl mx-auto px-6 py-16">
             <h1 className="text-4xl md:text-5xl font-serif font-bold">{DATA.pageTitle}</h1>
             <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -694,7 +700,7 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Main content */}
-            <article className="lg:col-span-2 bg-[#f2ebe3] rounded-2xl overflow-hidden p-6 md:p-8">
+            <article className="lg:col-span-2 bg-[#bac6c7] rounded-2xl overflow-hidden p-6 md:p-8">
               <div className="relative h-64 overflow-hidden rounded-lg mb-6">
                 <img
                   src={caseStudy.image || IMAGE_URL}
@@ -801,7 +807,7 @@ export default function CaseStudyPage({ caseStudy, related = [] }) {
             </article>
 
             {/* Right column — quick facts & related */}
-            <aside className="bg-white rounded-2xl p-6 border shadow-sm">
+            <aside className="bg-[#bac6c7] rounded-2xl p-6 border shadow-sm">
               <div className="mb-6">
                 <h4 className="text-sm text-gray-500">Quick facts</h4>
                 <div className="mt-3 text-sm text-gray-700">

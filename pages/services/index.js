@@ -59,12 +59,21 @@ export default function Services() {
  
 
   return (<>
-    <main className=" lg:mx-10 bg-white">
+    <main className=" lg:mx-10 bg-white ">
       {/* Top blue banner */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+      <header
+  className="-mb-20 rounded-b-2xl  py-32 overflow-hidden bg-cover bg-center bg-no-repeat"
+  style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
+    `
+  }}
+>
+
+        <div className="max-w-7xl mx-auto px-6 py-16 text-white">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Services</h1>
-          <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
+          <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed ">
             We are involved in many of the world's most impactful construction
             projects and programmes. See where our work has helped to transform
             communities.
@@ -109,7 +118,7 @@ export default function Services() {
       </div>
 
      
-<section className="w-full bg-[#f3efe7] py-10 md:py-14">
+<section className="w-full bg-[#bac6c7] py-10 md:py-14">
       {/* Hidden image so your environment registers uploaded asset */}
       <img
         src="/mnt/data/d6ddf2b5-74ca-4920-8a64-f86b9f5ed429.png"
@@ -173,7 +182,7 @@ export default function Services() {
                 />
               </div>
 
-              <div className="p-5 bg-[#f2ebe3] h-full rounded-b-xl">
+              <div className="p-5 bg-[#bac6c7] h-full rounded-b-xl">
                 <h3 className="font-serif text-lg font-semibold mb-2">
                   {item.title}
                 </h3>

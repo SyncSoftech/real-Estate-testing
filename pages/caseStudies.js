@@ -553,7 +553,13 @@ export default function ProjectsSection() {
     <>
       <main className=" lg:mx-10  bg-white">
         {/* Top blue banner */}
-        <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl overflow-hidden">
+        <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
+    `
+    
+  }}>
           <div className="max-w-7xl mx-auto px-6 py-16">
             <h1 className="text-4xl md:text-5xl font-serif font-bold">
               {DATA.pageTitle}
@@ -707,7 +713,7 @@ export default function ProjectsSection() {
                   />
                 </div>
 
-                <div className="bg-[#f2ebe3] p-4 md:p-5 rounded-b-2xl flex flex-col flex-grow">
+                <div className="bg-[#bac6c7] p-4 md:p-5 rounded-b-2xl flex flex-col flex-grow">
                   <h3 className="font-serif text-lg md:text-lg font-semibold leading-tight mb-2">
                     {p.title}
                   </h3>
@@ -816,22 +822,22 @@ export default function ProjectsSection() {
         </div>
       </main>
 
-      <section className="w-full bg-[#f2eee7] mb-5">
+      <section className="w-full bg-[#bac6c7] mb-5">
         <div className="max-w-[2000px] mx-auto grid grid-cols-1 lg:grid-cols-2">
           {/* LEFT IMAGE (full height) */}
           <div className="w-full h-[420px] lg:h-[500px] xl:h-[520px] overflow-hidden">
             <img
-              src="/mnt/data/d5d94ccf-a25e-4bf8-8ca8-59278f73d11b.png"
+              src="https://www.turnerandtownsend.com/media/wrulpler/3.webp?width=1600&height=800&v=1db8f77b3e76c50"
               alt="Client story image"
               className="w-full h-full object-cover"
             />
           </div>
 
           {/* RIGHT CONTENT BOX */}
-          <div className="bg-[#f2eee7] flex items-center">
+          <div className="bg-[#bac6c7] flex items-center">
             <div className="p-10 lg:p-16 xl:p-20 max-w-xl">
               <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
-                Client stories
+                Our stories
               </h2>
 
               <p className="text-gray-700 text-base leading-relaxed mb-8">
@@ -840,9 +846,9 @@ export default function ProjectsSection() {
                 programmes.
               </p>
 
-              <button className="bg-black text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-black/80 transition">
+            <Link href="/about/our-story">  <button className="bg-black text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-black/80 transition">
                 View our client stories
-              </button>
+              </button></Link>
             </div>
           </div>
         </div>

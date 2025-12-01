@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f2ebe3] text-[#0f1724]">
+    <footer className="bg-[#bac6c7] text-[#0f1724]">
       {/* hidden uploaded file (environment may transform to a URL) */}
       <img
         src="/mnt/data/1b4af3ed-a25a-4bb3-911b-d5f9abcb4f80.png"

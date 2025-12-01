@@ -1936,7 +1936,7 @@ export default function ServiceDetail() {
         <div className="w-full overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             {/* Left Content */}
-            <div className="bg-[#f2efe8] p-8 md:p-14 lg:p-20 xl:p-28 rounded-tr-3xl rounded-br-3xl lg:rounded-br-none lg:rounded-tl-3xl">
+            <div className="bg-[#bac6c7] p-8 md:p-14 lg:p-20 xl:p-28 rounded-tr-3xl rounded-br-3xl lg:rounded-br-none lg:rounded-tl-3xl">
               <div className="max-w-2xl">
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
                   {service.title}
@@ -1982,7 +1982,7 @@ export default function ServiceDetail() {
 
               {/* Value proposition / extra text */}
               {valuePropText && (
-                <div className="mb-6 bg-[#f2efe8] p-5 rounded-lg border border-transparent">
+                <div className="mb-6 bg-[#bac6c7] p-5 rounded-lg border border-transparent">
                   <div className="font-semibold mb-2">Controlling Change, Protecting Margins</div>
                   <p className="text-sm text-gray-700 leading-relaxed">{valuePropText}</p>
                 </div>
@@ -1999,7 +1999,7 @@ export default function ServiceDetail() {
                   <h5 className="font-medium mb-2">What this means for you</h5>
                   <div className="flex flex-wrap gap-3">
                     {benefitsList.map((b, i) => (
-                      <span key={i} className="text-xs font-medium px-3 py-1 rounded-md bg-[#f7f7f7] border">{b}</span>
+                      <span key={i} className="text-xs font-medium px-3 py-1 rounded-md bg-[#bac6c7] border">{b}</span>
                     ))}
                   </div>
                 </div>
@@ -2011,7 +2011,7 @@ export default function ServiceDetail() {
                   <h4 className="font-serif text-lg font-semibold mb-3">Key specialisms</h4>
                   <div className="space-y-4">
                     {Object.entries(bulletsDetails).map(([key, detail]) => (
-                      <div key={key} className="p-4 rounded-lg bg-[#faf9f7] border">
+                      <div key={key} className="p-4 rounded-lg bg-[#bac6c7] border">
                         <div className="font-semibold mb-2">{detail.heading || key}</div>
                         <pre className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">
                           {detail.text || detail}
@@ -2027,7 +2027,7 @@ export default function ServiceDetail() {
             <aside className="lg:col-span-1">
               {/* Bullets */}
               {bullets && bullets.length > 0 && (
-                <div className="mb-6 p-5 bg-[#f2ebe3] rounded-xl">
+                <div className="mb-6 p-5 bg-[#bac6c7] rounded-xl">
                   <h6 className="font-medium mb-3">Services</h6>
                   <ul className="text-sm space-y-2">
                     {bullets.map((b, i) => (

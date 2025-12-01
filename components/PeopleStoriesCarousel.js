@@ -13,46 +13,46 @@ import { useState, useEffect, useRef } from "react";
 const STORIES = [
   {
     id: 1,
-    name: "Katie Denack",
-    role: "Senior Project Manager, Australia",
+    name: "Daniel Ginn",
+    role: "Director",
     quote:
-      "I enjoy working for a company that is involved in some of the most significant, challenging projects that make a difference to people’s lives.",
+      "Daniel has steered Ginjo’s growth by focusing on what matters – helping clients protect margin, recover value, and deliver stronger project outcome Daniel is an accomplished Senior Contracts and Procurement Professional with extensive experience across diverse sectors in the construction industry. His career spans high-profile international projects across Europe, where he has played a pivotal role in managing complex procurements and multi-million-pound contracts. Daniel has held leadership roles on major infrastructure programmes, including the Heathrow Expansion Programme, HS2, and the Stegra.com EPC project in Sweden – providing structured commercial leadership, contract strategy, and dispute resolution on some of the sector’s most demanding projects. ",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
     jobsText: "265 jobs in 42 locations",
   },
   {
     id: 2,
-    name: "Owen Martinez",
-    role: "Principal Consultant, UK",
+    name: "Rishi Rao",
+    role: "Associate Director – Operations",
     quote:
-      "Working here has given me opportunities to grow technically and lead high-impact work across multiple regions.",
+      "Rishi plays a key role in Ginjo’s growth by building strategic partnerships with subcontractors, opening doors to new opportunities, and driving business development initiatives that benefit both our clients and trusted network. Rishi is a highly driven, solutions-focused leader with nearly 25 years of experience bridging construction operations and technology. At Ginjo, he leads operations, strategy, and digital transformation ensuring commercial services are delivered with clarity, efficiency, and scalability. Having previously owned and grown a London Underground – approved fire protection and general building subcontracting company to a £3.8 million turnover, Rishi has upgraded over 250 LU tube stations, delivered Crossrail works.",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
     jobsText: "320 jobs in 30 locations",
   },
   {
     id: 3,
-    name: "Aisha Khan",
-    role: "Design Lead, Canada",
+    name: "Adersh Rajagopalan",
+    role: "Associate Director",
     quote:
-      "Great people, meaningful work and the chance to build things that actually change communities for the better.",
+      "Known for his calm, structured approach, Adersh is the go-to person when complex contractual issues or disputes arise. He has a gift for translating dense legal clauses into commercially sound strategies that protect clients’ interests without fuelling conflict. As Associate Director at Ginjo, Adersh leads end-to-end commercial management from procurement planning and contract negotiation to risk mitigation, dispute resolution, and delivery oversight. He brings a sharp eye for risk and a steady hand in high-pressure environments. With extensive experience across the UAE and UK, Adersh has led commercial delivery on major infrastructure projects, including EPC and EPCM frameworks for Network Rail and HS2.",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg",
     jobsText: "180 jobs in 22 locations",
   },
   {
     id: 4,
-    name: "Aisha Khan",
-    role: "Design Lead, Canada",
+    name: "Sabahat Mazhar",
+    role: "Operations Manager",
     quote:
-      "Great people, meaningful work and the chance to build things that actually change communities for the better.",
+      "As the Supply Chain Operations Manager at Ginjo Construction, Sabahat optimises supply chain processes to ensure the efficient flow of materials, resources, and information for seamless project execution. With an MBA in Supply Chain Management and a Master’s in International Logistics, Materials, and Supply Chain Management from the University of Essex, she brings expertise in strategic, planning, procurement, and operational efficiency to drive business performance. Sabahat has a passion for solving complex supply chain challenges, improving workflows, and delivering cost-effective solutions. Her experience spans end-to-end supply chain management, ensuring projects are completed on time and within budget.",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg",
     jobsText: "180 jobs in 22 locations",
   },
   {
     id: 5,
-    name: "Aisha Khan",
-    role: "Design Lead, Canada",
+    name: "Mrunali Ghumare",
+    role: "Jr. Quantity Surveyor",
     quote:
-      "Great people, meaningful work and the chance to build things that actually change communities for the better.",
+      "Mrunali is a skilled Junior Quantity Surveyor at Ginjo, supporting our commercial delivery teams with cost management, contract administration, and risk assessment across projects. With a background in civil engineering and quantity surveying, Mrunali has contributed to major infrastructure schemes, including the record-setting 39.69 km bitumen laying project and the ₹4.56 billion National Highway programme in India. Educated at Heriot-Watt University and Savitribai Phule University, she brings both technical capability and hands-on project experience. ",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/fe54640e-78e5-4aff-90f8-2cb87b24433a-e1761904596669.jpg",
     jobsText: "180 jobs in 22 locations",
   },
@@ -108,7 +108,7 @@ export default function PeopleStoriesCarousel() {
         </div>
 
         {/* RIGHT: card */}
-        <div className="relative bg-[#f2ece5] lg:-ml-10 p-10 md:p-16 flex flex-col justify-between rounded-tl-3xl rounded-bl-3xl">
+        <div className="relative bg-[#bac6c7] lg:-ml-10 p-10 md:p-16 flex flex-col justify-between rounded-tl-3xl rounded-bl-3xl border-l-4 border-custom-grey">
           {/* top badge (jobs pill) */}
          
          
@@ -136,7 +136,7 @@ export default function PeopleStoriesCarousel() {
               <button
                 onClick={prev}
                 aria-label="Previous"
-                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center bg-white hover:shadow"
+                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center bg-[#bac6c7] hover:shadow"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M15 18L9 12L15 6" stroke="#111827" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -150,7 +150,7 @@ export default function PeopleStoriesCarousel() {
               <button
                 onClick={next}
                 aria-label="Next"
-                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center bg-white hover:shadow"
+                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center bg-[#bac6c7] hover:shadow"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                   <path d="M9 18L15 12L9 6" stroke="#111827" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -160,10 +160,10 @@ export default function PeopleStoriesCarousel() {
 
             <div>
               <button
-                className="px-6 py-3 border border-gray-700 rounded-md bg-white hover:bg-gray-100 text-sm font-medium"
+                className="px-6 py-3 border border-gray-700 rounded-md bg-[#bac6c7] hover:bg-gray-100 text-sm font-medium"
                 onClick={() => {
                   // navigate to stories listing - replace with your route
-                  window.location.href = "/people-stories";
+                  window.location.href = "/ourPeople";
                 }}
               >
                 Explore our people stories

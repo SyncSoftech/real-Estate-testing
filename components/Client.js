@@ -49,7 +49,7 @@ export default function Client() {
               key={index}
               className="flex-shrink-0 w-[450px] mx-4"
             >
-              <div className="bg-gray-100 rounded-3xl p-8 h-full flex flex-col justify-between min-h-[400px]">
+              <div className="bg-[#bac6c7] rounded-3xl p-8 h-full flex flex-col justify-between min-h-[400px] border border-custom-grey">
                 <div>
                   <p className="text-gray-800 text-lg leading-relaxed mb-8">
                     "{testimonial.text}"
@@ -60,7 +60,7 @@ export default function Client() {
                   <img
                     src={testimonial.image}
                     alt={testimonial.name}
-                    className="w-14 h-14 rounded-full bg-gray-300"
+                    className="w-14 h-14 rounded-full bg-custom-grey"
                   />
                   <div>
                     <p className="font-medium text-gray-900">

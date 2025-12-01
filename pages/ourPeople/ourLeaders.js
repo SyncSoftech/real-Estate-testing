@@ -35,8 +35,14 @@ export default function OurLeaders() {
   return (<>
     <main className=" lg:mx-10 bg-white">
       {/* Top blue banner */}
-      <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-16">
+      <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/d0lnmeqe/_h3a9854_2560-x-1440px.webp?width=1280&height=512&v=1dae812808d9a30')
+    `
+    
+  }}> 
+   <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Our Leadership</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
             We are involved in many of the world's most impactful construction
@@ -86,7 +92,7 @@ export default function OurLeaders() {
                 />
               </div>
 
-              <div className="bg-[#f2ebe3] p-5 rounded-b-2xl">
+              <div className="bg-[#bac6c7] p-5 rounded-b-2xl">
                 <h3 className="font-serif text-lg font-semibold">{leader.name}</h3>
                 <p className="text-xs text-gray-700 mt-1">{leader.role}</p>
               </div>

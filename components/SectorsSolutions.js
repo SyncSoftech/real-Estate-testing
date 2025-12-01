@@ -7,14 +7,14 @@ export default function SectorsSolutions() {
       <div>
         <h3 className="text-xl font-semibold mb-4">Sectors</h3>
         <ul className="grid grid-cols-2 gap-2">
-          {sectors.map(s => <li key={s} className="p-3 bg-slate-50 rounded">{s}</li>)}
+          {sectors.map(s => <li key={s} className="p-3 bg-[#bac6c7] border border-custom-grey rounded">{s}</li>)}
         </ul>
       </div>
 
       <div>
         <h3 className="text-xl font-semibold mb-4">Solutions</h3>
         <ul className="grid grid-cols-2 gap-2">
-          {solutions.map(s => <li key={s} className="p-3 bg-slate-50 rounded">{s}</li>)}
+          {solutions.map(s => <li key={s} className="p-3 bg-[#bac6c7] border border-custom-grey rounded">{s}</li>)}
         </ul>
       </div>
     </section>

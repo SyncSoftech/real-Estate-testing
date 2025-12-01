@@ -484,7 +484,13 @@ export default function Insights() {
   return (
     <main className="lg:mx-10 bg-white">
       {/* Header */}
-      <header className="bg-[#163c72] -mb-10 pb-10 text-white rounded-b-2xl overflow-hidden">
+      <header className=" -mb-20 py-20 bg-cover bg-center bg-no-repeat  text-white rounded-b-2xl overflow-hidden"style={{
+    backgroundImage: `
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url('https://www.turnerandtownsend.com/media/vxyftgqu/_h3a0079_2560-x-1440px.webp?width=1280&height=512&v=1dadc4c4e844f10')
+    `
+    
+  }}>
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Insights</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
@@ -578,7 +584,7 @@ export default function Insights() {
                 href={`/insights/${publication.id}`}
                 className="group"
               >
-                <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 h-full flex flex-col">
+                <div className="bg-[#bac6c7] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 h-full flex flex-col">
                   <div className="relative h-48 bg-gray-100">
                     <Image
                       src={publication.image}

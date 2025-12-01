@@ -201,7 +201,7 @@ export default function InsightsGrid() {
         </div>
 
         <div className="col-span-2 row-span-2 col-start-1 row-start-6">
-          <div className="bg-gray-200 rounded-2xl p-8 group cursor-pointer h-full">
+          <div className="bg-[#bac6c7] rounded-2xl p-8 group cursor-pointer h-full border border-custom-grey">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
             <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
             <div className="flex items-center justify-between mt-6">
@@ -217,7 +217,7 @@ export default function InsightsGrid() {
         </div>
 
         <div className="col-span-2 row-span-2 col-start-1 row-start-8">
-          <div className="bg-gray-200 rounded-2xl p-8 group cursor-pointer h-full">
+          <div className="bg-[#bac6c7] rounded-2xl p-8 group cursor-pointer h-full border border-custom-grey">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
             <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
             <div className="flex items-center justify-between mt-6">
@@ -233,7 +233,7 @@ export default function InsightsGrid() {
         </div>
 
         <div className="row-span-5 col-start-5 row-start-1">
-  <div className="bg-[#F5F2ED] rounded-2xl overflow-hidden h-full cursor-pointer flex flex-col">
+  <div className="bg-[#bac6c7] rounded-2xl overflow-hidden h-full cursor-pointer flex flex-col">
     
     {/* Top Section */}
     <div className="p-6 flex flex-col">
@@ -284,7 +284,7 @@ export default function InsightsGrid() {
 
 
         <div className="col-span-2 row-span-5 col-start-3 row-start-6">
-  <div className="bg-[#F5F2ED] rounded-2xl overflow-hidden group cursor-pointer h-full flex flex-col">
+  <div className="bg-[#bac6c7] rounded-2xl overflow-hidden group cursor-pointer h-full flex flex-col">
 
     {/* Top Card Content */}
     <div className="p-8 pb-10">
@@ -327,7 +327,7 @@ export default function InsightsGrid() {
 
 
         <div className="row-span-6 col-start-5 row-start-6">
-          <div className="bg-[#F5F2ED] rounded-2xl overflow-hidden h-full cursor-pointer flex flex-col">
+          <div className="bg-[#bac6c7] rounded-2xl overflow-hidden h-full cursor-pointer flex flex-col">
     
     {/* Top Section */}
     <div className="p-6 flex flex-col">
@@ -409,7 +409,7 @@ export default function InsightsGrid() {
         </div>
 
         {/* Card 1 */}
-        <div className="bg-gray-200 rounded-2xl p-6 group cursor-pointer">
+        <div className="bg-[#bac6c7] rounded-2xl p-6 group cursor-pointer border border-custom-grey">
           <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
           <h3 className="text-xl font-bold text-gray-900 mb-auto line-clamp-3">Canadian Government selects Turner & Townsend</h3>
           <div className="flex items-center justify-between mt-4">
@@ -441,7 +441,7 @@ export default function InsightsGrid() {
         </div>
 
         {/* Card 3 */}
-        <div className="md:col-span-2 mb-5 lg:mb-0 bg-gray-200 rounded-2xl overflow-hidden group cursor-pointer">
+        <div className="md:col-span-2 mb-5 lg:mb-0 bg-[#bac6c7] rounded-2xl overflow-hidden group cursor-pointer">
           <div className="p-6 flex flex-col">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">INSIGHTS</p>
             <h2 className="text-xl font-bold text-gray-900 mb-4">Digital first project management consultancy</h2>

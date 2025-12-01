@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function CareersSection() {
   return (
     <section className="w-full bg-white py-20">
@@ -7,9 +9,9 @@ export default function CareersSection() {
         
         {/* LEFT CONTENT */}
         <div>
-          <p className="text-lg tracking-widest font-medium text-gray-700">
+          {/* <p className="text-lg tracking-widest font-medium text-gray-700">
             CAREERS
-          </p>
+          </p> */}
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mt-4">
             Work with us
@@ -30,42 +32,42 @@ export default function CareersSection() {
         <div className="space-y-8">
           
           {/* CARD 1 */}
-          <div className="bg-[#163c72] text-white p-10 rounded-xl relative">
-            <h2 className="text-4xl font-bold">Real estate</h2>
-            <p className="text-xl mt-6 font-medium">
+          <div className="bg-[#bac6c7] p-10 rounded-xl relative">
+            <h2 className="text-4xl font-bold">What we do</h2>
+            {/* <p className="text-xl mt-6 font-medium">
               1132 jobs in 52 locations
-            </p>
+            </p> */}
             <div className="absolute right-10 top-1/2 -translate-y-1/2">
-              <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
-                <span className="text-2xl">›</span>
+              <div className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+               <Link href="/about/what-we-do" className="text-2xl">›</Link>
               </div>
             </div>
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-[#163c72] text-white p-10 rounded-xl relative">
-            <h2 className="text-4xl font-bold">Infrastructure</h2>
-            <p className="text-xl mt-6 font-medium">
+          <div className="bg-[#bac6c7] p-10 rounded-xl relative">
+            <h2 className="text-4xl font-bold">Our Values</h2>
+            {/* <p className="text-xl mt-6 font-medium">
               605 jobs in 16 locations
-            </p>
+            </p> */}
             <div className="absolute right-10 top-1/2 -translate-y-1/2">
-              <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
-                <span className="text-2xl">›</span>
+              <div className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+                <Link href="/about/our-values" className="text-2xl">›</Link>
               </div>
             </div>
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-[#163c72] text-white p-10 rounded-xl relative">
-            <h2 className="text-4xl font-bold">
-              Energy and natural resources
+          <div className="bg-[#bac6c7]  p-10 rounded-xl relative">
+            <h2 className="text-3xl   font-bold">
+              purpose Values
             </h2>
-            <p className="text-xl mt-6 font-medium">
+            {/* <p className="text-xl mt-6 font-medium">
               402 jobs in 11 locations
-            </p>
+            </p> */}
             <div className="absolute right-10 top-1/2 -translate-y-1/2">
-              <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center">
-                <span className="text-2xl">›</span>
+              <div className="w-10 h-10 border border-black rounded-full flex items-center justify-center">
+                <Link href="/about/purpose-values" className="text-2xl">›</Link>
               </div>
             </div>
           </div>

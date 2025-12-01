@@ -2,15 +2,15 @@
 
 import React, { useEffect, useState } from 'react';
 
-const verbs = ["work", "create", "solve", "deliver", "transform"];
+const verbs = ["Project Recover Lost Value", "Contractors protect values", "Subcontractors get paid faster."];
 
 export default function Hero() {
   const [index, setIndex] = useState(0);
   const items = [
-    { label: "experts", value: "22k+" },
-    { label: "countries", value: "62" },
-    { label: "offices", value: "247" },
-    { label: "nationalities", value: "115" }
+    { label: "Year of Experience", value: "24+" },
+    { label: "Clients Satisfaction", value: "46k+" },
+    { label: "Project Completed", value: "83k+" },
+    // { label: "nationalities", value: "115" }
   ]
 
   useEffect(() => {
@@ -21,26 +21,42 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
+
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowVideo(true);
+    }, 2000); // 2 seconds delay
+
+    return () => clearTimeout(timer);
+  }, []);
+
   const bg = "/mnt/data/c322b258-6381-4769-836e-e798dfa5c315.png";
 
   return (<>
-    <section className="relative overflow-hidden z-10 bg-[#efe9e0]">
+    <section className="relative overflow-hidden z-10 bg-[#bac6c7]">
       
-
-      <div className="max-w-[1200px]  mx-auto px-6 py-2 md:py-10">
+      <div className="text-center px-4 sm:px-8 md:px-12 lg:ml-20 py-2 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 items-start gap-8">
 
           {/* left large headline */}
           <div className="flex items-start">
-            <h1 className="font-serif text-6xl md:text-8xl leading-[0.9] tracking-tight text-left text-[#123e6a]">
-              <div className="block">We</div>
-              <div className="block  h-20 md:h-24  relative ">
-                <div className="absolute inset-0  flex items-center">
+            <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-[0.9] tracking-tight text-left text-[#123e6a]">
+              <div className="block">
+                We help
+              <div className="block h-16 sm:h-20 md:h-24 relative">
+                <div className="absolute inset-0 flex items-center">
                   {verbs.map((verb, i) => (
                     <span
                       key={verb}
                       className={`
-                        absolute text-[#08a3e0]  font-serif transition-all duration-700 ease-out
+                        absolute text-white 
+                        left-32 sm:left-48 md:left-72 lg:left-96 
+                        top-2 sm:-top-16 md:-top-20 lg:-top-[5rem] 
+                        text-3xl sm:text-4xl md:text-5xl lg:text-[5rem] 
+                        w-64 sm:w-80 md:w-[40rem] lg:w-[60rem] 
+                        font-serif transition-all duration-700 ease-out
                         ${i === index 
                           ? 'opacity-100 translate-y-0' 
                           : i === (index - 1 + verbs.length) % verbs.length
@@ -54,28 +70,15 @@ export default function Hero() {
                   ))}
                 </div>
               </div>
-              <div className="block text-[#123e6a]">together.</div>
+              </div>
             </h1>
           </div>
-
-          {/* right description */}
-          <div className="pt-8 md:pt-12">
-            <p className="max-w-[520px] text-lg md:text-xl leading-8 text-[#123e6a] font-medium">
-              Working in partnership makes it possible to deliver the world's most impactful projects and programmes across real estate, infrastructure, energy and natural resources.
-            </p>
-
-            <a href="#" className="inline-block mt-6 text-base font-semibold underline text-[#123e6a] hover:opacity-70 transition-opacity">
-              Find out more
-            </a>
-
-          
-          </div>
-
         </div>
       </div>
 
-
-
+      <p className='text-center text-lg sm:text-xl md:text-2xl lg:text-3xl mx-4 sm:mx-8 md:mx-12 lg:mx-20 mb-10 md:mb-20'>
+        Working in partnership makes it possible to deliver the world's most impactful projects and programmes across real estate, infrastructure, energy and natural resources.
+      </p>
 
       <style jsx>{`
         .font-serif { font-family: Georgia, 'Times New Roman', serif; }
@@ -84,20 +87,43 @@ export default function Hero() {
         }
       `}</style>
     </section>
-    <section className="relative lg:p-10 ">
+    <section className="relative lg:p-10 bg-[#bac6c7] ">
   <div className="relative"> {/* wrapper must be positioned */}
     {/* use an explicit height or let the image determine the height */}
-    <img
-      src="https://i.vimeocdn.com/video/1940579161-fe38cf65ed9ae2cef5f747590df9ca3309e17380a9db979314a2199c4061789e-d_640x360?&r=pad&region=us"
-      alt="/LOGO.jpg"
-      className="w-full h-[50rem] object-cover " 
-    />
+  
+    <div className="relative w-full h-[50rem] overflow-hidden">
+
+      {/* IMAGE (fade out) */}
+      <img
+        src="https://i.vimeocdn.com/video/1940579161-fe38cf65ed9ae2cef5f747590df9ca3309e17380a9db979314a2199c4061789e-d_640x360?&r=pad&region=us"
+        alt="Hero"
+        className={`
+          absolute inset-0 w-full h-full object-cover 
+          transition-opacity duration-1000
+          ${showVideo ? "opacity-0" : "opacity-100"}
+        `}
+      />
+
+      {/* VIDEO (fade in) */}
+      <video
+        src="https://videos.pexels.com/video-files/4665000/4665000-uhd_2560_1440_30fps.mp4"
+        autoPlay
+        muted
+        playsInline
+        className={`
+          absolute inset-0 w-full h-full object-cover
+          transition-opacity duration-1000
+          ${showVideo ? "opacity-100" : "opacity-0"}
+        `}
+      />
+
+    </div>
 
     {/* overlay pinned to bottom of wrapper — no margin that pushes it upward */}
     <div className=" " />
-    <div className=" absolute  bottom-0 z-9 w-full grid grid-cols-1 lg:grid-cols-4 bg-[#efe9e0] rounded-t-3xl p-10 z-10  gap-6">
+    <div className=" absolute  bottom-0 z-9 w-full grid grid-cols-1 lg:grid-cols-3 bg-[#bac6c7] rounded-t-3xl p-10 z-10  gap-6">
         {items.map((it) => (
-          <div key={it.label} className="bg-[#efe9e0]  rounded-lg ">
+          <div key={it.label} className="bg-[#bac6c7]  rounded-lg ">
             <div className="text-5xl mb-5  text-center font-bold">{it.value}</div>
             <div className="mt-1 text-xl text-center uppercase tracking-wide text-slate-700">{it.label}</div>
           </div>
