@@ -996,15 +996,15 @@ export default function Navbar() {
         <div
           className={`fixed inset-x-0 top-0 z-40 md:hidden transform ${
             mobileOpen ? "translate-y-0" : "-translate-y-full"
-          } transition-transform duration-300 h-full bg-[#efe9e0]`}
+          } transition-transform duration-300 h-full bg-[#bac6c7]`}
         >
           <div
             className="absolute inset-0 bg-black/40"
             onClick={() => setMobileOpen(false)}
           ></div>
 
-          <aside className="relative w-full h-full bg-[#efe9e0] border-b border-[#e6ded5] overflow-auto">
-            <div className="p-4 flex items-center justify-end sticky top-0 bg-[#efe9e0] border-b border-[#e6ded5]">
+          <aside className="relative w-full h-full bg-[#bac6c7] border-b border-[#e6ded5] overflow-auto">
+            <div className="p-4 flex items-center justify-end sticky top-0 bg-[#bac6c7] border-b border-[#e6ded5]">
               <button
                 aria-label="Close menu"
                 onClick={() => setMobileOpen(false)}

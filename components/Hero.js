@@ -52,7 +52,7 @@ export default function Hero() {
                       key={verb}
                       className={`
                         absolute text-white 
-                        left-32 sm:left-48 md:left-72 lg:left-96 
+                        left-28 sm:left-48 md:left-72 lg:left-96 
                         top-2 sm:-top-16 md:-top-15 lg:-top-[3rem] 
                         text-2xl sm:text-3xl md:text-4xl lg:text-[4rem] 
                         w-64 sm:w-80 md:w-[40rem] lg:w-[60rem] 
