@@ -42,9 +42,9 @@ export default function Hero() {
 
           {/* left large headline */}
           <div className="flex ">
-            <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-[0.9] tracking-tight text-left text-[#123e6a]">
+            <h1 className="font-serif text-3xl  lg:text-7xl  tracking-tight text-left text-[#123e6a]">
               <div className="block ">
-                We help
+                <span className='font-light '>We help</span>
               <div className="block h-16 sm:h-20 md:h-24 relative">
                 <div className="absolute inset-0 flex items-center">
                   {verbs.map((verb, i) => (
@@ -52,7 +52,7 @@ export default function Hero() {
                       key={verb}
                       className={`
                         absolute text-white 
-                        left-28 sm:left-48 md:left-72 lg:left-96 
+                        left-28 sm:left-48 md:left-72 lg:left-76 
                         top-2 sm:-top-16 md:-top-15 lg:-top-[3rem] 
                         text-2xl sm:text-3xl md:text-4xl lg:text-[4rem] 
                         w-64 sm:w-80 md:w-[40rem] lg:w-[60rem] 
@@ -75,12 +75,12 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <p className='text-center text-lg sm:text-xl md:text-2xl lg:text-3xl mx-4 sm:mx-8 md:mx-12 lg:mx-20 mb-10 md:mb-20'>
-        Working in partnership makes it possible to deliver the world's most impactful projects and programmes across real estate, infrastructure, energy and natural resources.
+      <p className='text-center text-lg sm:text-xl md:text-2xl lg:text-3xl mx-4 sm:mx-8 md:mx-12 lg:mx-20 mb-10'>
+        Proven industry experience. Real-world results
       </p>
 <Link
   href="/services"
-  className="flex max-w-fit px-5 mx-auto mb-10 items-center justify-center  py-3 border border-black text-black bg-transparent
+  className="flex max-w-fit px-5 mx-auto sm:mb-10 lg:mb-1 items-start justify-start mb-5  py-3 border border-black text-black bg-transparent
              tracking-wide text-[17px] hover:bg-white/10 transition-all duration-200"
 >
   Discover Our Services
@@ -98,14 +98,14 @@ export default function Hero() {
   <div className="relative"> {/* wrapper must be positioned */}
     {/* use an explicit height or let the image determine the height */}
   
-    <div className="relative w-full h-[50rem] overflow-hidden">
+    <div className="relative w-full h-[40rem] overflow-hidden">
 
       {/* IMAGE (fade out) */}
       <img
         src="/img1.png"
         alt="Hero"
         className={`
-          absolute inset-0 w-full h-full object-cover 
+          absolute inset-0 w-full h-[30rem] object-cover 
           transition-opacity duration-1000
           ${showVideo ? "opacity-0" : "opacity-100"}
         `}
@@ -119,7 +119,7 @@ export default function Hero() {
         loop
         playsInline
         className={`
-          absolute inset-0 w-full h-full object-cover
+          absolute inset-0 w-full h-[30rem] object-cover
           transition-opacity duration-1000
           ${showVideo ? "opacity-100" : "opacity-0"}
         `}
