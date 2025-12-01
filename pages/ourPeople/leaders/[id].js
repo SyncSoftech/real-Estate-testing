@@ -62,7 +62,7 @@ export default function LeaderProfile() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {/* LEFT: beige quote panel */}
-          <div className="bg-[#f2efe8] p-10 md:p-16 lg:p-20 rounded-tr-3xl rounded-br-3xl flex items-center">
+          <div className="bg-[#bac6c7] p-10 md:p-16 lg:p-20 rounded-tr-3xl rounded-br-3xl flex items-center">
             <div className="max-w-xl">
               {/* large quote marks */}
               <div className="text-7xl md:text-8xl font-bold text-[#2b2b2b] leading-none mb-6">“</div>

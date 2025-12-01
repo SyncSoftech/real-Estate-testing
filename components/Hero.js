@@ -95,7 +95,7 @@ export default function Hero() {
 
       {/* IMAGE (fade out) */}
       <img
-        src="https://i.vimeocdn.com/video/1940579161-fe38cf65ed9ae2cef5f747590df9ca3309e17380a9db979314a2199c4061789e-d_640x360?&r=pad&region=us"
+        src="/img1.png"
         alt="Hero"
         className={`
           absolute inset-0 w-full h-full object-cover 

@@ -2068,7 +2068,7 @@ export default function ServiceDetail() {
 
 
       {/* Slide / Outcomes (Left text + controls) */}
-      <section className="w-full bg-[#0f172a] text-white py-12">
+      {/* <section className="w-full bg-[#0f172a] text-white py-12">
         <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-start gap-8">
           <div className="w-full lg:w-1/2">
             <div className="text-white max-w-xl">
@@ -2100,7 +2100,7 @@ export default function ServiceDetail() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Insights grid */}
       <section className="w-full bg-white py-12 lg:py-20">
@@ -2112,7 +2112,7 @@ export default function ServiceDetail() {
               <article key={item.id} className="rounded-xl overflow-hidden bg-white shadow-sm border border-transparent hover:shadow-md transition">
                 <img src={item.image} alt={item.title} className="w-full h-40 md:h-44 object-cover rounded-t-xl" />
 
-                <div className="bg-[#f2ebe3] p-5 rounded-b-xl">
+                <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
                   <p className="text-gray-700 text-sm leading-relaxed mb-5">{item.description}</p>
