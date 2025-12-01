@@ -13,13 +13,13 @@ export default function OurPeople() {
     {
       title: "Our leadership",
       desc: "Get to know our leadership team. Introducing the people who take the business forward.",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg',
+      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/DSC9398-2048x1363.jpg',
       href: '/ourPeople/ourLeaders',
     },
     {
       title: "Our team",
       desc: "Get to know our people. Meet the experts who are delivering great outcomes and help grow our business.",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
+      image: '/gallery/Denmark1.webp',
       href: '/ourPeople/ourTeam',
     },
   ];
@@ -77,7 +77,7 @@ export default function OurPeople() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {cards.map((c, i) => (
             <article key={i} className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-              <div className="h-[28rem] overflow-hidden">
+              <div className="h-[20rem] overflow-hidden">
                 <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
               </div>
 

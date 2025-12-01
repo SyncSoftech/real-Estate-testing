@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from 'react';
-
+import Link from 'next/link';
 const verbs = ["Project Recover Lost Value", "Contractors protect values", "Subcontractors get paid faster."];
 
 export default function Hero() {
@@ -75,10 +75,17 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
       <p className='text-center text-lg sm:text-xl md:text-2xl lg:text-3xl mx-4 sm:mx-8 md:mx-12 lg:mx-20 mb-10 md:mb-20'>
         Working in partnership makes it possible to deliver the world's most impactful projects and programmes across real estate, infrastructure, energy and natural resources.
       </p>
+<Link
+  href="/services"
+  className="flex max-w-fit px-5 mx-auto mb-10 items-center justify-center  py-3 border border-black text-black bg-transparent
+             tracking-wide text-[17px] hover:bg-white/10 transition-all duration-200"
+>
+  Discover Our Services
+  <span className="text-2xl leading-none">›</span>
+</Link>
 
       <style jsx>{`
         .font-serif { font-family: Georgia, 'Times New Roman', serif; }

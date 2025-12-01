@@ -798,7 +798,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
             <div className="flex items-center gap-4">
-             <Link href='/'> <img src='/logo.png' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
+             <Link href='/'> <img src='https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Logo-Icon-Green-1.png' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
             </div>
 
             {/* center: desktop nav */}
