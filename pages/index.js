@@ -658,11 +658,11 @@ export default function Home() {
       
         <ProjectsCarousel />
 
+       <HowWeHelp />
        <CareersSection />
 
        <PeopleStoriesCarousel />
 <Client />
-       <HowWeHelp />
 
       </main>
 
