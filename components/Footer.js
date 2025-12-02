@@ -133,7 +133,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             {/* Logo */}
             <div className="mb-8">
-              <Image src="/LOGO.png" alt="Logo" width={100} height={100} />
+              <Image src="/logo.png" alt="Logo" width={100} height={100} />
             </div>
 
             {/* Description */}
@@ -206,7 +206,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-200 pt-8 text-center">
           <p className="text-sm text-white">
-            © 2024 Namankar hearing services. All rights reserved.
+            © 2024 Ginjo Constructions. All rights reserved.
           </p>
         </div>
       </div>

@@ -164,7 +164,7 @@
 //   )
 // }
 
-
+import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import { CiCircleChevRight } from "react-icons/ci";
 
@@ -180,21 +180,21 @@ export default function InsightsGrid() {
             
             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
               <p className="text-sm font-semibold uppercase tracking-wide mb-2 opacity-90">INSIGHTS</p>
-              <h1 className="text-4xl font-bold mb-6">Data centre construction cost index 2025-2026</h1>
+              <h1 className="text-4xl font-bold mb-6">Why Value Engineering Fails (and What to Do Instead)</h1>
               
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 rounded-full bg-white/20 border-2 border-white">
-                  <img src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg" className="w-full h-full object-cover rounded-full" alt="" />
+                  <img src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg" className="w-full h-full object-cover rounded-full" alt="" />
                   </div>
                   <div>
-                    <p className="font-semibold text-white">Daniel Ginn</p>
+                    <p className="font-semibold text-white">Rishi Rao</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-2 text-white/80 text-sm">
+              <Link href={'/insights/2'}>  <div className="flex items-center gap-2 text-white/80 text-sm">
                   <CiCircleChevRight className='text-5xl' />
                   <span>1 minute</span>
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>
@@ -203,31 +203,31 @@ export default function InsightsGrid() {
         <div className="col-span-2 row-span-2 col-start-1 row-start-6">
           <div className="bg-[#bac6c7] rounded-2xl p-8 group cursor-pointer h-full border border-custom-grey">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
-            <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-auto">Why Forecasts Miss the Mark (and How to Improve Them)</h3>
             <div className="flex items-center justify-between mt-6">
               <div className="flex items-center gap-2  text-gray-600 text-sm">
                 <span>2 minutes</span>
                 
               </div>
-              <div className="">
+             <Link href={'/insights/1'}> <div className="">
                 <CiCircleChevRight className='text-5xl' />
-              </div>
+              </div> </Link>
             </div>
           </div>
         </div>
 
         <div className="col-span-2 row-span-2 col-start-1 row-start-8">
           <div className="bg-[#bac6c7] rounded-2xl p-8 group cursor-pointer h-full border border-custom-grey">
-            <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
-            <h3 className="text-2xl font-bold text-gray-900 mb-auto">Canadian Government selects Turner & Townsend</h3>
+            <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">Project</p>
+            <h3 className="text-2xl font-bold text-gray-900 mb-auto">HS2 Phase 1 - London, United Kingdom</h3>
             <div className="flex items-center justify-between mt-6">
               <div className="flex items-center gap-2 text-gray-600 text-sm">
                
                 <span>2 minutes</span>
               </div>
-              <div className="">
+             <Link href={'case-studies/2'}> <div className="">
                  <CiCircleChevRight className='text-5xl' />
-              </div>
+              </div></Link>
             </div>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function InsightsGrid() {
       </p>
 
       <h2 className="text-[28px] leading-tight font-bold text-gray-900 mt-2">
-        Digital-first <br /> project <br /> management <br /> consultancy
+       Why Procurement <br />Delays Derail  <br /> Projects <br /> 
       </h2>
 
       {/* Author + Time */}
@@ -257,17 +257,17 @@ export default function InsightsGrid() {
               />
             </div>
             <span className="text-sm font-semibold text-gray-900">
-              Siti Norman
+              Rishi Rao
             </span>
           </div>
 
           
         </div>
 
-        <div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
+       <Link href={'/insights/3'}> <div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
           <span>6 minutes</span>
           <CiCircleChevRight className='text-5xl' />
-        </div>
+        </div></Link>
       </div>
     </div>
 
@@ -293,24 +293,24 @@ export default function InsightsGrid() {
       </p>
 
       <h3 className="text-[28px] leading-tight font-bold text-gray-900 mt-2">
-        Navigating <br /> procurement of <br /> complex labs
+        Why Final  <br /> Accounts Drag On  <br /> (and Drain Profit)
       </h3>
 
       {/* Author + Circle Button */}
       <div className="flex items-center justify-between mt-6">
         <span className="text-sm font-semibold text-gray-900">
-          Vincent Kane
+          Rishi Rao
         </span>
 
        
       </div>
 
       {/* Time Row */}
-      <div className="flex items-center justify-between gap-2 text-gray-700 text-sm mt-4">
+     <Link href={'insights/4'} ><div className="flex items-center justify-between gap-2 text-gray-700 text-sm mt-4">
        
         <span>7 minutes</span>
         <CiCircleChevRight className='text-5xl' />
-      </div>
+      </div></Link>
     </div>
 
     {/* Bottom Image */}
@@ -332,36 +332,36 @@ export default function InsightsGrid() {
     {/* Top Section */}
     <div className="p-6 flex flex-col">
       <p className="text-xs font-semibold uppercase tracking-wide text-gray-700">
-        INSIGHTS
+        Project
       </p>
 
       <h2 className="text-[28px] leading-tight font-bold text-gray-900 mt-2">
-        Digital-first <br /> project <br /> management <br /> consultancy
+        Groundworks - <br />  Midlands  <br /> Mixed-Use  <br /> Scheme
       </h2>
 
       {/* Author + Time */}
       <div className="mt-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full overflow-hidden border border-gray-300">
-              <img
+            {/* <div className="w-10 h-10 rounded-full overflow-hidden border border-gray-300"> */}
+              {/* <img
                 src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg"
                 className="w-full h-full object-cover"
                 alt="Author"
-              />
-            </div>
-            <span className="text-sm font-semibold text-gray-900">
+              /> */}
+            {/* </div> */}
+            {/* <span className="text-sm font-semibold text-gray-900">
               Siti Norman
-            </span>
+            </span> */}
           </div>
 
         </div>
 
-        <div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
+        <Link href={'/case-studies/9'}><div className="flex items-center justify-between gap-2 text-gray-700 text-sm">
          
           <span>6 minutes</span>
           <CiCircleChevRight className='text-5xl' />
-        </div>
+        </div></Link>
       </div>
     </div>
 
@@ -377,6 +377,18 @@ export default function InsightsGrid() {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
       {/* Tablet & Mobile Grid */}
       <div className="lg:hidden grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         {/* Featured Article */}
@@ -387,20 +399,18 @@ export default function InsightsGrid() {
             
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
               <p className="text-sm font-semibold uppercase tracking-wide mb-2 opacity-90">INSIGHTS</p>
-              <h1 className="text-2xl md:text-3xl font-bold mb-4">Data centre construction cost index 2025-2026</h1>
+             <Link href={'insights/2'}> <h1 className="text-2xl md:text-3xl font-bold mb-4">Why Value Engineering Fails (and What to Do Instead)</h1></Link>
               
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white"></div>
+                  <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white">
+                  <img src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg" className="w-full h-full object-cover rounded-full" alt="" /></div>
                   <div>
-                    <p className="font-semibold text-white text-sm">Daniel Ginn</p>
+                    <p className="font-semibold text-white text-sm">Rishi Rao</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 text-white/80 text-xs">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                    <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
-                  </svg>
+                 
                   <span>1 minute</span>
                 </div>
               </div>
@@ -411,7 +421,7 @@ export default function InsightsGrid() {
         {/* Card 1 */}
         <div className="bg-[#bac6c7] rounded-2xl p-6 group cursor-pointer border border-custom-grey">
           <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">NEWS</p>
-          <h3 className="text-xl font-bold text-gray-900 mb-auto line-clamp-3">Canadian Government selects Turner & Townsend</h3>
+          <h3 className="text-xl font-bold text-gray-900 mb-auto line-clamp-3">Why Forecasts Miss the Mark (and How to Improve Them)</h3>
           <div className="flex items-center justify-between mt-4">
             <div className="flex items-center gap-2 text-gray-600 text-sm">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -419,8 +429,10 @@ export default function InsightsGrid() {
                 <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"></path>
               </svg>
               <span>2 minutes</span>
-            </div>
+           </div>
+           <Link href={'/insights/1'}> 
               <CiCircleChevRight className='text-5xl' />
+          </Link>
           </div>
         </div>
 
@@ -444,18 +456,27 @@ export default function InsightsGrid() {
         <div className="md:col-span-2 mb-5 lg:mb-0 bg-[#bac6c7] rounded-2xl overflow-hidden group cursor-pointer">
           <div className="p-6 flex flex-col">
             <p className="text-xs font-semibold uppercase tracking-wide text-gray-600 mb-3">INSIGHTS</p>
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Digital first project management consultancy</h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Why Final
+Accounts Drag On
+(and Drain Profit)</h2>
             
             <div className="mt-4">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <div className="w-10 h-10 rounded-full bg-gray-300"></div>
-                  <span className="text-sm font-semibold text-gray-900">Siti Norman</span>
+                  <div className="w-10 h-10 rounded-full bg-gray-300">
+
+                <img
+                src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg"
+                className="w-full h-full object-cover"
+                alt="Author"
+              />
+                  </div>
+                  <span className="text-sm font-semibold text-gray-900">Rishi Rao</span>
                 </div>
               </div>
               <div className="flex items-center justify-between gap-2 text-gray-600 text-sm">
                 <span>6 minutes</span>
-                <CiCircleChevRight className='text-5xl' />
+                <Link href={'/insights/4'}> <CiCircleChevRight className='text-5xl' /></Link>
               </div>
             </div>
           </div>

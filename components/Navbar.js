@@ -798,12 +798,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
             <div className="flex items-center gap-4">
-             <Link href='/'> <img src='/LOGO.png' alt="Gingo" className="h-12 w-auto" /></Link>
+             <Link href='/'> <img src='/logo.png' alt="Gingo" className="h-12 w-auto" /></Link>
             </div>
 
             {/* center: desktop nav */}
             <nav className="hidden md:block flex-1">
-              <ul className="flex items-center justify-center gap-10 text-[#1f1b18] text-[17px] font-medium">
+              <ul className="flex items-center justify-center gap-10 text-white text-[17px] font-medium">
                 {nav.map((item) => (
                   <li
                     key={item.key}

@@ -4,35 +4,29 @@ import { useState } from "react";
 export default function ProjectCarousel() {
   const slides = [
     {
-      img: "https://www.turnerandtownsend.com/media/3gfjltrq/istock-2203229031.webp?width=1440&height=930&v=1dc5247e6d1b150",
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/R0A0033_copy_small_0-2048x1365-1-1536x1024.jpg",
       tag: "Outcomes",
-      title: "Rack Centre – Phase 2.1, Nigeria",
-      desc: "Delivering West Africa's largest AI-ready data centre",
+      title: "Fujifilm Diosynth Biotechnologies – Copenhagen, Denmark",
+      desc: "Ginjo provided procurement and contract....",
     },
     {
-      img: "https://www.turnerandtownsend.com/media/abvdr3fg/masterplan_figure_04.webp?width=1440&height=930&v=1dc4e3d79e821e0",
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/HS2-VL-23575-543A8693-BBVS-HS2-OOC-Station-260421-www.johnzammit.co_.uk-Absolute-Photography-Ltd-1536x1024.jpg",
       tag: "Outcomes",
-      title: "Digital Infrastructure Hub – UAE",
-      desc: "Building state-of-the-art AI data infrastructure",
+      title: "HS2 Phase 1 - London, United Kingdom",
+      desc: "As a commercial consultancy within the Engineering Delivery ...",
     },
     {
-      img: "https://www.turnerandtownsend.com/media/3gacmmny/jumeirah_marsa_al_arab_kinugawa_adult_pool_marsa_views.webp?width=1440&height=930&v=1dc4ca0f7392cf0",
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/1757596750436.jpg",
       tag: "Outcomes",
-      title: "Global Tech Tower – Singapore",
-      desc: "Asia's most advanced smart operations facility",
+      title: "STEGRA EPC Project - Stockholm, Sweden",
+      desc: "Ginjo supported AFRY with commercial oversight and design coordination...",
     },
     {
-      img: "https://www.turnerandtownsend.com/media/irtl2pje/external-venue-shot-by-nick-flynn.webp?width=1440&height=930&v=1dc3f3a59c46b10",
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/0_9F1A2263JPG-1.webp",
       tag: "Outcomes",
-      title: "Cloud Compute Campus – USA",
-      desc: "Next-generation hyperscale data centre",
-    },
-    {
-      img: "https://www.turnerandtownsend.com/media/pqnnlpan/rdc-site-image-016-10042025-1.webp?width=1440&height=930&v=1dc41d1924359d0",
-      tag: "Outcomes",
-      title: "AI Innovation Zone – India",
-      desc: "Delivering future-ready technology infrastructure",
-    },
+      title: "Carmelita House – Richmond, United Kingdom",
+      desc: "Ginjo provided full commercial management consultancy, including preparation...",
+    }
   ];
 
   const [current, setCurrent] = useState(0);
