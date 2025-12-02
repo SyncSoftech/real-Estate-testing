@@ -742,10 +742,10 @@ export default function Navbar() {
     { key: "case-studies", label: "Case Studies", link: "/caseStudies" },
     { key: "insights", label: "Insights", link: "/insights" },
     { key: "about", label: "About", link: "/about" },
+    { key: "ourPeople", label: "Our People", link: "/ourPeople" },
     { key: "careers", label: "Careers", link: "/careers" },
     { key: "gallery", label: "Gallery", link: "/gallery" },
-    { key: "contact", label: "Contact", link: "/contact" },
-    { key: "ourPeople", label: "Our People", link: "/ourPeople" }
+    { key: "contact", label: "Contact", link: "/contact" }
   ];
 
   const logo = "/mnt/data/0e695bb8-0b15-49a5-82bb-a4d6550c264b.png";
