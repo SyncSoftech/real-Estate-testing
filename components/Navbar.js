@@ -9,7 +9,7 @@
 
 //   const nav = [
 //     { key: "sectors", label: "Sectors" },
-//     { key: "solutions", label: "Solutions" },
+//     { key: "services", label: "Services" },
 //     { key: "projects", label: "Projects" },
 //     { key: "insights", label: "Insights" },
 //     { key: "about", label: "About" },
@@ -49,7 +49,7 @@
 //                   </div>
 
 //                   {/* Mega Menu */}
-//                   {(item.key === "sectors" || item.key === "solutions" || item.key === "about" || item.key === "careers") && (
+//                   {(item.key === "sectors" || item.key === "services" || item.key === "about" || item.key === "careers") && (
 //                     <div
 //                       className="absolute left-1/2 -translate-x-1/2 top-10 w-[950px] bg-transparent opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto transition-all duration-200"
 //                     >
@@ -135,7 +135,7 @@
 
 //   const nav = [
 //     { key: "sectors", label: "Sectors" },
-//     { key: "solutions", label: "Solutions" },
+//     { key: "services", label: "Services" },
 //     { key: "projects", label: "Projects" },
 //     { key: "insights", label: "Insights" },
 //     { key: "about", label: "About" },
@@ -188,7 +188,7 @@
 //                   </button>
 
 //                   {/* desktop mega menu for selected sections */}
-//                   {(item.key === 'sectors' || item.key === 'solutions' || item.key === 'about' || item.key === 'careers') && (
+//                   {(item.key === 'sectors' || item.key === 'services' || item.key === 'about' || item.key === 'careers') && (
 //                     <div
 //                       className={`absolute left-1/2 -translate-x-1/2 top-14 w-[950px] transition-all duration-200 ${openMega === item.key ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
 //                       aria-hidden={openMega === item.key ? 'false' : 'true'}
@@ -284,7 +284,7 @@
 //                   <li key={n.key} className="py-6 flex items-center justify-between">
 //                     <button className="text-lg text-[#1f1b18] text-left w-full" onClick={() => {
 //                       // open panel for items that have mega content, otherwise close menu
-//                       if (['sectors','solutions','about','careers'].includes(n.key)) setMobilePanel(n.key);
+//                       if (['sectors','services','about','careers'].includes(n.key)) setMobilePanel(n.key);
 //                       else setMobileOpen(false);
 //                     }}>{n.label}</button>
 //                     <button className="ml-4 text-xl">→</button>
@@ -345,7 +345,7 @@
 //   const [mobilePanel, setMobilePanel] = useState(null);
 
 //   const nav = [
-//     { key: "solutions", label: "Solutions", link: "/services" },
+//     { key: "services", label: "Services", link: "/services" },
 //     { key: "case-studies", label: "Case Studies", link: "/caseStudies" },
 //     { key: "insights", label: "Insights", link: "/insights" },
 //     { key: "about", label: "About", link: "/about" },
@@ -426,14 +426,14 @@
 //                         }
 //                       >
 //                         <span>{item.label}</span>
-//                         {item.key == "solutions" && (
+//                         {item.key == "services" && (
 //                           <span className="text-sm">▾</span>
 //                         )}
 //                       </button>
 //                     </Link>
 
-//                     {/* Only show mega dropdown for "solutions" */}
-//                     {item.key === "solutions" && (
+//                     {/* Only show mega dropdown for "services" */}
+//                     {item.key === "services" && (
 //                       <div
 //                         className={`absolute left-1/2 z-50 -translate-x-1/2 top-14 w-[50rem] transition-all duration-200 ${
 //                           openMega === item.key
@@ -633,8 +633,8 @@
 //                       <button
 //                         className="text-lg text-[#1f1b18] text-left w-full"
 //                         onClick={() => {
-//                           // only open a mobile panel for "solutions"
-//                           if (["solutions"].includes(n.key))
+//                           // only open a mobile panel for "services"
+//                           if (["services"].includes(n.key))
 //                             setMobilePanel(n.key);
 //                           else setMobileOpen(false);
 //                         }}
@@ -648,7 +648,7 @@
 //               </div>
 //             )}
 
-//             {/* mobile panel (e.g., Solutions details) */}
+//             {/* mobile panel (e.g., Services details) */}
 //             {mobilePanel && (
 //               <div className="px-6 py-4">
 //                 <button
@@ -738,7 +738,7 @@ export default function Navbar() {
   const [mobilePanel, setMobilePanel] = useState(null);
 
   const nav = [
-    { key: "solutions", label: "Solutions", link: "/services" },
+    { key: "services", label: "Services", link: "/services" },
     { key: "case-studies", label: "Case Studies", link: "/caseStudies" },
     { key: "insights", label: "Insights", link: "/insights" },
     { key: "about", label: "About", link: "/about" },
@@ -793,12 +793,12 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-[#bac6c7]  z-50">
+      <header className="bg-[#708c8a]  z-50 fixed top-0 left-0 w-full">
         <div className=" px-6">
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
             <div className="flex items-center gap-4">
-             <Link href='/'> <img src='https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Logo-Icon-Green-1.png' alt="Turner & Townsend" className="h-12 w-auto" /></Link>
+             <Link href='/'> <img src='/LOGO.png' alt="Gingo" className="h-12 w-auto" /></Link>
             </div>
 
             {/* center: desktop nav */}
@@ -819,14 +819,14 @@ export default function Navbar() {
                         }
                       >
                         <span>{item.label}</span>
-                        {item.key == "solutions" && (
+                        {item.key == "services" && (
                           <span className="text-sm">▾</span>
                         )}
                       </button>
                     </Link>
 
-                    {/* Only show mega dropdown for "solutions" */}
-                    {item.key === "solutions" && (
+                    {/* Only show mega dropdown for "services" */}
+                    {item.key === "services" && (
                       <div
                         className={`absolute left-1/2 z-50 -translate-x-1/2 top-14 w-[50rem] transition-all duration-200 ${
                           openMega === item.key
@@ -1023,9 +1023,9 @@ export default function Navbar() {
                       key={n.key}
                       className="py-6 flex items-center justify-between"
                     >
-                      {/* If the item is "solutions", open the panel.
+                      {/* If the item is "services", open the panel.
                           Otherwise render a Link that navigates & closes the menu */}
-                      {n.key === "solutions" ? (
+                      {n.key === "services" ? (
                         <>
                           <button
                             className="text-lg text-[#1f1b18] text-left w-full"
@@ -1055,7 +1055,7 @@ export default function Navbar() {
               </div>
             )}
 
-            {/* mobile panel (e.g., Solutions details) */}
+            {/* mobile panel (e.g., Services details) */}
             {mobilePanel && (
               <div className="px-6 py-4">
                 <button

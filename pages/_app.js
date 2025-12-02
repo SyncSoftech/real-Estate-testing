@@ -6,9 +6,10 @@ export default function App({ Component, pageProps }) {
     <>
      
         <Navbar />
+        <div className="mt-20">
         <Component {...pageProps} />
+        </div>
         <Footer />       
-  
     </>
   );
 }

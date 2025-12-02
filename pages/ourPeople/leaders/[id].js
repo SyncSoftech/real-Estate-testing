@@ -10,25 +10,52 @@ export default function LeaderProfile() {
 
     const leaders = [
       
+   {
+  id: "Daniel Ginn",
+  name: "Daniel Ginn",
+  role: "Founder & Commercial Director",
+  bio: `Daniel brings the type of experience that instantly raises the standard of every project Ginjo touches. With a background rooted in major EPCM and EPC delivery across Europe, Daniel has worked on some of the most complex mega-projects in the region — from large-scale industrial facilities to high-performance data centres and advanced manufacturing programmes.
+
+His time commercially project-managing the Stegra EPC project in Sweden, where he led a large and diverse team under demanding client, contractor and schedule pressures, gives Ginjo clients something incredibly valuable: real, hard-earned delivery insight. Daniel understands how international contractors operate, how client organisations think, and how project decisions flow from commercial strategy to boots-on-the-ground execution.
+
+This gives Ginjo clients a significant edge. Daniel’s guidance blends senior commercial leadership with practical, in-the-trenches delivery experience. He knows what works, what fails, and where the real risks and opportunities lie on complex EPCM programmes.
+
+Calm, structured and technically strong, Daniel ensures that every Ginjo engagement runs with the right governance, the right behaviours, and the right level of commercial discipline. Clients consistently value his honesty, his ability to simplify complexity, and his commitment to delivering the outcomes they expect.
+
+He remains closely involved in all major Ginjo assignments, giving clients not just a team — but a leadership presence with international EPCM insight, strong execution methods, and a genuine drive to deliver properly.`,
+  image:
+    "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
+},
+
+{
+  id: "Rishi Rao",
+  name: "Rishi Rao",
+  role: "Associate Director – Operations",
+  bio: `Rishi’s role is straightforward. He makes his clients look good by delivering fast, reliable and commercially sharp support whenever it is needed. He brings a unique blend of commercial insight, operational leadership and real business ownership experience that allows him to steady situations quickly and lift the performance of entire project teams.
+
+Before joining Ginjo, Rishi owned and operated a subcontracting business that reached a turnover of four million pounds. The company delivered specialist subcontract solutions to major clients including Transport for London, Heathrow, Mace, Balfour Beatty and VINCI. Running this business gave him a deep understanding of both client-side pressures and subcontractor realities. It also shaped his approach to commercial protection, operational clarity and disciplined delivery.
+
+Prior to his time as a business owner, Rishi served as Operations Director for recruitment agencies with turnovers above twenty five million pounds. These roles required the management of nationwide labour and logistics operations in environments where speed, precision and accountability were essential. His career began in fast moving logistics and labour projects across the UK, which built the flexible, responsive and problem solving mindset he is known for today.
+
+At Ginjo, Rishi oversees operational delivery, procurement, tendering and the company’s digital commercial systems. He also supports clients directly with contract reviews, commercial risk management and the resolution of time critical issues. His approach is honest, structured and focused on protecting value. When Rishi is involved, clients gain immediate confidence that detail will be managed properly, communication will stay clear and commercial outcomes will be safeguarded.`,
+  image:
+    "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
+},
+
     {
-      id: 'Daniel Ginn',
-      name: "Daniel Ginn",
-      role: "Director",
-      bio:'Daniel has steered Ginjo’s growth by focusing on what matters – helping clients protect margin, recover value, and deliver stronger project outcome Daniel is an accomplished Senior Contracts and Procurement Professional with extensive experience across diverse sectors in the construction industry. ',
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg',
-    },
-    {
-      id: 'Rishi Rao',
-      name: "Rishi Rao",
-      role: "Associate Director – Operations",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg',
-    },
-    {
-      id: 'Sabahat Mazhar',
-      name: "Sabahat Mazhar",
-      role: "Operations Manager",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg',
-    },
+  id: "Adersh Rajagopalan",
+  name: "Adersh Rajagopalan",
+  role: "Senior Consultant, Commercial & Project Controls",
+  bio: `Adersh brings over sixteen years of commercial and engineering experience across the UK, Dubai and wider international markets. With a background that spans major infrastructure, large-scale civil works, rail programmes and high-volume commercial operations, he brings a global standard of discipline and structure to every client engagement.
+
+His UK experience includes several years delivering commercial and project controls support across major rail and infrastructure programmes, where he developed a strong command of NEC contract administration, change management, forecasting and stakeholder engagement. This hands-on UK rail exposure allows him to understand exactly how commercial pressures move through client organisations, delivery teams and subcontractors — and how to keep programmes commercially steady even in fast-moving environments.
+
+Before relocating to the UK, Adersh spent many years working in Dubai, where he was involved in commercial management, claims analysis, cost control and contract administration for large-scale developments and infrastructure works. Operating within demanding FIDIC-led environments helped shape his disciplined approach to documentation, valuation, contract compliance and dispute support. This international foundation gives him the ability to see commercial issues from multiple perspectives — client, contractor and consultant — and to communicate solutions clearly and confidently.
+
+Today, Adersh is known for being calm, reliable and analytically sharp. He provides clarity around change, strengthens commercial governance, and brings a structured mindset that allows clients to understand their true position at all times. His ability to blend UK delivery expectations with international commercial standards makes him an invaluable part of the Ginjo team, and clients consistently value the stability and consistency he brings to every assignment.`,
+  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg",
+}
+
    
 
     
@@ -48,7 +75,7 @@ export default function LeaderProfile() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">{leader.name}</h1>
           <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
-            {leader.bio}
+            {leader.role}
           </p>
         </div>
       </header>
@@ -90,103 +117,25 @@ export default function LeaderProfile() {
 
         </div>
       </div>
-       <section className="w-full bg-white py-16">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 px-6">
+     <section className="w-full bg-white py-16">
+  <div className="max-w-6xl mx-auto  gap-12 px-6">
 
-        {/* LEFT SIDE — TEXT */}
-        <div>
-          <h2 className="text-2xl font-bold leading-snug text-[#1a1a1a] mb-6">
-            I've been CEO of Turner & Townsend since 2008. During that period,
-            I've driven the diversification of the business globally and built
-            its reputation as an industry leader in delivering complex
-            programmes around the world.
-          </h2>
+    {/* LEFT SIDE — Leader Bio */}
+    <div>
+      <h2 className="text-2xl font-bold leading-snug text-[#1a1a1a] mb-6">
+        {leader.name}
+      </h2>
 
-          <p className="text-[17px] leading-7 text-gray-700 mb-4">
-            After graduating with a degree in construction economics and qualifying
-            as a chartered quantity surveyor, I joined the business in 1989. I’ve
-            in-depth experience of the set-up, procurement and delivery of some of
-            the industry’s most complex major programmes, across real estate,
-            infrastructure, energy and natural resources.
-          </p>
+      <p className="text-[17px] leading-7 text-gray-700 whitespace-pre-line">
+        {leader.bio}
+      </p>
+    </div>
 
-          <p className="text-[17px] leading-7 text-gray-700 mb-4">
-            I contribute to a number of industry groups and currently act as an
-            industry advisory to the Construction Leadership Council. In recognition
-            for my expertise and understanding of the global construction industry,
-            I've twice been named Building magazine’s CEO of the year.
-          </p>
+   
 
-          <p className="text-[17px] leading-7 text-gray-700 mb-4">
-            I became Managing Director of our UK <span className="underline cursor-pointer">cost management</span> business in 2000
-            and given responsibility in 2005 for driving our international business.
-            I was appointed CEO in 2008, which was combined with the Chairman's role
-            in 2015.
-          </p>
+  </div>
+</section>
 
-          <p className="text-[17px] leading-7 text-gray-700">
-            During my period as CEO, our business has grown significantly, and we
-            now employ over 22,000 people across more than 60 countries.
-          </p>
-        </div>
-
-        {/* RIGHT SIDE — CAREER HIGHLIGHTS */}
-        <div>
-          <h3 className="text-2xl font-bold text-[#1a1a1a] mb-6">
-            Career highlights
-          </h3>
-
-          <ul className="space-y-6">
-            <li className="flex items-start gap-3">
-              <span className="w-3 h-3 bg-blue-600 rounded-full mt-2"></span>
-              <div>
-                <p className="font-semibold text-gray-900">Appointed Chairman and CEO</p>
-                <p className="text-gray-700 text-[16px]">2015</p>
-              </div>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <span className="w-3 h-3 bg-blue-600 rounded-full mt-2"></span>
-              <div>
-                <p className="font-semibold text-gray-900">Appointed CEO</p>
-                <p className="text-gray-700 text-[16px]">2008</p>
-              </div>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <span className="w-3 h-3 bg-blue-600 rounded-full mt-2"></span>
-              <div>
-                <p className="font-semibold text-gray-900">
-                  Appointed to the Executive Board
-                </p>
-                <p className="text-gray-700 text-[16px]">2002</p>
-              </div>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <span className="w-3 h-3 bg-blue-600 rounded-full mt-2"></span>
-              <div>
-                <p className="font-semibold text-gray-900">
-                  Appointed MD of UK Cost Management
-                </p>
-                <p className="text-gray-700 text-[16px]">2000</p>
-              </div>
-            </li>
-
-            <li className="flex items-start gap-3">
-              <span className="w-3 h-3 bg-blue-600 rounded-full mt-2"></span>
-              <div>
-                <p className="font-semibold text-gray-900">
-                  Joined Turner & Townsend after graduating
-                </p>
-                <p className="text-gray-700 text-[16px]">1989</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-    </section>
 
 
 

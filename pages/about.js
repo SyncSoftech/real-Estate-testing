@@ -94,7 +94,7 @@ export default function About() {
       </header>
 
       {/* Content area */}
-      <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-6 py-8">
+      <div className=" bg-white rounded-t-2xl mt-10 mx-auto px-10 py-8">
 
 
  <main className="min-h-screen bg-white text-[#0f1724]">
@@ -105,36 +105,70 @@ export default function About() {
           <span className="mx-3">›</span>
           <span>About us</span>
         </nav>
+ {/* About Us Section */}
+    <section className="max-w-6xl mx-auto px-6 py-12">
+  {/* ABOUT US */}
+  <div className=" rounded-2xl  shadow-sm">
+    <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#0f1724]">
+      About Us
+    </h2>
 
-        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
-          We transform together
-        </h1>
+    <div className="prose max-w-none text-gray-800 space-y-6">
+      <p className="text-lg leading-relaxed">
+        Ginjo is a commercial services partner that helps construction projects succeed with clarity, control and confidence. We provide expert cost management, contract support and project leadership that remove uncertainty and protect value from planning through to final account.
+      </p>
 
-        <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
-          <p>
-            Transformation is about rethinking what's possible and delivering projects that shape a better future.
-          </p>
-          <p>
-            Great projects don't just happen. They're built on bold ideas, collaboration and a <a href="#" className="text-[#0f4b7f] underline">shared purpose</a>.
-          </p>
-          <p>
-            By working closely with our clients and partners, we deliver projects and programmes that drive businesses forward, help improve people's lives and safeguard the planet.
-          </p>
-          <p>
-            Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
-          </p>
-          <p>
-            With over 22,000 experts across more than 60 countries, we bring unmatched talent and insight to every project, combining deep local knowledge with a global perspective.
-          </p>
-        </div>
-      </div>
+      <p className="text-lg leading-relaxed">
+        Our approach is practical. We understand the real pressures felt on live projects and take responsibility for solving problems before they grow. Clients rely on us for accurate reporting, informed advice and strong commercial systems that allow delivery teams to perform at their best.
+      </p>
 
+      <p className="text-lg leading-relaxed">
+        We support residential, commercial and data centre projects across the United Kingdom and Europe. We also work within major EPCM environments and provide commercial support to subcontractors who need strong backing on complex works.
+      </p>
+
+      <p className="text-lg leading-relaxed">
+        Ginjo is built on integrity, accountability and collaboration. We stand by our decisions, support our clients at every stage and deliver solutions that create measurable improvement. Our goal is simple. Better commercial outcomes for every project we touch.
+      </p>
+    </div>
+  </div>
+
+  {/* SECOND SECTION */}
+  <div className="mt-12 max-w-6xl mx-auto">
+    <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold mb-6">
+      We transform together
+    </h1>
+
+    <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
+      <p>
+        Transformation is about rethinking what's possible and delivering projects that shape a better future.
+      </p>
+
+      <p>
+        Great projects don't just happen. They're built on bold ideas, collaboration and a{" "}
+        <a href="#" className="text-[#0f4b7f] underline">shared purpose</a>.
+      </p>
+
+      <p>
+        By working closely with our clients and partners, we deliver projects and programmes that drive businesses forward, help improve people's lives and safeguard the planet.
+      </p>
+
+      <p>
+        Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
+      </p>
+
+      <p>
+        With over 22,000 experts across more than 60 countries, we bring unmatched talent and insight to every project, combining deep local knowledge with a global perspective.
+      </p>
+    </div>
+  </div>
+</section>
+
+</div>
       {/* Video-style hero */}
      <section className="w-full px-0">
   <div className="bg-transparent flex items-end lg:items-center">
     <div className="p-8 md:p-12 lg:p-16 mx-auto w-full">
       <div className="relative rounded-2xl overflow-hidden">
-
         {/* VIDEO instead of image */}
         <div className="relative">
           <video
@@ -152,6 +186,8 @@ export default function About() {
     </div>
   </div>
 </section>
+
+     
 
 
       {/* Feature cards grid (6 cards) */}
