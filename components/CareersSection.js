@@ -60,7 +60,7 @@ export default function CareersSection() {
           {/* CARD 3 */}
           <div className="bg-[#bac6c7]  p-10 rounded-xl relative">
             <h2 className="text-3xl   font-bold">
-              purpose Values
+              Our Purpose & Values
             </h2>
             {/* <p className="text-xl mt-6 font-medium">
               402 jobs in 11 locations
