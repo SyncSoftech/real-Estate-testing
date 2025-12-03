@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import Link from 'next/link';
 export default function OurStory() {
   return (
     <>
@@ -88,9 +88,9 @@ export default function OurStory() {
               <button className="bg-white text-[#163c72] px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">
                 Explore Careers
               </button>
-              <button className="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white/10 transition">
+            <Link href="/contact"><button className="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white/10 transition">
                 Contact Our Team
-              </button>
+              </button></Link>
             </div>
           </div>
         </section>

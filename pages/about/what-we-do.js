@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import Link from 'next/link';
 export default function WhatWeDo() {
   return (
     <>
@@ -92,15 +92,15 @@ export default function WhatWeDo() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[#163c72] text-white py-16">
+        <section className="bg-[#bac6c7] text-white py-16">
           <div className="max-w-6xl mx-auto px-6 text-center">
             <h2 className="font-serif text-3xl font-bold mb-6">Ready to transform your project delivery?</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Let's discuss how Ginjo can bring commercial clarity and digital capability to your next project.
             </p>
-            <button className="bg-white text-[#163c72] px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">
+           <Link href="/contact"> <button className="bg-white text-[#163c72] px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">
               Contact Us
-            </button>
+            </button></Link>
           </div>
         </section>
       </main>

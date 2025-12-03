@@ -263,7 +263,7 @@ export default function HearMeFooter() {
               </h4>
               <h4 className="text-xl flex font-semibold text-white tracking-wide">
                 
-<Mail /> <span className="pl-5 text-xl">london.office@lavenderblush-dog-942964.hostingersite.com</span>
+<Mail size={40} /> <span className="pl-5 text-xl">london.office@lavenderblush-dog-942964.hostingersite.com</span>
 
               </h4>
 
@@ -302,7 +302,7 @@ export default function HearMeFooter() {
               <h6 className="text-xs text-white uppercase">Our Business Hours (UK Time Zone)</h6>
               <p className="mt-3 text-sm"><span className="font-semibold">Monday - Friday:</span> 9am — 6pm</p>
               <p className="text-sm"><span className="font-semibold">Sat - Sun:</span> Closed*</p>
-              <p className="text-xs text-white mt-1">*excl special weekend clinics</p>
+             
 
               
             </div>

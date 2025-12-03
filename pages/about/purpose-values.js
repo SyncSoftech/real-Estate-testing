@@ -111,7 +111,7 @@ export default function PurposeAndValues() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-[#163c72] text-white py-16">
+        <section className="bg-[#bac6c7] text-white py-16">
           <div className="max-w-4xl mx-auto px-6 text-center">
             <h2 className="font-serif text-3xl font-bold mb-6">Experience the Ginjo Difference</h2>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
