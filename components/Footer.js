@@ -219,6 +219,7 @@
 
 import React from "react";
 import Link from "next/link";
+import {Mail, Phone, MapPin, Send, CheckCircle } from "lucide-react";
 
 export default function HearMeFooter() {
   return (
@@ -255,46 +256,18 @@ export default function HearMeFooter() {
 
             {/* Newsletter */}
             <div className="mt-10 max-w-sm">
-              <h4 className="text-xs font-semibold text-white tracking-wide">
-                SUBSCRIBE TO OUR NEWSLETTER
+              <h4 className="text-xl flex font-semibold text-white tracking-wide">
+                
+<Phone /> <span className="pl-3"> +44 07730748210</span>
+
+              </h4>
+              <h4 className="text-lg flex font-semibold text-white tracking-wide">
+                
+<Mail /> <span className="pl-5">london.office@lavenderblush-dog-942964.hostingersite.com</span>
+
               </h4>
 
-              <form className="mt-3 flex flex-col gap-3">
-                <label htmlFor="email" className="sr-only">
-                  Email
-                </label>
-                <div className="flex items-center border border-gray-200 rounded-full px-4 py-2">
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="Email"
-                    className="w-full outline-none text-sm bg-transparent"
-                    required
-                  />
-                  <button
-                    type="submit"
-                    aria-label="subscribe"
-                    className="ml-3 p-2 rounded-full hover:bg-gray-100"
-                  >
-                    ➜
-                  </button>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <input id="robot" type="checkbox" />
-                  <label htmlFor="robot" className="text-xs text-white">
-                    I'm not a robot (reCAPTCHA placeholder)
-                  </label>
-                </div>
-
-                <div className="flex items-start gap-3 text-xs text-white">
-                  <input id="agree" type="checkbox" />
-                  <label htmlFor="agree">
-                    I agree to the <a href="#" className="underline">Privacy Policy</a> and the
-                    processing of my data
-                  </label>
-                </div>
-              </form>
+           
             </div>
           </div>
 
