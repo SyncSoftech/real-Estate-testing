@@ -68,10 +68,10 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
   return (
     <main className="lg:mx-10 bg-white min-h-screen">
 
-          <header className="bg-[#163c72] -mb-20 text-white rounded-b-2xl pb-20 overflow-hidden">
+          <header className="bg-[#bac6c7] -mb-20 text-Black rounded-b-2xl pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 py-16">
           <h1 className="text-4xl md:text-5xl font-serif font-bold">Careers</h1>
-          <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-white/90">
+          <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-Black/90">
             We are always on the lookout for talented individuals to join our team. If you have a passion for real estate and a desire to make a difference, we encourage you to apply for a position.
           </p>
         </div>

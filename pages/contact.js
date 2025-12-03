@@ -80,7 +80,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="bg-[#efe9e0] py-16 px-6">
+    <section className="bg-[#bac6c7] py-16 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">

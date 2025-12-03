@@ -16,7 +16,7 @@ const STORIES = [
     name: "Daniel Ginn",
     role: "Director",
     quote:
-      "Daniel has steered Ginjo’s growth by focusing on what matters – helping clients protect margin, recover value, and deliver stronger project outcome Daniel is an accomplished Senior Contracts and Procurement Professional with extensive experience across diverse sectors in the construction industry. His career spans high-profile international projects across Europe, where he has played a pivotal role in managing complex procurements and multi-million-pound contracts. Daniel has held leadership roles on major infrastructure programmes, including the Heathrow Expansion Programme, HS2, and the Stegra.com EPC project in Sweden – providing structured commercial leadership, contract strategy, and dispute resolution on some of the sector’s most demanding projects. ",
+      "Daniel has steered Ginjo’s growth by focusing on what matters – helping clients protect margin, recover value, and deliver stronger project outcome Daniel is an accomplished Senior Contracts and Procurement Professional with extensive experience across diverse sectors in the construction industry. His career spans high-profile international projects across Europe.. ",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
     jobsText: "265 jobs in 42 locations",
   },
@@ -25,7 +25,7 @@ const STORIES = [
     name: "Rishi Rao",
     role: "Associate Director – Operations",
     quote:
-      "Rishi plays a key role in Ginjo’s growth by building strategic partnerships with subcontractors, opening doors to new opportunities, and driving business development initiatives that benefit both our clients and trusted network. Rishi is a highly driven, solutions-focused leader with nearly 25 years of experience bridging construction operations and technology. At Ginjo, he leads operations, strategy, and digital transformation ensuring commercial services are delivered with clarity, efficiency, and scalability. Having previously owned and grown a London Underground – approved fire protection and general building subcontracting company to a £3.8 million turnover, Rishi has upgraded over 250 LU tube stations, delivered Crossrail works.",
+      "Rishi plays a key role in Ginjo’s growth by building strategic partnerships with subcontractors, opening doors to new opportunities, and driving business development initiatives that benefit both our clients and trusted network. Rishi is a highly driven, solutions-focused leader with nearly 25 years of experience bridging construction operations and technology... ",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
     jobsText: "320 jobs in 30 locations",
   },
@@ -34,7 +34,7 @@ const STORIES = [
     name: "Adersh Rajagopalan",
     role: "Associate Director",
     quote:
-      "Known for his calm, structured approach, Adersh is the go-to person when complex contractual issues or disputes arise. He has a gift for translating dense legal clauses into commercially sound strategies that protect clients’ interests without fuelling conflict. As Associate Director at Ginjo, Adersh leads end-to-end commercial management from procurement planning and contract negotiation to risk mitigation, dispute resolution, and delivery oversight. He brings a sharp eye for risk and a steady hand in high-pressure environments. With extensive experience across the UAE and UK, Adersh has led commercial delivery on major infrastructure projects, including EPC and EPCM frameworks for Network Rail and HS2.",
+      "Known for his calm, structured approach, Adersh is the go-to person when complex contractual issues or disputes arise. He has a gift for translating dense legal clauses into commercially sound strategies that protect clients’ interests without fuelling conflict. As Associate Director at Ginjo, Adersh leads end-to-end commercial management from procurement planning and contract negotiation...",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg",
     jobsText: "180 jobs in 22 locations",
   },
@@ -43,7 +43,7 @@ const STORIES = [
     name: "Sabahat Mazhar",
     role: "Operations Manager",
     quote:
-      "As the Supply Chain Operations Manager at Ginjo Construction, Sabahat optimises supply chain processes to ensure the efficient flow of materials, resources, and information for seamless project execution. With an MBA in Supply Chain Management and a Master’s in International Logistics, Materials, and Supply Chain Management from the University of Essex, she brings expertise in strategic, planning, procurement, and operational efficiency to drive business performance. Sabahat has a passion for solving complex supply chain challenges, improving workflows, and delivering cost-effective solutions. Her experience spans end-to-end supply chain management, ensuring projects are completed on time and within budget.",
+      "As the Supply Chain Operations Manager at Ginjo Construction, Sabahat optimises supply chain processes to ensure the efficient flow of materials, resources, and information for seamless project execution. With an MBA in Supply Chain Management and a Master’s in International Logistics, Materials, and Supply Chain Management from the University of Essex...",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/sabahat-1.jpg",
     jobsText: "180 jobs in 22 locations",
   },
@@ -52,7 +52,7 @@ const STORIES = [
     name: "Mrunali Ghumare",
     role: "Jr. Quantity Surveyor",
     quote:
-      "Mrunali is a skilled Junior Quantity Surveyor at Ginjo, supporting our commercial delivery teams with cost management, contract administration, and risk assessment across projects. With a background in civil engineering and quantity surveying, Mrunali has contributed to major infrastructure schemes, including the record-setting 39.69 km bitumen laying project and the ₹4.56 billion National Highway programme in India. Educated at Heriot-Watt University and Savitribai Phule University, she brings both technical capability and hands-on project experience. ",
+      "Mrunali is a skilled Junior Quantity Surveyor at Ginjo, supporting our commercial delivery teams with cost management, contract administration, and risk assessment across projects. With a background in civil engineering and quantity surveying, Mrunali has contributed to major infrastructure schemes...  ",
     image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/fe54640e-78e5-4aff-90f8-2cb87b24433a-e1761904596669.jpg",
     jobsText: "180 jobs in 22 locations",
   },
@@ -95,7 +95,7 @@ export default function PeopleStoriesCarousel() {
   const story = STORIES[index];
 
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white ">
       <div className="  grid grid-cols-1 lg:grid-cols-2 min-h-[520px]">
         {/* LEFT: image */}
         <div className="relative overflow-hidden">
@@ -103,18 +103,18 @@ export default function PeopleStoriesCarousel() {
             src={story.image}
             alt={`${story.name} portrait`}
             className="w-full h-full object-cover"
-            style={{ minHeight: 520 }}
+            style={{ maxHeight: 620 }}
           />
         </div>
 
         {/* RIGHT: card */}
-        <div className="relative bg-[#bac6c7] lg:-ml-10 p-10 md:p-16 flex flex-col justify-between rounded-tl-3xl rounded-bl-3xl border-l-4 border-custom-grey">
+        <div className="relative max-h-[620px] bg-[#bac6c7] lg:-ml-10 p-10 md:p-16 flex flex-col justify-between rounded-tl-3xl rounded-bl-3xl border-l-4 border-custom-grey">
           {/* top badge (jobs pill) */}
          
          
 
           {/* quote block */}
-          <div className="mt-6 md:mt-12">
+          <div className="">
             {/* big quote marks */}
             <div className="text-6xl md:text-7xl font-bold text-[#333] leading-none mb-4">“</div>
 
@@ -122,7 +122,7 @@ export default function PeopleStoriesCarousel() {
               {story.quote}
             </blockquote>
 
-            <div className="mt-6">
+            <div className="">
               <div className="text-lg font-semibold text-[#0f1724]">
                 {story.name}
               </div>

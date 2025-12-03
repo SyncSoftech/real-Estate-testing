@@ -241,7 +241,7 @@
 //                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
 //                   {service.title}
 //                 </h1>
-//                 <p className="mt-6 text-base md:text-lg text-[#374151] leading-relaxed">
+//                 <p className="mt-6 text-base md:text-lg text-[#374151] ">
 //                   {service.desc}
 //                 </p>
 //               </div>
@@ -266,7 +266,7 @@
 //                 {slide.title}
 //               </h1>
 
-//               <p className="mt-6 text-sm md:text-base max-w-xl leading-relaxed text-white/90">{slide.description}</p>
+//               <p className="mt-6 text-sm md:text-base max-w-xl  text-white/90">{slide.description}</p>
 //             </div>
 //           </div>
 
@@ -303,7 +303,7 @@
 //                 <div className="bg-[#f2ebe3] p-5 rounded-b-xl">
 //                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
-//                   <p className="text-gray-700 text-sm leading-relaxed mb-5">{item.description}</p>
+//                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
 //                   <div className="flex items-center justify-start gap-6 text-xs text-gray-700 mt-auto">
 //                     <div className="flex items-center gap-2">
@@ -692,7 +692,7 @@
 //                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
 //                   {service.title}
 //                 </h1>
-//                 <p className="mt-6 text-base md:text-lg text-[#374151] leading-relaxed">
+//                 <p className="mt-6 text-base md:text-lg text-[#374151] ">
 //                   {service.desc}
 //                 </p>
 //               </div>
@@ -714,7 +714,7 @@
 //       <div className="lg:col-span-2">
 //         {/* Content description */}
 //         {service.content?.description && (
-//           <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
+//           <p className="text-gray-700 text-base md:text-lg  mb-6">
 //             {service.content.description}
 //           </p>
 //         )}
@@ -725,7 +725,7 @@
 //             <h4 className="font-serif text-lg font-semibold mb-3">How we help</h4>
 //             <ul className="list-disc pl-5 text-gray-700 space-y-2">
 //               {service.content.highlights.map((h, i) => (
-//                 <li key={i} className="leading-relaxed">{h}</li>
+//                 <li key={i} className="">{h}</li>
 //               ))}
 //             </ul>
 //           </div>
@@ -735,13 +735,13 @@
 //         {service.content?.valueProp && (
 //           <div className="mb-6 bg-[#f2efe8] p-5 rounded-lg border border-transparent">
 //             <div className="font-semibold mb-2">Controlling Change, Protecting Margins</div>
-//             <p className="text-sm text-gray-700 leading-relaxed">{service.content.valueProp}</p>
+//             <p className="text-sm text-gray-700 ">{service.content.valueProp}</p>
 //           </div>
 //         )}
 
 //         {/* Additional paragraph */}
 //         {service.content?.additional && (
-//           <p className="text-gray-700 text-sm leading-relaxed mb-4">{service.content.additional}</p>
+//           <p className="text-gray-700 text-sm  mb-4">{service.content.additional}</p>
 //         )}
 
 //         {/* Benefits / bullets */}
@@ -765,7 +765,7 @@
 //             <h6 className="font-medium mb-3">Services</h6>
 //             <ul className="text-sm space-y-2">
 //               {service.content.bullets.map((b, i) => (
-//                 <li key={i} className="leading-relaxed">• {b}</li>
+//                 <li key={i} className="">• {b}</li>
 //               ))}
 //             </ul>
 //           </div>
@@ -810,7 +810,7 @@
 //                 {slide.title}
 //               </h1>
 
-//               <p className="mt-6 text-sm md:text-base max-w-xl leading-relaxed text-white/90">{slide.description}</p>
+//               <p className="mt-6 text-sm md:text-base max-w-xl  text-white/90">{slide.description}</p>
 //             </div>
 //           </div>
 
@@ -847,7 +847,7 @@
 //                 <div className="bg-[#f2ebe3] p-5 rounded-b-xl">
 //                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
-//                   <p className="text-gray-700 text-sm leading-relaxed mb-5">{item.description}</p>
+//                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
 //                   <div className="flex items-center justify-start gap-6 text-xs text-gray-700 mt-auto">
 //                     <div className="flex items-center gap-2">
@@ -1301,7 +1301,7 @@
 //                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
 //                   {service.title}
 //                 </h1>
-//                 <p className="mt-6 text-base md:text-lg text-[#374151] leading-relaxed">
+//                 <p className="mt-6 text-base md:text-lg text-[#374151] ">
 //                   {service.desc}
 //                 </p>
 //               </div>
@@ -1323,7 +1323,7 @@
 //       <div className="lg:col-span-2">
 //         {/* Content description */}
 //         {service.content?.description && (
-//           <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
+//           <p className="text-gray-700 text-base md:text-lg  mb-6">
 //             {service.content.description}
 //           </p>
 //         )}
@@ -1334,7 +1334,7 @@
 //             <h4 className="font-serif text-lg font-semibold mb-3">How we help</h4>
 //             <ul className="list-disc pl-5 text-gray-700 space-y-2">
 //               {service.content.highlights.map((h, i) => (
-//                 <li key={i} className="leading-relaxed">{h}</li>
+//                 <li key={i} className="">{h}</li>
 //               ))}
 //             </ul>
 //           </div>
@@ -1344,13 +1344,13 @@
 //         {service.content?.valueProp && (
 //           <div className="mb-6 bg-[#f2efe8] p-5 rounded-lg border border-transparent">
 //             <div className="font-semibold mb-2">Controlling Change, Protecting Margins</div>
-//             <p className="text-sm text-gray-700 leading-relaxed">{service.content.valueProp}</p>
+//             <p className="text-sm text-gray-700 ">{service.content.valueProp}</p>
 //           </div>
 //         )}
 
 //         {/* Additional paragraph */}
 //         {service.content?.additional && (
-//           <p className="text-gray-700 text-sm leading-relaxed mb-4">{service.content.additional}</p>
+//           <p className="text-gray-700 text-sm  mb-4">{service.content.additional}</p>
 //         )}
 
 //         {/* Benefits / bullets */}
@@ -1373,7 +1373,7 @@
 //               {Object.entries(service.content.bulletsDetails).map(([key, detail]) => (
 //                 <div key={key} className="p-4 rounded-lg bg-[#faf9f7] border">
 //                   <div className="font-semibold mb-2">{detail.heading}</div>
-//                   <pre className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">{detail.text}</pre>
+//                   <pre className="text-sm text-gray-700  whitespace-pre-wrap">{detail.text}</pre>
 //                 </div>
 //               ))}
 //             </div>
@@ -1389,7 +1389,7 @@
 //             <h6 className="font-medium mb-3">Services</h6>
 //             <ul className="text-sm space-y-2">
 //               {service.content.bullets.map((b, i) => (
-//                 <li key={i} className="leading-relaxed">• {b}</li>
+//                 <li key={i} className="">• {b}</li>
 //               ))}
 //             </ul>
 //           </div>
@@ -1434,7 +1434,7 @@
 //                 {slide.title}
 //               </h1>
 
-//               <p className="mt-6 text-sm md:text-base max-w-xl leading-relaxed text-white/90">{slide.description}</p>
+//               <p className="mt-6 text-sm md:text-base max-w-xl  text-white/90">{slide.description}</p>
 //             </div>
 //           </div>
 
@@ -1471,7 +1471,7 @@
 //                 <div className="bg-[#f2ebe3] p-5 rounded-b-xl">
 //                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
-//                   <p className="text-gray-700 text-sm leading-relaxed mb-5">{item.description}</p>
+//                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
 //                   <div className="flex items-center justify-start gap-6 text-xs text-gray-700 mt-auto">
 //                     <div className="flex items-center gap-2">
@@ -1941,7 +1941,7 @@ export default function ServiceDetail() {
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight font-bold text-[#1f2937]">
                   {service.title}
                 </h1>
-                <p className="mt-6 text-base md:text-lg text-[#374151] leading-relaxed">
+                <p className="mt-6 text-base md:text-lg text-[#374151] ">
                   {service.desc}
                 </p>
               </div>
@@ -1963,7 +1963,7 @@ export default function ServiceDetail() {
             <div className="lg:col-span-2">
               {/* Content description */}
               {service.content?.description && (
-                <p className="text-gray-700 text-base md:text-lg leading-relaxed mb-6">
+                <p className="text-gray-700 text-base md:text-lg  mb-6">
                   {service.content.description}
                 </p>
               )}
@@ -1974,7 +1974,7 @@ export default function ServiceDetail() {
                   <h4 className="font-serif text-lg font-semibold mb-3">How we help</h4>
                   <ul className="list-disc pl-5 text-gray-700 space-y-2">
                     {highlightsList.map((h, i) => (
-                      <li key={i} className="leading-relaxed">{h}</li>
+                      <li key={i} className="">{h}</li>
                     ))}
                   </ul>
                 </div>
@@ -1984,13 +1984,13 @@ export default function ServiceDetail() {
               {valuePropText && (
                 <div className="mb-6 bg-[#bac6c7] p-5 rounded-lg border border-transparent">
                   <div className="font-semibold mb-2">Controlling Change, Protecting Margins</div>
-                  <p className="text-sm text-gray-700 leading-relaxed">{valuePropText}</p>
+                  <p className="text-sm text-gray-700 ">{valuePropText}</p>
                 </div>
               )}
 
               {/* Additional paragraph */}
               {additionalText && (
-                <p className="text-gray-700 text-sm leading-relaxed mb-4">{additionalText}</p>
+                <p className="text-gray-700 text-sm  mb-4">{additionalText}</p>
               )}
 
               {/* Benefits / bullets */}
@@ -2008,12 +2008,12 @@ export default function ServiceDetail() {
               {/* If bullet details exist, render them */}
               {bulletsDetails && (
                 <div className="mt-6">
-                  <h4 className="font-serif text-lg font-semibold mb-3">Key specialisms</h4>
+                  <h4 className=" text-lg font-semibold mb-3">Key specialisms</h4>
                   <div className="space-y-4">
                     {Object.entries(bulletsDetails).map(([key, detail]) => (
                       <div key={key} className="p-4 rounded-lg bg-[#bac6c7] border">
                         <div className="font-semibold mb-2">{detail.heading || key}</div>
-                        <pre className="text-sm text-gray-700 leading-relaxed whitespace-pre-wrap">
+                        <pre className="text-sm text-gray-700  whitespace-pre-wrap">
                           {detail.text || detail}
                         </pre>
                       </div>
@@ -2031,7 +2031,7 @@ export default function ServiceDetail() {
                   <h6 className="font-medium mb-3">Services</h6>
                   <ul className="text-sm space-y-2">
                     {bullets.map((b, i) => (
-                      <li key={i} className="leading-relaxed">• {b}</li>
+                      <li key={i} className="">• {b}</li>
                     ))}
                   </ul>
                 </div>
@@ -2078,7 +2078,7 @@ export default function ServiceDetail() {
                 {slide.title}
               </h1>
 
-              <p className="mt-6 text-sm md:text-base max-w-xl leading-relaxed text-white/90">{slide.description}</p>
+              <p className="mt-6 text-sm md:text-base max-w-xl  text-white/90">{slide.description}</p>
             </div>
           </div>
 
@@ -2115,7 +2115,7 @@ export default function ServiceDetail() {
                 <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
-                  <p className="text-gray-700 text-sm leading-relaxed mb-5">{item.description}</p>
+                  <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
 
                   <div className="flex items-center justify-start gap-6 text-xs text-gray-700 mt-auto">
                     <div className="flex items-center gap-2">

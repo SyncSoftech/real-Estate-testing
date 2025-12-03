@@ -92,10 +92,10 @@ export default function OurPeople() {
       </div>
 
       {/* Join our team banner */}
-      <div className="w-full bg-[#163c72] text-white">
+      <div className="w-full bg-[#bac6c7] text-Black">
         <div className="max-w-7xl mx-auto px-6 py-12 md:py-16">
           <h2 className="font-serif text-3xl md:text-4xl font-bold mb-3">Join our team</h2>
-          <p className="text-sm md:text-base text-white/90 max-w-3xl mb-6">
+          <p className="text-sm md:text-base  max-w-3xl mb-6">
             Work on some of the most exciting projects and programmes happening around the world.
           </p>
 

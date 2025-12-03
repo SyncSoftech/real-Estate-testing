@@ -696,7 +696,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f8f6f3] to-[#e8e4df] py-16 px-4">
+    <div className="min-h-screen bg-[#bac6c7] py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div
