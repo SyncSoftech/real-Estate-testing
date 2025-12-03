@@ -231,7 +231,7 @@ export default function HearMeFooter() {
               <img
                 src="/LOGO.jpg"
                 alt="Hear Me London logo"
-                className="w-36 h-auto object-contain"
+                className="w-44 h-auto object-contain"
               />
             </div>
 
@@ -245,12 +245,12 @@ export default function HearMeFooter() {
             {/* Badges */}
             <div className="mt-8 flex flex-wrap items-center gap-6">
               <img
-                src="/mnt/data/13820750-c936-4854-8415-0103451a35ec.png"
+                src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/UKGBC-Black-bkg.png"
                 alt="hcpc badge"
                 className="w-32 h-auto object-contain"
               />
               <img
-                src="/mnt/data/02cae41e-0479-42cc-9c44-06e6f19dbfca.png"
+                src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/regulated-by-rics-logo-white-1536x934.webp"
                 alt="bshaa badge"
                 className="w-36 h-auto object-contain"
               />
@@ -334,10 +334,7 @@ export default function HearMeFooter() {
               <p className="text-sm"><span className="font-semibold">Sat - Sun:</span> Closed*</p>
               <p className="text-xs text-white mt-1">*excl special weekend clinics</p>
 
-              <div className="mt-6 flex gap-4">
-                <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-400 text-black text-sm font-medium shadow-sm hover:opacity-95">Book Maida Vale ›</a>
-                <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-400 text-black text-sm font-medium shadow-sm hover:opacity-95">Book Golders Green ›</a>
-              </div>
+              
             </div>
           </div>
         </div>

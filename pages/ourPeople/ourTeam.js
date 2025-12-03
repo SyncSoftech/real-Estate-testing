@@ -40,6 +40,31 @@ export default function OurTeam() {
       role: "Marketing Assistant",
       image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/Image-14-scaled-e1762605149872.jpg',
     },
+    {
+      id: 'Ellen Tilles',
+      name: "Ellen Tilles",
+      role: "Marketing Assistant",
+      image: '/team/ellen.jpg',
+    },
+    
+    {
+      id: 'EVE CHIN',
+      name: "EVE CHIN",
+      role: "Quantity Surveyor Cost Assurance and Verification Analyst",
+      image: '/team/eve.jpg',
+    },
+    {
+      id: 'MANU NAIR',
+      name: "MANU NAIR",
+      role: "Senior Quantity Surveyor Commercial Lead",
+      image: '/team/manu.jpg',
+    },
+    {
+      id: 'JUAN CHAUX',
+      name: "JUAN CHAUX",
+      role: "Head of Estimating EPC, Nuclear and Critical Infrastructure Specialist",
+      image: '/team/juan.jpg',
+    },
     
   ];
 

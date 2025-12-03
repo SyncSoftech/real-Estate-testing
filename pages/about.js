@@ -140,25 +140,23 @@ export default function About() {
 
     <div className="space-y-4 text-lg leading-relaxed text-gray-800 max-w-4xl">
       <p>
-        Transformation is about rethinking what's possible and delivering projects that shape a better future.
+        We Transform together: We improve the way projects are delivered by bringing clarity, structure and commercial discipline to every stage of the journey. Strong outcomes do not happen by chance. They are built through clear thinking, honest collaboration and a shared commitment to doing things properly.
+
+      </p>
+
+
+      <p>
+        
+By working closely with our clients and partners, we help strengthen their projects, protect value and support the teams responsible for delivering them. Our work spans real estate, infrastructure, aviation, rail, energy and complex industrial programmes across the UK and internationally. In every environment, our focus remains the same. Provide practical commercial guidance, improve decision making and ensure that no opportunity or risk is ever overlooked.
+
+
       </p>
 
       <p>
-        Great projects don't just happen. They're built on bold ideas, collaboration and a{" "}
-        <a href="#" className="text-[#0f4b7f] underline">shared purpose</a>.
+       We combine hands on commercial experience with a deep understanding of FIDIC, NEC and JCT environments, allowing us to support complex projects with confidence and precision. Clients trust us because we stay close to the detail, work with complete honesty and bring a reliable standard of delivery that their teams can depend on.
       </p>
 
-      <p>
-        By working closely with our clients and partners, we deliver projects and programmes that drive businesses forward, help improve people's lives and safeguard the planet.
-      </p>
-
-      <p>
-        Our expertise spans real estate, infrastructure, energy and natural resources – the segments that define how we live, work and connect. From delivering resilient cities to advancing clean energy, we approach every challenge with the same goal – to make a meaningful and lasting impact.
-      </p>
-
-      <p>
-        With over 22,000 experts across more than 60 countries, we bring unmatched talent and insight to every project, combining deep local knowledge with a global perspective.
-      </p>
+      
     </div>
   </div>
 </section>

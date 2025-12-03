@@ -1807,6 +1807,73 @@ const CAPABILITIES = [
       people: [{ name: "Daniel Ginn", role: "Director", image: "/mnt/data/daniel-ginn.png" }],
     },
   },
+  {
+  title: "Claims, Disputes and Commercial Advisory",
+  desc: "Protecting entitlement, strengthening your position and resolving issues with clarity and confidence.",
+  image:
+    "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/graph-business-financial-investment-risk-word-1536x1121.jpg",
+
+  content: {
+    description:
+      "Claims and disputes often arise when projects move quickly or commercial decisions are not recorded correctly. Ginjo provides the structure, evidence and commercial strength needed to understand your true position, present entitlements clearly and resolve issues before they escalate.",
+
+    highlights: [
+      "Early identification of entitlement and risk",
+      "Evidence-based claim preparation and defence",
+      "Clear delay, change and cost analysis",
+      "Strong commercial and negotiation support",
+    ],
+
+    additional: `Our team works across the UK and internationally, with deep experience in FIDIC, NEC and JCT environments. Whether supporting live projects, retrospective analysis or formal dispute proceedings, we focus on accurate records, clear narratives and commercially sound reasoning.`,
+
+    benefits: [
+      "Strengthens your commercial position with structured, defensible documentation",
+      "Reduces unnecessary exposure by identifying issues early",
+      "Provides clarity and confidence through commercially sound advisory support",
+    ],
+
+    bullets: [
+      "Early Identification and Strategy",
+      "Claim Preparation and Defence",
+      "Change, Delay and Cost Analysis",
+    ],
+
+    bulletsDetails: {
+      "Early Identification and Strategy": {
+        heading: "Proactive assessment to minimise risk",
+        text: `We review contracts, communications and technical detail to understand potential entitlement or contentious issues early. This helps prevent disputes and ensures your position is protected from the outset.`,
+      },
+
+      "Claim Preparation and Defence": {
+        heading: "Structured, evidence-led submissions",
+        text: `We prepare clear, contract-compliant claims that set out entitlement, events, causation and cost. For responses, we assess validity, identify weaknesses and develop balanced, defensible positions.`,
+      },
+
+      "Change, Delay and Cost Analysis": {
+        heading: "Realistic commercial and programme impact",
+        text: `We analyse delay, disruption, resourcing and cost implications to provide clients with a factual understanding of commercial consequences and the options available to them.`,
+      },
+    },
+
+    valueProp:
+      "With Ginjo involved, every claim, response or negotiation is supported by disciplined documentation, commercial clarity and a position that can be confidently defended.",
+
+    people: [
+      {
+        name: "—",
+        role: "Claims & Commercial Specialist",
+        image: "/mnt/data/adersh-rajagopalan.png",
+      },
+      {
+        name: "—",
+        role: "Senior Commercial Advisor",
+        image:
+          "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
+      },
+    ],
+  },
+}
+
 ];
 
 /* -------------------------

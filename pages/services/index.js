@@ -44,6 +44,11 @@ const CAPABILITIES = [
     desc: "As part of Ginjo Construction’s premium end-to-end commercial services, our Project Management offering is led by our Founder Daniel Ginn MRICS, a Chartered RICS Project Manager with extensive EPC experience at Fluor and AFRY.",
     image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-8.09.26-PM-3-1536x1152.jpeg',
   },
+  {
+    title: "CLAIMS, DISPUTES AND COMMERCIAL ADVISORY",
+    desc: "Protecting entitlement, strengthening your position and resolving issues with clarity and confidence",
+    image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/WhatsApp-Image-2025-10-31-at-8.09.26-PM-3-1536x1152.jpeg',
+  },
  
 ];
 
@@ -132,16 +137,14 @@ export default function Services() {
         </h2>
 
         <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-4">
-          We drive exceptional outcomes for clients on the world’s most
-          demanding projects and programmes by applying our insight, innovation,
-          learning and data. Our programmatic approach means performance and
-          value are optimised at every stage.
+          A Smarter Way to Manage Complexity and Protect Value
+        </p>
+        <p className="text-gray-800 text-base md:text-lg leading-relaxed mb-4">
+          Our approach is built around structure, clarity and disciplined commercial management. We help clients achieve stronger outcomes by applying real project insight, practical experience and clear decision making. By taking a consistent and programmatic approach, we make sure value is protected at every stage of a project and that performance remains steady even when pressure increases.
         </p>
 
         <p className="text-gray-800 text-base md:text-lg leading-relaxed">
-          Harnessing the potential of digital, driving productivity and
-          performance, building resilience and embedding action on
-          decarbonisation are all at the heart of what we do.
+          We use the right digital tools to keep information accurate, support productivity and give teams immediate visibility of their commercial position. Our aim is simple. Strengthen control, improve delivery and ensure every project is better managed, better protected and better prepared for the challenges ahead.
         </p>
       </div>
     </section>

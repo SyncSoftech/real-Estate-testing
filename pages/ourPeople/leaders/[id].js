@@ -12,9 +12,10 @@ export default function LeaderProfile() {
       
    {
   id: "Daniel Ginn",
+  quote:"I’m driven to cultivate an ecosystem where my passion for the built environment meets a first-class consultancy - one that injects momentum, clarity and confidence into every project we support",
   name: "Daniel Ginn",
   role: "Founder & Commercial Director",
-  bio: `Daniel brings the type of experience that instantly raises the standard of every project Ginjo touches. With a background rooted in major EPCM and EPC delivery across Europe, Daniel has worked on some of the most complex mega-projects in the region — from large-scale industrial facilities to high-performance data centres and advanced manufacturing programmes.
+  bio: `Daniel brings the type of experience that instantly raises the standard of every project Ginjo touches. With a background rooted in major EPCM and EPC delivery across Europe, Daniel has worked on some of the most complex mega-projects in the region - from large-scale industrial facilities to high-performance data centres and advanced manufacturing programmes.
 
 His time commercially project-managing the Stegra EPC project in Sweden, where he led a large and diverse team under demanding client, contractor and schedule pressures, gives Ginjo clients something incredibly valuable: real, hard-earned delivery insight. Daniel understands how international contractors operate, how client organisations think, and how project decisions flow from commercial strategy to boots-on-the-ground execution.
 
@@ -22,22 +23,23 @@ This gives Ginjo clients a significant edge. Daniel’s guidance blends senior c
 
 Calm, structured and technically strong, Daniel ensures that every Ginjo engagement runs with the right governance, the right behaviours, and the right level of commercial discipline. Clients consistently value his honesty, his ability to simplify complexity, and his commitment to delivering the outcomes they expect.
 
-He remains closely involved in all major Ginjo assignments, giving clients not just a team — but a leadership presence with international EPCM insight, strong execution methods, and a genuine drive to deliver properly.`,
+He remains closely involved in all major Ginjo assignments, giving clients not just a team - but a leadership presence with international EPCM insight, strong execution methods, and a genuine drive to deliver properly.`,
   image:
     "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg",
 },
 
 {
   id: "Rishi Rao",
+  quote:"Construction is full of surprises which is why we work tirelessly to remove as many as possible. Ginjo delivers commercial and contractual leadership that cuts through noise, tightens the numbers, and keeps your project where it belongs: on track, on budget, and out of trouble. We bring the strategy, structure, and straight talk your team needs and the occasional joke to remind everyone it’s okay to breathe.",
   name: "Rishi Rao",
   role: "Associate Director – Operations",
-  bio: `Rishi’s role is straightforward. He makes his clients look good by delivering fast, reliable and commercially sharp support whenever it is needed. He brings a unique blend of commercial insight, operational leadership and real business ownership experience that allows him to steady situations quickly and lift the performance of entire project teams.
-
-Before joining Ginjo, Rishi owned and operated a subcontracting business that reached a turnover of four million pounds. The company delivered specialist subcontract solutions to major clients including Transport for London, Heathrow, Mace, Balfour Beatty and VINCI. Running this business gave him a deep understanding of both client-side pressures and subcontractor realities. It also shaped his approach to commercial protection, operational clarity and disciplined delivery.
-
-Prior to his time as a business owner, Rishi served as Operations Director for recruitment agencies with turnovers above twenty five million pounds. These roles required the management of nationwide labour and logistics operations in environments where speed, precision and accountability were essential. His career began in fast moving logistics and labour projects across the UK, which built the flexible, responsive and problem solving mindset he is known for today.
-
-At Ginjo, Rishi oversees operational delivery, procurement, tendering and the company’s digital commercial systems. He also supports clients directly with contract reviews, commercial risk management and the resolution of time critical issues. His approach is honest, structured and focused on protecting value. When Rishi is involved, clients gain immediate confidence that detail will be managed properly, communication will stay clear and commercial outcomes will be safeguarded.`,
+  bio: ` Adersh brings over sixteen years of commercial and engineering experience across the UK, Dubai and wider international markets. With a background that spans major infrastructure, large-scale civil works, rail programmes and high-volume commercial operations, he brings a global standard of discipline and structure to every client engagement. His UK experience includes several years delivering commercial and project controls support across major rail and infrastructure programmes, where he developed a strong command of NEC contract administration, change management, forecasting and stakeholder engagement. 
+  
+  This hands-on UK rail exposure allows him to understand exactly how commercial pressures move through client organisations, delivery teams and subcontractors - and how to keep programmes commercially steady even in fast-moving environments. Before relocating to the UK, Adersh spent many years working in Dubai, where he was involved in commercial management, claims analysis, cost control and contract administration for large-scale developments and infrastructure works. 
+  
+  Operating within demanding FIDIC-led environments helped shape his disciplined approach to documentation, valuation, contract compliance and dispute support. This international foundation gives him the ability to see commercial issues from multiple perspectives - client, contractor and consultant - and to communicate solutions clearly and confidently. 
+  
+  Today, Adersh is known for being calm, reliable and analytically sharp. He provides clarity around change, strengthens commercial governance, and brings a structured mindset that allows clients to understand their true position at all times. His ability to blend UK delivery expectations with international commercial standards makes him an invaluable part of the Ginjo team, and clients consistently value the stability and consistency he brings to every assignment.`,
   image:
     "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg",
 },
@@ -96,8 +98,7 @@ Today, Adersh is known for being calm, reliable and analytically sharp. He provi
 
               {/* quote text */}
               <blockquote className="text-lg md:text-xl text-[#0f1724] leading-relaxed">
-                We are committed to a green, inclusive and productive world ensuring our people,
-                communities and environment are at the heart of every decision we make.
+              {leader.quote}
               </blockquote>
             </div>
           </div>
