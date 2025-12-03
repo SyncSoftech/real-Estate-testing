@@ -60,7 +60,7 @@ export default function Services() {
         <h2 className="font-serif text-3xl md:text-4xl font-bold mb-8">
           Our capabilities
         </h2>
-        <p className="mb-16 font-semibold max-w-[50rem]">Turning complex challenges into clear solutions, our capabilities move your vision forward with precision, insight, and disciplined execution—delivering outcomes that create clarity, momentum, and lasting impact.</p>
+        <p className="mb-16 font-semibold max-w-[50rem]">Turning complex challenges into clear solutions, our capabilities move your vision forward with precision, insight, and disciplined execution delivering outcomes that create clarity, momentum, and lasting impact.</p>
 
         {/* 3×3 Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
