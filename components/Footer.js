@@ -222,7 +222,7 @@ import Link from "next/link";
 
 export default function HearMeFooter() {
   return (
-    <footer className="bg-[#708c8a] text-white">
+    <footer className="bg-[#748c8d] text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* LEFT - logo, description, badges, newsletter */}

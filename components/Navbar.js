@@ -794,7 +794,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="bg-[#708c8a]  z-50 fixed top-0 left-0 w-full">
+      <header className="bg-[#748c8d]  z-50 fixed top-0 left-0 w-full">
         <div className=" px-6">
           <div className="flex items-center justify-between h-24">
             {/* left: logo */}
