@@ -261,9 +261,9 @@ export default function HearMeFooter() {
 <Phone /> <span className="pl-3"> +44 07730748210</span>
 
               </h4>
-              <h4 className="text-lg flex font-semibold text-white tracking-wide">
+              <h4 className="text-xl flex font-semibold text-white tracking-wide">
                 
-<Mail /> <span className="pl-5">london.office@lavenderblush-dog-942964.hostingersite.com</span>
+<Mail /> <span className="pl-5 text-xl">london.office@lavenderblush-dog-942964.hostingersite.com</span>
 
               </h4>
 
