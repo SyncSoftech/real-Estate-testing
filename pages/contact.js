@@ -284,7 +284,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-[#08a3e0] text-white font-semibold py-3 rounded-lg hover:bg-[#0a8bc4] transition-all flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+                    className="w-full bg-[#bac6c7] text-white font-semibold py-3 rounded-lg hover:bg-[#0a8bc4] transition-all flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
                   >
                     {loading ? (
                       <>
@@ -307,19 +307,19 @@ export default function Contact() {
         {/* Additional Info Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white rounded-xl shadow-md p-8 text-center">
-            <h3 className="text-2xl font-bold text-[#08a3e0] mb-2">24/7</h3>
+            <h3 className="text-2xl font-bold  mb-2">24/7</h3>
             <p className="text-[#123e6a]">
               We're available around the clock for urgent inquiries
             </p>
           </div>
           <div className="bg-white rounded-xl shadow-md p-8 text-center">
-            <h3 className="text-2xl font-bold text-[#08a3e0] mb-2">Global</h3>
+            <h3 className="text-2xl font-bold  mb-2">Global</h3>
             <p className="text-[#123e6a]">
               Offices in 62 countries ready to assist you
             </p>
           </div>
           <div className="bg-white rounded-xl shadow-md p-8 text-center">
-            <h3 className="text-2xl font-bold text-[#08a3e0] mb-2">Expert</h3>
+            <h3 className="text-2xl font-bold  mb-2">Expert</h3>
             <p className="text-[#123e6a]">
               Over 22,000 professionals at your service
             </p>

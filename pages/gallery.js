@@ -582,7 +582,7 @@ export default function Gallery() {
     { id: "all", label: "All Projects" },
     { id: "Denmark", label: "Denmark" },
     { id: "Mauritius", label: "Mauritius" },
-    { id: "Swedon", label: "Swedon" },
+    { id: "Sweden", label: "Sweden" },
     { id: "UnitedKingdom", label: "United Kingdom" },
   ];
 
@@ -594,8 +594,8 @@ export default function Gallery() {
     { id: 5, category: 'Mauritius', image: '/gallery/Mauritius2.webp', location: 'Mauritius' },
     { id: 6, category: 'Mauritius', image: '/gallery/Mauritius3.webp', location: 'Mauritius' },
     { id: 7, category: 'Mauritius', image: '/gallery/Mauritius4.webp', location: 'Mauritius' },
-    { id: 8, category: 'Swedon', image: '/gallery/Swedon.webp', location: 'Swedon' },
-    { id: 9, category: 'Swedon', image: '/gallery/Swedon1.webp', location: 'Swedon' },
+    { id: 8, category: 'Sweden', image: '/gallery/Swedon.webp', location: 'Sweden' },
+    { id: 9, category: 'Sweden', image: '/gallery/Swedon1.webp', location: 'Sweden' },
     { id: 10, category: 'UnitedKingdom', image: '/gallery/UnitedKingdom.webp', location: 'UnitedKingdom' },
     { id: 11, category: 'UnitedKingdom', image: '/gallery/UnitedKingdom1.webp', location: 'UnitedKingdom' },
     { id: 12, category: 'UnitedKingdom', image: '/gallery/UnitedKingdom2.webp', location: 'UnitedKingdom' },

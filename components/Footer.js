@@ -319,7 +319,7 @@ export default function HearMeFooter() {
 
           <div className="flex items-center gap-4 text-xs text-white">
           
-            <span>Created by <Link href="https://projectverse.in/" className="underline">Project verse</Link></span>
+            {/* <span>Created by <Link href="https://projectverse.in/" className="underline">Project verse</Link></span> */}
           </div>
         </div>
       </div>
