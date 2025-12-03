@@ -37,8 +37,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "london.office@lavenderblush-dog-942964.hostingersite.com",
-      link: "mailto:london.office@lavenderblush-dog-942964.hostingersite.com",
+      value: "info@ginjo.co.uk",
+      link: "mailto:info@ginjo.co.uk",
     },
     {
       icon: MapPin,

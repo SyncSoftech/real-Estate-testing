@@ -263,7 +263,7 @@ export default function HearMeFooter() {
               </h4>
               <h4 className="text-xl flex font-semibold text-white tracking-wide">
                 
-<Mail size={40} /> <span className="pl-5 text-xl">london.office@lavenderblush-dog-942964.hostingersite.com</span>
+<Mail  /> <span className="pl-5 text-xl">info@ginjo.co.uk</span>
 
               </h4>
 
