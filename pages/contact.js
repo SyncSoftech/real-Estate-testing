@@ -31,19 +31,19 @@ export default function Contact() {
     {
       icon: Phone,
       label: "Phone",
-      value: "+44 (0)20 7334 2000",
-      link: "tel:+442073342000",
+      value: "+44 07730748210",
+      link: "tel:+44 07730748210",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@turnerandtownsend.com",
-      link: "mailto:info@turnerandtownsend.com",
+      value: "london.office@lavenderblush-dog-942964.hostingersite.com",
+      link: "mailto:london.office@lavenderblush-dog-942964.hostingersite.com",
     },
     {
       icon: MapPin,
       label: "Address",
-      value: "18th Floor, 100 Bishopsgate, London EC2N 4AG",
+      value: "100 Bishopsgate, London EC2N 4AG, UK",
       link: "#",
     },
   ];
@@ -125,7 +125,7 @@ export default function Contact() {
             {/* Office Hours */}
             <div className="mt-8 p-6 bg-white rounded-xl shadow-md">
               <h3 className="text-lg font-semibold text-[#123e6a] mb-4">
-                Office Hours
+                Office Hours (UK Time Zone)
               </h3>
               <div className="space-y-2 text-sm text-[#123e6a]">
                 <p>

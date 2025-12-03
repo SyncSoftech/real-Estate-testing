@@ -235,11 +235,8 @@ export default function HearMeFooter() {
               />
             </div>
 
-            <p className="mt-6 text-sm text-white max-w-xl">
-              Same day appointments for Hearing Care and Earwax Removal. We are
-              fully qualified and registered Audiologists with over 30 years of
-              collective experience, leveraging on cutting edge technology to
-              achieve the best results.
+            <p className="mt-6 text-3xl text-white max-w-xl">
+              Honest Commercial Support. Real Project Results.
             </p>
 
             {/* Badges */}
@@ -329,7 +326,7 @@ export default function HearMeFooter() {
 
             {/* Business hours & CTA */}
             <div className="mt-8 border-t pt-6">
-              <h6 className="text-xs text-white uppercase">Our Business Hours</h6>
+              <h6 className="text-xs text-white uppercase">Our Business Hours (UK Time Zone)</h6>
               <p className="mt-3 text-sm"><span className="font-semibold">Monday - Friday:</span> 9am — 6pm</p>
               <p className="text-sm"><span className="font-semibold">Sat - Sun:</span> Closed*</p>
               <p className="text-xs text-white mt-1">*excl special weekend clinics</p>
