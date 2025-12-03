@@ -619,6 +619,7 @@ import PeopleStoriesCarousel from '../components/PeopleStoriesCarousel'
 import HowWeHelp from '../components/HowWeHelp'
 import Testimonials from '@/components/Testimonials';
 import Client from '@/components/Client';
+import Services from '@/components/Services';
 
 export default function Home() {
   return (
@@ -649,7 +650,7 @@ export default function Home() {
 
 <Testimonials />
 
-
+<Services />
 
 
 

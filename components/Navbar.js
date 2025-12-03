@@ -738,6 +738,7 @@ export default function Navbar() {
   const [mobilePanel, setMobilePanel] = useState(null);
 
   const nav = [
+    {key:"home",label:"Home",link:"/"},
     { key: "services", label: "Services", link: "/services" },
     { key: "case-studies", label: "Case Studies", link: "/caseStudies" },
     { key: "insights", label: "Insights", link: "/insights" },

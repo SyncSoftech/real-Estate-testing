@@ -1577,7 +1577,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
-
+import Link from "next/link";
 /* -------------------------
    Data (CAPABILITIES) - existing
    ------------------------- */
@@ -1857,22 +1857,42 @@ export default function ServiceDetail() {
   // slides depend on service — safe to compute here (may be empty until service is set)
   const slides = service
     ? [
-        {
-          id: 1,
-          label: "OUTCOMES",
-          title: "World Expo 2025 Osaka,\nAustralia Pavilion, Japan",
-          description: "Delivering a global platform to showcase the best of Australia to the world.",
-          image: service.image,
-        },
+         {
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/R0A0033_copy_small_0-2048x1365-1-1536x1024.jpg",
+      tag: "Outcomes",
+      title: "Fujifilm Diosynth Biotechnologies – Copenhagen, Denmark",
+      desc: "Ginjo provided procurement and contract....",
+    },
+    {
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/HS2-VL-23575-543A8693-BBVS-HS2-OOC-Station-260421-www.johnzammit.co_.uk-Absolute-Photography-Ltd-1536x1024.jpg",
+      tag: "Outcomes",
+      title: "HS2 Phase 1 - London, United Kingdom",
+      desc: "As a commercial consultancy within the Engineering Delivery ...",
+    },
+    {
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/1757596750436.jpg",
+      tag: "Outcomes",
+      title: "STEGRA EPC Project - Stockholm, Sweden",
+      desc: "Ginjo supported AFRY with commercial oversight and design coordination...",
+    },
+    {
+      img: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/0_9F1A2263JPG-1.webp",
+      tag: "Outcomes",
+      title: "Carmelita House – Richmond, United Kingdom",
+      desc: "Ginjo provided full commercial management consultancy, including preparation...",
+    }
       ]
     : [];
 
   // make sure total is never 0 to avoid modulo by zero — if no slides, total = 1 (controls will be harmless)
   const total = slides.length > 0 ? slides.length : 1;
 
-  const prev = () => setIdx((i) => (i - 1 + total) % total);
-  const next = () => setIdx((i) => (i + 1) % total);
+  const [index, setIndex] = useState(0);
 
+  const next = () => setIndex((i) => (i + 1) % slides.length);
+  const prev = () => setIndex((i) => (i - 1 + slides.length) % slides.length);
+
+  if (!slides.length) return null;
   // Loader while service isn't found/resolved
   if (!service) {
     return (
@@ -1882,44 +1902,42 @@ export default function ServiceDetail() {
     );
   }
 
-  // Insights and card image (same as before)
-  const CARD_IMAGE = "/mnt/data/fd073204-4981-43f3-8f68-8e237203236b.png";
-
+ 
   const INSIGHTS = [
-    {
-      id: 1,
-      title: "Navigating procurement of complex labs",
-      description:
-        "These facilities support cutting-edge science but must do so in a way that meets safety, regulatory and biosecurity standards.",
-      minutes: 7,
-      date: "04 Nov 25",
-      image: CARD_IMAGE,
-    },
-    {
-      id: 2,
-      title: "Can agile programme management unlock US airports?",
-      description:
-        "Air passenger numbers have grown since COVID, igniting new plans for airport development across the US – as traditional development is not effective.",
-      minutes: 6,
-      date: "24 Sept 25",
-      image: CARD_IMAGE,
-    },
-    {
-      id: 3,
-      title: "China's construction market",
-      description: "China's construction market is in transition, but its cost and supply chain advantage remain intact.",
-      minutes: 6,
-      date: "28 Aug 25",
-      image: CARD_IMAGE,
-    },
-    {
-      id: 4,
-      title: "The way forward for Japan's construction industry",
-      description: "Japan has re-entered the global spotlight as one of the most expensive construction markets, with five cities in the world's top 15.",
-      minutes: 7,
-      date: "13 Aug 25",
-      image: CARD_IMAGE,
-    },
+    
+  { 
+    id: 1, 
+    title: "Why Forecasts Miss the Mark (and How to Improve Them)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/ChatGPT-Image-Sep-2-2025-12_30_26-PM.png",
+    description: "The Mirage of Certainty Forecasts are meant to give clarity. Instead, many only provide false comfort...",
+    date: "November 24, 2025",
+    category: "Commercial Management"
+  },
+  { 
+    id: 2, 
+    title: "Why Value Engineering Fails (and What to Do Instead)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/11/ChatGPT-Image-Sep-2-2025-11_01_55-AM.png",
+    description: "The False Saving Value engineering is meant to protect budgets. Too often, it becomes a box-ticking exercise that strips out quality without actually reducing cost.",
+    date: "November 17, 2025 ",
+    category: "Value Delivery "
+  },
+  { 
+    id: 3, 
+    title: "Why Procurement Delays Derail Projects", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/09/ChatGPT-Image-Sep-2-2025-10_00_01-AM.png",
+    description: "In-depth analysis of global construction market trends and forecasts.",
+    date: "November 10, 2025",
+    category: "Procurement & Cost Control"
+  },
+  { 
+    id: 4, 
+    title: "Why Final Accounts Drag On (and Drain Profit)", 
+    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/ChatGPT-Image-Sep-1-2025-02_58_55-PM.png",
+    description: "Comprehensive guide to office fit-out costs across major global cities.",
+    date: "October 6, 2025",
+    category: "Commercial Management"
+  }
+
   ];
 
   const slide = slides[idx % total] || slides[0] || { label: "", title: "", description: "" };
@@ -2143,38 +2161,93 @@ export default function ServiceDetail() {
       {/* Expert witnesses + contact block */}
       <div className="w-full bg-white">
         {/* Expert witness hero */}
-        <section className="max-w-7xl mx-auto px-6 py-8">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Our expert witnesses</h2>
+         
+    <section className="max-w-7xl mx-auto px-6 py-8">
+      <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">
+        Our expert witnesses
+      </h2>
 
-          <div className="relative rounded-2xl overflow-hidden border border-gray-200">
-            <img src="/mnt/data/13820750-c936-4854-8415-0103451a35ec.png" alt="Expert witness hero" className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/45 to-transparent" />
+      <div className="relative rounded-2xl overflow-hidden border border-gray-200">
+        {/* IMAGE */}
+        <div className="relative">
+          <img
+            src={slides[index].img}
+            alt={slides[index].title}
+            className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover transition-all duration-700"
+          />
 
-            <div className="absolute inset-0 flex items-end">
-              <div className="p-6 md:p-10 lg:p-12 max-w-2xl">
-                <div className="text-sm tracking-wide text-white/90 mb-2">Meet our</div>
-                <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">Meet our quantum and delay specialists</h3>
-                <p className="text-white/90 max-w-xl">We provide project advisory and expert witness services for any matters in dispute.</p>
-              </div>
+          {/* GRADIENT */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
+        </div>
+
+        {/* TEXT CONTENT */}
+       <Link href={'/caseStudies'}> <div className="absolute inset-0 flex items-end">
+          <div className="p-6 md:p-10 lg:p-12 max-w-2xl">
+            <div className="text-sm tracking-wide text-white/90 mb-2">
+              {slides[index].tag}
             </div>
 
-            <div className="absolute right-6 bottom-6 flex items-center gap-4">
-              <button aria-label="Previous" className="w-11 h-11 rounded-full border border-white/70 text-white flex items-center justify-center bg-white/10 hover:bg-white/20 transition">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M15 18L9 12L15 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </button>
+            <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl text-white font-semibold leading-tight mb-4">
+              {slides[index].title}
+            </h3>
 
-              <div className="text-white/90 text-sm">1/1</div>
-
-              <button aria-label="Next" className="w-11 h-11 rounded-full border border-white/70 text-white flex items-center justify-center bg-white/10 hover:bg-white/20 transition">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                  <path d="M9 18L15 12L9 6" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </button>
-            </div>
+            <p className="text-white/90 max-w-xl">{slides[index].desc}</p>
           </div>
-        </section>
+        </div>
+</Link>
+        {/* CONTROLS */}
+        <div className="absolute right-6 bottom-6 flex items-center gap-4">
+          {/* Prev */}
+          <button
+            aria-label="Previous"
+            onClick={prev}
+            className="w-11 h-11 rounded-full border border-white/70 text-white flex items-center justify-center bg-white/10 hover:bg-white/20 transition"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M15 18L9 12L15 6"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+
+          {/* Slide Count */}
+          <div className="text-white/90 text-sm">
+            {index + 1}/{slides.length}
+          </div>
+
+          {/* Next */}
+          <button
+            aria-label="Next"
+            onClick={next}
+            className="w-11 h-11 rounded-full border border-white/70 text-white flex items-center justify-center bg-white/10 hover:bg-white/20 transition"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="white"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
 
         {/* Contact */}
         <section className="max-w-7xl mx-auto px-6 pb-12">

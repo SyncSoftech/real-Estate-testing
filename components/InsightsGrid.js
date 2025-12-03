@@ -170,7 +170,7 @@ import { CiCircleChevRight } from "react-icons/ci";
 
 export default function InsightsGrid() {
   return (
-    <div className="px-4 md:px-6">
+    <div className="px-4 md:px-6 mb-10">
       {/* Desktop Grid */}
       <div className="hidden lg:grid grid-cols-5 grid-rows-10 gap-4 mt-5">
         <div className="col-span-4 row-span-5">
