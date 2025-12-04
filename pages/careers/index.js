@@ -13,15 +13,137 @@ export default function Careers() {
 
     
 const jobs = [
-  { id: 1, title: "Senior Cost Manager - Data Centre", discipline: "Real estate", country: "Australia", city: "Sydney" },
-  { id: 2, title: "Cost Manager", discipline: "Real estate", country: "Australia", city: "Sydney" },
-  { id: 3, title: "Senior Cost Manager - Education", discipline: "Real estate", country: "Australia", city: "Sydney" },
-  { id: 4, title: "Integration Project Manager", discipline: "Real estate", country: "Australia", city: "Melbourne" },
-  { id: 5, title: "Commercial Manager", discipline: "Real estate", country: "Australia", city: "Melbourne" },
-  { id: 6, title: "Programme Director", discipline: "Real estate", country: "Hong Kong SAR", city: "Hong Kong" },
-  { id: 7, title: "Inspector Técnico de Obra – Proyectos...", discipline: "Energy and natural resources", country: "Chile", city: "Antofagasta" },
-  // ... add more to emulate large dataset
+  {
+    id: 1,
+    title: "Senior Quantity Surveyor – Heathrow Airport (Aviation Programme)",
+    country: "United Kingdom",
+    city: "London (Heathrow)",
+    contractType: "Full-time",
+    experience: "Senior",
+    about:
+      "We are seeking a Senior Quantity Surveyor to support a major aviation programme at Heathrow Airport. Work within a high-performance commercial team delivering cost certainty, change control, and contract compliance across airside and landside projects.",
+    whatYouDo: [
+      "Lead commercial management across live construction packages (JCT & NEC).",
+      "Manage cost reporting, forecasting, and value tracking for multiple workstreams.",
+      "Drive rigorous variation and change control, ensuring risks are captured and priced.",
+      "Support procurement, tender analysis, and contract award recommendations.",
+      "Maintain strong relationships with Heathrow’s commercial and engineering teams.",
+      "Provide early warnings, commercial advice, and contractual interpretation guidance.",
+    ],
+    whatYouBring: [
+      "Experience delivering commercial management on aviation or complex infrastructure projects.",
+      "Strong command of NEC3/NEC4 and JCT contract forms.",
+      "Ability to work in high-security, stakeholder-intensive environments.",
+      "Excellent communication and negotiation skills.",
+      "RICS qualification (or working toward it) is desirable.",
+    ],
+  },
+
+  {
+    id: 2,
+    title: "Commercial Manager – UK Rail Programme (CP6/CP7)",
+    country: "United Kingdom",
+    city: "Birmingham or London",
+    contractType: "Full-time",
+    experience: "Manager",
+    about:
+      "We are hiring a Commercial Manager to support major UK rail works including station upgrades, civils packages, signalling interfaces, and multi-disciplinary enhancements.",
+    whatYouDo: [
+      "Oversee commercial performance across multi-disciplinary rail projects under NEC.",
+      "Lead contract administration, compensation events, and programme-driven valuations.",
+      "Develop commercial strategies to maximise value and minimise risk.",
+      "Manage monthly reporting, forecasts, and cost control.",
+      "Support procurement, supply chain evaluation, and award processes.",
+      "Act as a key commercial advisor to engineering and delivery teams.",
+    ],
+    whatYouBring: [
+      "Experience in UK rail (NR, HS2, TOC, DfT, or major frameworks).",
+      "Strong understanding of NEC contract mechanisms and programme requirements.",
+      "Skilled in negotiation, stakeholder engagement, and commercial governance.",
+      "Track record delivering cost management on complex infrastructure schemes.",
+      "Degree in Quantity Surveying or Commercial Management.",
+    ],
+  },
+
+  {
+    id: 3,
+    title: "MEP Quantity Surveyor – EPC Project",
+    country: "Sweden",
+    city: "Stockholm",
+    contractType: "Full-time",
+    experience: "Intermediate–Senior",
+    about:
+      "Seeking an MEP Quantity Surveyor for a major EPC programme in Stockholm. Support cost control, change management, and subcontract administration across mechanical, electrical, and piping systems.",
+    whatYouDo: [
+      "Manage commercial tasks for MEP packages across procurement and delivery.",
+      "Perform detailed quantity take-offs (MTOs), valuations, and progress assessments.",
+      "Lead change control and maintain variation logs with complete audit trails.",
+      "Support subcontract negotiation, tender analysis, and contract execution.",
+      "Collaborate with engineering and installation teams on forecasting.",
+      "Provide regular reporting to EPC leadership and client stakeholders.",
+    ],
+    whatYouBring: [
+      "Experience in MEP cost management on EPC, data centre, or industrial projects.",
+      "Knowledge of FIDIC, NEC, or EPC contractual structures.",
+      "Competency in MTO development and progress measurement.",
+      "Ability to work in a fast-paced, high-coordination environment.",
+      "Relevant QS or Engineering degree.",
+    ],
+  },
+
+  {
+    id: 4,
+    title: "Senior Quantity Surveyor – Industrial/Data Centre Programme",
+    country: "Finland",
+    city: "Helsinki",
+    contractType: "Full-time",
+    experience: "Senior",
+    about:
+      "We are recruiting a Senior QS for a high-value industrial and data-centre construction programme in Finland. Full cost management oversight, change analysis, and contract governance.",
+    whatYouDo: [
+      "Lead commercial operations across core & shell, civils, and services packages.",
+      "Implement robust cost tracking systems for high-spec industrial works.",
+      "Manage variations, claims, and commercial risk registers.",
+      "Contribute to procurement strategies and negotiate subcontract agreements.",
+      "Provide commercial governance throughout construction and commissioning.",
+      "Interface with international stakeholders to ensure alignment on obligations.",
+    ],
+    whatYouBring: [
+      "Experience on data-centre, semiconductor, or complex industrial builds.",
+      "Strong understanding of EPCM, FIDIC Red/Yellow Book, and international contracts.",
+      "Excellent cost analysis and reporting capabilities.",
+      "Ability to work internationally and adapt to local regulations.",
+      "Degree qualified with strong commercial leadership experience.",
+    ],
+  },
+
+  {
+    id: 5,
+    title: "Commercial Manager – Pharmaceutical & Biotech Programme",
+    country: "Denmark",
+    city: "Copenhagen",
+    contractType: "Full-time",
+    experience: "Manager",
+    about:
+      "Commercial Manager required for a complex pharmaceutical/biotech construction programme in Denmark. Requires strong cost control and contractual governance.",
+    whatYouDo: [
+      "Manage commercial performance across cleanrooms, MEP systems, and process installations.",
+      "Oversee cost reporting, budget alignment, and forecasting.",
+      "Lead change management and claims preparation under FIDIC or EPCM contracts.",
+      "Support procurement and negotiate with international supply chains.",
+      "Maintain strong communication with client-side commercial and project teams.",
+      "Provide guidance on payment applications, variations, and contractual positions.",
+    ],
+    whatYouBring: [
+      "Background in pharmaceutical, biotech, or life-science construction.",
+      "Knowledge of FIDIC, EPC, or EPCM contract environments.",
+      "Strong analytical and contractual interpretation skills.",
+      "Comfortable working in regulated, multinational environments.",
+      "Degree in QS, Commercial Management, or Engineering.",
+    ],
+  },
 ];
+
 
 const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
 
@@ -101,14 +223,14 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
       </p>
 
       <p className="text-gray-700 leading-relaxed">
-        Log in to your Turner & Townsend careers portal 
-        <a href="#" className="text-blue-600 underline ml-1">here</a> 
+        Log in to your GINJO careers portal 
+         here 
         to access your account, track any applications and apply for new roles.
       </p>
     </section>
 
       </div>
-      <section className="max-w-6xl mx-auto px-6 py-8 bg-[#f3efe8]">
+      <section className="max-w-6xl mx-auto px-6 py-8 bg-[#bac6c7]">
       {/* Search row */}
       <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
         <label className="sr-only">Search jobs</label>
@@ -133,18 +255,7 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
       <div className="flex flex-wrap items-center gap-4 mb-4">
         <div className="text-sm font-semibold mr-2">FILTER BY</div>
 
-        {/* Discipline dropdown (simple) */}
-        <div>
-          <select
-            value={discipline}
-            onChange={(e) => { setDiscipline(e.target.value); setPage(1); }}
-            className="px-4 py-2 border rounded-md bg-white"
-            aria-label="Filter by discipline"
-          >
-            <option value="">Discipline</option>
-            {disciplines.map((d) => <option key={d} value={d}>{d}</option>)}
-          </select>
-        </div>
+      
 
         {/* Location */}
         <div>
@@ -196,9 +307,9 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
       <div className="overflow-hidden rounded-md">
         <table className="w-full table-fixed border-collapse">
           <thead>
-            <tr className="bg-[#123f74] text-white">
+            <tr className="bg-gray-700 text-white">
               <th className="text-left py-4 px-6 rounded-tl-md">Job title</th>
-              <th className="text-left py-4 px-6">Discipline</th>
+              
               <th className="text-left py-4 px-6">Country</th>
               <th className="text-left py-4 px-6 rounded-tr-md">City</th>
             </tr>
@@ -217,7 +328,7 @@ const unique = (arr, key) => Array.from(new Set(arr.map((x) => x[key]))).sort();
                       {j.title}
                     </Link>
                   </td>
-                  <td className="py-5 px-6 text-neutral-700">{j.discipline}</td>
+                  
                   <td className="py-5 px-6 text-neutral-700">{j.country}</td>
                   <td className="py-5 px-6 text-neutral-700">{j.city}</td>
                 </tr>

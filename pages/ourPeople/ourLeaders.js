@@ -26,7 +26,7 @@ export default function OurLeaders() {
       id: 'Adersh Rajagopalan',
       name: "Adersh Rajagopalan",
       role: "Associate Director",
-      image: 'https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg',
+      image: '/leaders/adersh.jpg',
     },
     
     

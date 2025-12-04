@@ -4,58 +4,135 @@ import Link from 'next/link';
 
 // Sample job data - in a real app, this would come from an API or database
 const jobs = [
-  { 
-    id: 1, 
-    title: "Senior Cost Manager - Data Centre", 
-    discipline: "Real estate", 
-    country: "Australia", 
-    city: "Sydney",
-    description: "We are seeking an experienced Senior Cost Manager to join our Data Centre team in Sydney. The ideal candidate will have 5+ years of experience in cost management and a strong background in data center projects.",
-    responsibilities: [
-      "Manage cost planning and estimating for data center projects",
-      "Prepare and monitor project budgets",
-      "Conduct cost risk analysis and value engineering",
-      "Liaise with clients and stakeholders"
+  {
+    id: 1,
+    title: "Senior Quantity Surveyor – Heathrow Airport (Aviation Programme)",
+    country: "United Kingdom",
+    city: "London (Heathrow)",
+    contractType: "Full-time",
+    experience: "Senior",
+    about:
+      "We are seeking a Senior Quantity Surveyor to support a major aviation programme at Heathrow Airport. Work within a high-performance commercial team delivering cost certainty, change control, and contract compliance across airside and landside projects.",
+    whatYouDo: [
+      "Lead commercial management across live construction packages (JCT & NEC).",
+      "Manage cost reporting, forecasting, and value tracking for multiple workstreams.",
+      "Drive rigorous variation and change control, ensuring risks are captured and priced.",
+      "Support procurement, tender analysis, and contract award recommendations.",
+      "Maintain strong relationships with Heathrow’s commercial and engineering teams.",
+      "Provide early warnings, commercial advice, and contractual interpretation guidance.",
     ],
-    requirements: [
-      "Bachelor's degree in Quantity Surveying, Construction Management, or related field",
-      "5+ years of experience in cost management",
-      "Experience with data center projects preferred",
-      "Strong communication and leadership skills"
-    ]
-  },
-  { 
-    id: 2, 
-    title: "Cost Manager", 
-    discipline: "Real estate", 
-    country: "Australia", 
-    city: "Sydney",
-    description: "We are looking for a Cost Manager to join our team in Sydney. The successful candidate will be responsible for managing all cost-related aspects of construction projects.",
-    responsibilities: [
-      "Prepare cost estimates and budgets",
-      "Monitor project costs and report on financial performance",
-      "Conduct feasibility studies",
-      "Manage tender processes"
+    whatYouBring: [
+      "Experience delivering commercial management on aviation or complex infrastructure projects.",
+      "Strong command of NEC3/NEC4 and JCT contract forms.",
+      "Ability to work in high-security, stakeholder-intensive environments.",
+      "Excellent communication and negotiation skills.",
+      "RICS qualification (or working toward it) is desirable.",
     ],
-    requirements: [
-      "Degree in Quantity Surveying or related field",
-      "3+ years of experience in cost management",
-      "Strong analytical and numerical skills",
-      "Excellent communication skills"
-    ]
   },
-  // Add other jobs from your index.js file
-  { 
-    id: 3, 
-    title: "Senior Cost Manager - Education", 
-    discipline: "Real estate", 
-    country: "Australia", 
-    city: "Sydney",
-    description: "Join our education sector team as a Senior Cost Manager.",
-    responsibilities: [],
-    requirements: []
+
+  {
+    id: 2,
+    title: "Commercial Manager – UK Rail Programme (CP6/CP7)",
+    country: "United Kingdom",
+    city: "Birmingham or London",
+    contractType: "Full-time",
+    experience: "Manager",
+    about:
+      "We are hiring a Commercial Manager to support major UK rail works including station upgrades, civils packages, signalling interfaces, and multi-disciplinary enhancements.",
+    whatYouDo: [
+      "Oversee commercial performance across multi-disciplinary rail projects under NEC.",
+      "Lead contract administration, compensation events, and programme-driven valuations.",
+      "Develop commercial strategies to maximise value and minimise risk.",
+      "Manage monthly reporting, forecasts, and cost control.",
+      "Support procurement, supply chain evaluation, and award processes.",
+      "Act as a key commercial advisor to engineering and delivery teams.",
+    ],
+    whatYouBring: [
+      "Experience in UK rail (NR, HS2, TOC, DfT, or major frameworks).",
+      "Strong understanding of NEC contract mechanisms and programme requirements.",
+      "Skilled in negotiation, stakeholder engagement, and commercial governance.",
+      "Track record delivering cost management on complex infrastructure schemes.",
+      "Degree in Quantity Surveying or Commercial Management.",
+    ],
   },
-  // Add more jobs as needed
+
+  {
+    id: 3,
+    title: "MEP Quantity Surveyor – EPC Project",
+    country: "Sweden",
+    city: "Stockholm",
+    contractType: "Full-time",
+    experience: "Intermediate–Senior",
+    about:
+      "Seeking an MEP Quantity Surveyor for a major EPC programme in Stockholm. Support cost control, change management, and subcontract administration across mechanical, electrical, and piping systems.",
+    whatYouDo: [
+      "Manage commercial tasks for MEP packages across procurement and delivery.",
+      "Perform detailed quantity take-offs (MTOs), valuations, and progress assessments.",
+      "Lead change control and maintain variation logs with complete audit trails.",
+      "Support subcontract negotiation, tender analysis, and contract execution.",
+      "Collaborate with engineering and installation teams on forecasting.",
+      "Provide regular reporting to EPC leadership and client stakeholders.",
+    ],
+    whatYouBring: [
+      "Experience in MEP cost management on EPC, data centre, or industrial projects.",
+      "Knowledge of FIDIC, NEC, or EPC contractual structures.",
+      "Competency in MTO development and progress measurement.",
+      "Ability to work in a fast-paced, high-coordination environment.",
+      "Relevant QS or Engineering degree.",
+    ],
+  },
+
+  {
+    id: 4,
+    title: "Senior Quantity Surveyor – Industrial/Data Centre Programme",
+    country: "Finland",
+    city: "Helsinki",
+    contractType: "Full-time",
+    experience: "Senior",
+    about:
+      "We are recruiting a Senior QS for a high-value industrial and data-centre construction programme in Finland. Full cost management oversight, change analysis, and contract governance.",
+    whatYouDo: [
+      "Lead commercial operations across core & shell, civils, and services packages.",
+      "Implement robust cost tracking systems for high-spec industrial works.",
+      "Manage variations, claims, and commercial risk registers.",
+      "Contribute to procurement strategies and negotiate subcontract agreements.",
+      "Provide commercial governance throughout construction and commissioning.",
+      "Interface with international stakeholders to ensure alignment on obligations.",
+    ],
+    whatYouBring: [
+      "Experience on data-centre, semiconductor, or complex industrial builds.",
+      "Strong understanding of EPCM, FIDIC Red/Yellow Book, and international contracts.",
+      "Excellent cost analysis and reporting capabilities.",
+      "Ability to work internationally and adapt to local regulations.",
+      "Degree qualified with strong commercial leadership experience.",
+    ],
+  },
+
+  {
+    id: 5,
+    title: "Commercial Manager – Pharmaceutical & Biotech Programme",
+    country: "Denmark",
+    city: "Copenhagen",
+    contractType: "Full-time",
+    experience: "Manager",
+    about:
+      "Commercial Manager required for a complex pharmaceutical/biotech construction programme in Denmark. Requires strong cost control and contractual governance.",
+    whatYouDo: [
+      "Manage commercial performance across cleanrooms, MEP systems, and process installations.",
+      "Oversee cost reporting, budget alignment, and forecasting.",
+      "Lead change management and claims preparation under FIDIC or EPCM contracts.",
+      "Support procurement and negotiate with international supply chains.",
+      "Maintain strong communication with client-side commercial and project teams.",
+      "Provide guidance on payment applications, variations, and contractual positions.",
+    ],
+    whatYouBring: [
+      "Background in pharmaceutical, biotech, or life-science construction.",
+      "Knowledge of FIDIC, EPC, or EPCM contract environments.",
+      "Strong analytical and contractual interpretation skills.",
+      "Comfortable working in regulated, multinational environments.",
+      "Degree in QS, Commercial Management, or Engineering.",
+    ],
+  },
 ];
 
 export default function JobDetail() {
@@ -80,76 +157,81 @@ export default function JobDetail() {
   }
 
   return (
-    <main className="bg-white min-h-screen mx-10">
-      {/* Header */}
-          <header className="bg-[#bac6c7] -mb-20 text-Black rounded-b-2xl pb-20 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 py-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold">Careers</h1>
-          <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-Black/90">
-            We are always on the lookout for talented individuals to join our team. If you have a passion for real estate and a desire to make a difference, we encourage you to apply for a position.
-          </p>
-        </div>
-      </header>
-      <div className=" bg-white rounded-t-2xl mx-auto px-6 py-8">
-        <nav className="text-sm text-gray-500 flex items-center gap-1">
-          <Link href="/" className="hover:underline">Home</Link>
-          <span>›</span>
-          <Link href="/careers" className="hover:underline">Careers</Link>
-          <span>›</span>
-          <span className="text-gray-700">{job.title}</span>
-        </nav>
+    <main className=" min-h-screen mx-10">
+  {/* Header */}
+  <header className="bg-[#bac6c7] -mb-20 text-Black rounded-b-2xl pb-20 overflow-hidden">
+    <div className="max-w-7xl mx-auto px-6 py-16">
+      <h1 className="text-4xl md:text-5xl font-serif font-bold">Careers</h1>
+      <p className="max-w-3xl mt-4 text-sm md:text-base leading-relaxed text-Black/90">
+        We are always on the lookout for talented individuals to join our team.
+      </p>
+    </div>
+  </header>
+
+  {/* Breadcrumb */}
+  <div className="bg-white rounded-t-2xl mx-auto px-6 py-8">
+    <nav className="text-sm text-gray-500 flex items-center gap-1">
+      <Link href="/" className="hover:underline">Home</Link>
+      <span>›</span>
+      <Link href="/careers" className="hover:underline">Careers</Link>
+      <span>›</span>
+      <span className="text-gray-700">{job.title}</span>
+    </nav>
+  </div>
+
+  {/* Job Details */}
+  <div className="max-w-4xl mx-auto px-6 py-8">
+    <div className="bg-[#bac6c7] rounded-lg shadow-md p-8">
+      <h1 className="text-3xl font-bold text-gray-800 mb-2">{job.title}</h1>
+
+      {/* Location + About */}
+      <div className="flex flex-col text-gray-600 mb-6">
+        <span className="font-medium">{job.city}, {job.country}</span>
+        <p className="mt-2 text-[15px]">{job.about}</p>
       </div>
 
-      {/* Job Details */}
-      <div className="max-w-4xl mx-auto px-6 py-8">
-        <div className="bg-white rounded-lg shadow-md p-8">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">{job.title}</h1>
-          <div className="flex items-center text-gray-600 mb-6">
-            <span className="mr-4">{job.city}, {job.country}</span>
-            <span>{job.discipline}</span>
-          </div>
+      <div className="prose max-w-none">
+        {/* Responsibilities */}
+        {job.whatYouDo && job.whatYouDo.length > 0 && (
+          <>
+            <h2 className="text-xl font-semibold mt-6 mb-3">What You’ll Do</h2>
+            <ul className="list-disc pl-6 mb-6 space-y-2">
+              {job.whatYouDo.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </>
+        )}
 
-          <div className="prose max-w-none">
-            <h2 className="text-xl font-semibold mt-6 mb-3">Job Description</h2>
-            <p className="mb-6">{job.description}</p>
+        {/* Requirements */}
+        {job.whatYouBring && job.whatYouBring.length > 0 && (
+          <>
+            <h2 className="text-xl font-semibold mt-6 mb-3">What You’ll Bring</h2>
+            <ul className="list-disc pl-6 mb-8 space-y-2">
+              {job.whatYouBring.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </>
+        )}
 
-            {job.responsibilities && job.responsibilities.length > 0 && (
-              <>
-                <h2 className="text-xl font-semibold mt-6 mb-3">Key Responsibilities</h2>
-                <ul className="list-disc pl-6 mb-6 space-y-2">
-                  {job.responsibilities.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </>
-            )}
-
-            {job.requirements && job.requirements.length > 0 && (
-              <>
-                <h2 className="text-xl font-semibold mt-6 mb-3">Requirements</h2>
-                <ul className="list-disc pl-6 mb-8 space-y-2">
-                  {job.requirements.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
-                </ul>
-              </>
-            )}
-
-            <div className="mt-8 pt-6 border-t border-gray-200">
-              <button className="bg-[#163c72] text-white px-6 py-3 rounded-md hover:bg-[#0d2a4a] transition-colors">
-                Apply Now
-              </button>
-              <Link 
-                href="/careers" 
-                className="ml-4 px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
-              >
-                Back to Careers
-              </Link>
-            </div>
-          </div>
+        {/* Buttons */}
+        <div className="mt-8 pt-6 border-t border-gray-600">
+          <button className=" px-6 py-3 rounded-md border-2 transition-colors">
+            Apply Now
+          </button>
+          <Link 
+            href="/careers" 
+            className="ml-4 px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
+          >
+            Back to Careers
+          </Link>
         </div>
       </div>
-    </main>
+    </div>
+  </div>
+</main>
+
   );
 }
 

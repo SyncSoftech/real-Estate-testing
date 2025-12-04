@@ -55,7 +55,7 @@ His UK experience includes several years delivering commercial and project contr
 Before relocating to the UK, Adersh spent many years working in Dubai, where he was involved in commercial management, claims analysis, cost control and contract administration for large-scale developments and infrastructure works. Operating within demanding FIDIC-led environments helped shape his disciplined approach to documentation, valuation, contract compliance and dispute support. This international foundation gives him the ability to see commercial issues from multiple perspectives — client, contractor and consultant — and to communicate solutions clearly and confidently.
 
 Today, Adersh is known for being calm, reliable and analytically sharp. He provides clarity around change, strengthens commercial governance, and brings a structured mindset that allows clients to understand their true position at all times. His ability to blend UK delivery expectations with international commercial standards makes him an invaluable part of the Ginjo team, and clients consistently value the stability and consistency he brings to every assignment.`,
-  image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg",
+  image: "/leaders/adersh.jpg",
 }
 
    

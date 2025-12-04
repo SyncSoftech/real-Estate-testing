@@ -35,7 +35,7 @@ const STORIES = [
     role: "Associate Director",
     quote:
       "Known for his calm, structured approach, Adersh is the go-to person when complex contractual issues or disputes arise. He has a gift for translating dense legal clauses into commercially sound strategies that protect clients’ interests without fuelling conflict. As Associate Director at Ginjo, Adersh leads end-to-end commercial management from procurement planning and contract negotiation...",
-    image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1.jpeg",
+    image: "/leaders/Adersh.jpg",
     jobsText: "180 jobs in 22 locations",
   },
   {

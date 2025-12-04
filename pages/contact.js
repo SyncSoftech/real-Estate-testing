@@ -18,13 +18,16 @@ export default function Contact() {
   const [loading, setLoading] = useState(false);
 
   const services = [
+    "Quantity Surveying & Commercial Management",
+    "Variation, Claims & Dispute Support",
+    "Tendering, Procurement & Estimating",
+    "Contract Support (NEC, JCT, FIDIC & Bespoke)",
+    "PMO, Planning & Project Controls",
     "Project Management",
-    "Cost Management",
-    "Risk Management",
-    "Infrastructure Advisory",
-    "Real Estate Services",
-    "Energy Solutions",
-    "Other",
+    "Smart Commercial Systems & Power Platform Solutions",
+    "Data Centre / EPCM Commercial Support",
+    "On-Demand Commercial Firepower (QSs, Planners, FDs)",
+    "General Enquiry",
   ];
 
   const contactInfo = [
@@ -37,8 +40,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@ginjo.co.uk",
-      link: "mailto:info@ginjo.co.uk",
+      value: " sales@ginjo.co.uk ",
+      link: "mailto:sales@ginjo.co.uk ",
     },
     {
       icon: MapPin,
