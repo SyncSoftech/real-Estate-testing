@@ -35,7 +35,7 @@ export default function Hero() {
   const bg = "/mnt/data/c322b258-6381-4769-836e-e798dfa5c315.png";
 
   return (<>
-    <section className="relative overflow-hidden z-10 bg-[#bac6c7]">
+    <section className="relative pt-5 overflow-hidden z-10 bg-[#bac6c7]">
       
       <div className="text-center px-4 sm:px-8 md:px-12 lg:ml-20 py-2 md:py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 items-start ">
