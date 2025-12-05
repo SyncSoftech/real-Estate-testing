@@ -245,12 +245,12 @@ export default function HearMeFooter() {
               <img
                 src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/UKGBC-Black-bkg.png"
                 alt="hcpc badge"
-                className="w-32 h-auto object-contain"
+                className="w-20 h-auto object-contain"
               />
               <img
                 src="https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/regulated-by-rics-logo-white-1536x934.webp"
                 alt="bshaa badge"
-                className="w-36 h-auto object-contain"
+                className="w-20 h-auto object-contain"
               />
             </div>
 
