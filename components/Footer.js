@@ -228,12 +228,30 @@ export default function HearMeFooter() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* LEFT - logo, description, badges, newsletter */}
           <div className="lg:col-span-7">
-            <div className="flex items-start gap-6">
+            <div className="flex items-start flex-col gap-6">
               <img
                 src="/LOGO.jpg"
                 alt="Hear Me London logo"
                 className="w-44 h-auto object-contain"
               />
+              <div className="flex -mt-10 lg:mt-20 ml-10 gap-10">
+                
+                <Link href=""><img
+                src="/footer/Linkedin.png"
+                alt="Hear Me London logo"
+                className="w-7 h-auto object-contain"
+              /></Link>
+             <Link href={'https://facebook.com/about-ginjo-construction'}> <img
+                src="/footer/facebook.png"
+                alt="Hear Me London logo"
+                className="w-7 h-auto object-contain"
+              /></Link> 
+               <Link href={'https://www.instagram.com/ginjoconstruction/'}> <img
+                src="/footer/instagram.png"
+                alt="Hear Me London logo"
+                className="w-7 h-auto object-contain"
+              /></Link>
+              </div>
             </div>
 
             <p className="mt-6 text-3xl text-white max-w-xl">

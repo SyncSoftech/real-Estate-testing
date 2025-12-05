@@ -861,7 +861,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Variation Management
+                                   <span>•</span> Variation Management
                                   </p>
                                 </Link>
                                 <Link
@@ -872,7 +872,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Tendering & Procurement
+                                   <span>•</span> Tendering & Procurement
                                   </p>
                                 </Link>
                                 <Link
@@ -883,7 +883,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Quantity Surveying & Commercial Management
+                                   <span>•</span> Quantity Surveying & Commercial Management
                                   </p>
                                 </Link>
                                 <Link
@@ -894,7 +894,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Estimating BOQs & MTOs
+                                   <span>•</span> Estimating BOQs & MTOs
                                   </p>
                                 </Link>
                               </div>
@@ -907,7 +907,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    NEC, JCT, FIDIC, Bespoke Contract Experts
+                                   <span>•</span> NEC, JCT, FIDIC, Bespoke Contract Experts
                                   </p>
                                 </Link>
                                 <Link
@@ -918,7 +918,7 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Smart Commercial Systems
+                                    <span>•</span> Smart Commercial Systems
                                   </p>
                                 </Link>
                                 <Link
@@ -929,7 +929,18 @@ export default function Navbar() {
                                 >
                                   {" "}
                                   <p className="font-medium m-2">
-                                    Project Management
+                                   <span>•</span> Project Management
+                                  </p>
+                                </Link>
+                                <Link
+                                  href={`/services/${"CLAIMS, DISPUTES AND COMMERCIAL ADVISORY"
+                                    .toLowerCase()
+                                    .replace(/[^a-z0-9]+/g, "-")
+                                    .replace(/^-+|-+$/g, "")}`}
+                                >
+                                  {" "}
+                                  <p className="font-medium m-2">
+                                   <span>•</span> Claims, Disputes and Commercial Advisory
                                   </p>
                                 </Link>
                               </div>

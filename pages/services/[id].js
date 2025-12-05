@@ -1804,7 +1804,7 @@ const CAPABILITIES = [
         "Close-out & lessons learned",
       ],
       specialist: `Chartered RICS Expertise: Daniel Ginn brings rigorous, standardised methodologies from leading complex megaprojects at Fluor and AFRY. EPC megaproject focus with tailored controls for billion-pound infrastructure, energy and industrial programmes.`,
-      people: [{ name: "Daniel Ginn", role: "Director", image: "/mnt/data/daniel-ginn.png" }],
+      people: [{ name: "Daniel Ginn", role: "Director", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Daniel-Ginn-Website-scaled-e1761411935637.jpg" }],
     },
   },
   {
@@ -1858,19 +1858,10 @@ const CAPABILITIES = [
     valueProp:
       "With Ginjo involved, every claim, response or negotiation is supported by disciplined documentation, commercial clarity and a position that can be confidently defended.",
 
-    people: [
-      {
-        name: "—",
-        role: "Claims & Commercial Specialist",
-        image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
-      },
-      {
-        name: "—",
-        role: "Senior Commercial Advisor",
-        image:
-          "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg",
-      },
-    ],
+   people: [
+     { name: "Rishi Rao", role: "Head of Business Operations", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/Image-5-scaled-e1761411869601.jpg" },
+        { name: "Adersh Rajagopalan MRICS MAIQS MSc", role: "Associate Director", image: "https://lavenderblush-dog-942964.hostingersite.com/wp-content/uploads/2025/10/1576680123433-1-300x300.jpeg" },
+      ],
   },
 }
 
@@ -2097,8 +2088,8 @@ export default function ServiceDetail() {
                   <div className="space-y-4">
                     {Object.entries(bulletsDetails).map(([key, detail]) => (
                       <div key={key} className="p-4 rounded-lg bg-[#bac6c7] border">
-                        <div className="font-semibold mb-2">{detail.heading || key}</div>
-                        <pre className="text-sm text-gray-700  whitespace-pre-wrap">
+                        <div className="font-semibold  font-serif mb-2">{detail.heading || key}</div>
+                        <pre className="text-sm font-serif text-gray-700  whitespace-pre-wrap">
                           {detail.text || detail}
                         </pre>
                       </div>
@@ -2190,14 +2181,14 @@ export default function ServiceDetail() {
       {/* Insights grid */}
       <section className="w-full bg-white py-12 lg:py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-10">Procurement and supply chain insights</h2>
+          <h2 className="text-3xl md:text-4xl font-serif font-bold mb-10">Explore our insights</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {INSIGHTS.map((item) => (
               <article key={item.id} className="rounded-xl overflow-hidden bg-white shadow-sm border border-transparent hover:shadow-md transition">
                 <img src={item.image} alt={item.title} className="w-full h-40 md:h-44 object-cover rounded-t-xl" />
 
-                <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
+                <Link href={`/insights/${item.id}`}> <div className="bg-[#bac6c7] h-full p-5 rounded-b-xl">
                   <h3 className="font-serif font-semibold text-lg leading-tight mb-3">{item.title}</h3>
 
                   <p className="text-gray-700 text-sm  mb-5">{item.description}</p>
@@ -2213,6 +2204,7 @@ export default function ServiceDetail() {
                     <div className="font-medium">{item.date}</div>
                   </div>
                 </div>
+                  </Link>
               </article>
             ))}
           </div>
@@ -2321,28 +2313,28 @@ export default function ServiceDetail() {
           <h2 className="text-3xl md:text-4xl font-serif font-bold mb-6">Get in touch</h2>
 
           <div className="max-w-xl">
-            <div className="font-serif text-xl font-semibold">Gareth Poole</div>
-            <div className="text-sm text-gray-700 mb-4">Director</div>
+            <div className="font-serif text-xl font-semibold">Honest Commercial Support. Real Project Results.</div>
+           
 
             <ul className="space-y-3">
               <li>
-                <a href="mailto:info@example.com" className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
+                <Link href={'mailto:sales@ginjo.co.uk'} className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-none">
                     <path d="M3 8.5v7A2.5 2.5 0 0 0 5.5 18h13A2.5 2.5 0 0 0 21 15.5v-7" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     <path d="M3 8.5l9 6 9-6" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
                   <span className="text-sm font-medium">Email</span>
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="tel:+4401212623605" className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
+                <Link href={'tel:+44 07730748210'} className="inline-flex items-center gap-3 text-[#0f4b7f] hover:underline">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" className="flex-none">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 3.08 4.18 2 2 0 0 1 5 2h3a2 2 0 0 1 2 1.72c.12 1.05.42 2.07.9 3.02a2 2 0 0 1-.45 2.11L9.91 11.09a13.05 13.05 0 0 0 6 6l1.24-1.24a2 2 0 0 1 2.11-.45c.95.48 1.97.78 3.02.9A2 2 0 0 1 22 16.92z" stroke="#0f4b7f" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                   </svg>
 
-                  <span className="text-sm font-medium">+44 0121 262 3605</span>
-                </a>
+                   <span className="text-sm font-medium">+44 07730748210</span> 
+                </Link>
               </li>
             </ul>
           </div>
